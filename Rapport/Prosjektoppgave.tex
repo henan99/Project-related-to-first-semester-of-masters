@@ -1,0 +1,233 @@
+\documentclass[11pt]{article}
+\setlength{\headheight}{13.59999pt}
+\usepackage[utf8]{inputenc}
+
+\title{Luminosity function}
+\author{Henrik Andrews}
+
+\usepackage{natbib}
+
+
+\usepackage[A4, portrait, margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{bbold}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+\usepackage{pdfpages}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\usepackage{caption}
+\usepackage{multicol}
+
+\usepackage{float}
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\begin{document}
+
+% title source: https://www.overleaf.com/project/6021d9e4632b9ef90aa8d238
+\title{ \normalsize \textsc{AREA}
+	\\ [2.0cm]
+	\HRule{0.5pt} \\
+	\LARGE \textbf{\uppercase{Theme}}		
+	\\ Title\\
+	\HRule{2pt} \\ [0.5cm]		
+%fix the university logo !!!!!!!!!!!!!!!!!!!!!!!!
+	\vspace{6cm}
+	\begin{figure}[htp]
+    \centering
+    \includegraphics[width=.2\textwidth]{Logo-Ntnu.svg.png}
+    \end{figure}
+	}
+
+\author{
+    \normalsize 
+	\textbf{Henrik Andrews } \\
+	Sorbonne Université \\ 
+}
+
+\maketitle
+\setcounter{page}{ 0 }
+
+\newpage
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{12pt}
+\fancyhead[L]{Henrik Andrews}
+\fancyhead[R]{Luminosity functions}
+\fancyfoot[R]{Page \thepage \:}
+\setcounter{page}{1}
+\bibliographystyle{apalike}
+
+\maketitle
+-abstract 
+-sammendrag
+-acknowledgments
+-list of figure
+-list of tables
+
+
+\section{Introduction}
+\bibliography{bib}
+\section{Comsological distances}
+In order to investigate sources very far away from an observer it is important to understand the influence this distance has on your desired observable. Therefore in astrophysics and astronomy in general there are defined terms created to take into account the effects of f.ex the ever-expanding universe. 
+
+
+\subsection{comsographic parameters}
+
+The most notorious parameter is the Hubble constant $H_0$. This parameter set the recession speed of a point at proper distance d and our current position via this equation.
+\begin{equation}
+    v = H_0 d 
+\end{equation}
+The subscript $0$ refers to the present epoch since in general $H_0$ changes with time. The value of $H_0$ is quite debated so I will  follow the nomenclature of D. Hogg and write it as a parameterized equation. 
+$$
+H_0= 100\frac{km}{s}\frac{1}{Mpc} h 
+$$
+where $h$ is a dimensionless number that according to current knowledge  can take the value between $0.5$ to $0.8$  
+
+The Hubble constant has units of inverse time and therefore one defines the Hubble time as 
+$$
+t_H = \frac{1}{H_0}
+$$
+and also has units of speed, and therefore we can define the Hubble distance. 
+
+$$
+D_H = \frac{c}{H_0}
+$$
+
+\subsection{Components of the universe}
+In this paper and in most articles one refers to the flat lambda CDM model to parameterize the contents of the universe and by extension the properties of its expansion. Here two important parameters to define are the mass density of the universe $\rho_0$ and the cosmological constant $\Lambda$. These variables which change with time also define the metric tensor in general relativity and allow us to model the curvature of the universe given an initial configuration.  njaaa, skriv på nytt. 
+
+one can write these into dimensionless variables as such
+
+$$
+\Omega_m = \frac{8\pi G\rho_0}{3H_0^2}
+$$
+
+$$
+\Omega_\Lambda = \frac{\Lambda c^2}{3H_0^2}
+$$
+
+
+
+In general one has a third density parameter $\Omega_k$ which defines the curvature of spacetime and is defined from 
+
+$$
+\Omega_m + \Omega_\Lambda + \Omega_k = 1
+$$
+
+
+
+The flat lambda CDM has three components, the dark energy density, the dark matter density, and the ordinary matter parameter. In the rest of this paper and other articles used by this dissertation the values of these components are represented by their $\Omega$ parameter and one has a universe with $\Omega_\Lambda = 0.7$, and $\Omega_m = 0.3$ also known as the flat lambda since the curvature parameter is $0$
+
+
+\subsection{Redshift}
+Redshift is defined as the fractional Doppler shift of emitting light. The Doppler effect is a known effect on different observables in our universe where the relative motion of sources to observers will impact the observable. The redshift is quantified for a light source as 
+
+\begin{equation}
+    z = \frac{\nu_e}{\nu_o}-1 = \frac{\lambda_o}{\lambda_e}-1
+\end{equation}
+
+Here $o$ refers to the observed quantity and $e$ the emmited. If one want to connect this redshift to the velocity of the observed object one needs to go to general relativity. There is an analog in special but one omits it here since one does not use it. The important factor is that redshift is an observable and can help us determine distances of objects. especially if they are far away the relative velocity becomes negligible and only the effect of the expansion of the universe is important. 
+
+
+\subsection{Comoving distance}
+The comoving distance or more clearly the line of sight distance for an observer locted here at earth is a foundational distance measure in cosmography. All other distance measures can be derived from it. One derives it by defining the small co-moving distance $\delta D_c$. This quantity defines the distance between two objects that remains constant when both objects expand with the Hubble flow. One can think of it as a proper distance from relativity since it is constant in all "time-frames". If one wants the total comoving distance one integrates all $\delta D_c$ in the line of sight from $z= 0$ to the object. From  \cite{hogg2000distance} one defines the function 
+
+\begin{equation}
+    E(z)  = \sqrt{\Omega_m(z+1)^3 +\Omega_k (1+z)^2 + \Omega_\Lambda  }
+\end{equation}
+
+
+This function is defined by the density parameters defined above and also the redshift $z$. One can also relate this to the measured Hubble constant as measured by an hypothetical observer at redshift $z$ via $ H(z) = H_0 E(z)$. 
+
+
+One then recives the comoving distance $D_c$ from 
+\begin{equation}
+    D_c =D_H \int_0^z\frac{dz}{E(z)}
+\end{equation}
+\subsection{Comoving distance part 2}
+$D_c$ is the line of sight of an object and its observer but given different space-time geometry that line is distorted. If one looks a two objects, both at redshift z the distance between them will be given as as a function of the angle between them. If they are sperated by an angle $d\theta$ then the distance between them will be $d\theta D_m$ where $D_m$ is the comoving distance
+
+%Therefore for different curvature, one need to map the geodesic onto our simplistic view. Therefore one gets the three different space geometry cases
+
+$$
+D_m =
+\begin{cases}
+  D_h\frac{1}{\sqrt{\Omega_k}}sinh(\frac{\sqrt{\Omega_k}D_c}{D_H}) & \text{if } \Omega_k > 0 \\
+  D_c& \text{if } \Omega_k = 0 \\
+  D_h\frac{1}{\sqrt{|\Omega_k|}}sin(\frac{\sqrt{|\Omega_k|}D_c}{D_H}) & \text{if } \Omega_k < 0
+\end{cases}
+$$
+
+The different cases are dependent on the curvature of the universe, and one can see that one enters hyperbolic geometry or spherical geometry based on the different curvatures. The true curvature of the universe is still a mystery but recent studies suggest that it is flat, as expected. 
+
+
+\subsection{Angular distance}
+
+
+
+
+\section{Particle theory}
+
+\section{Neutrino production}
+
+We will be discussing two types of neutrino generation. The pp chain and p$\gamma$ production
+\section{Types of AGNs}
+\section{AGN geometry}
+
+\section{ luminosity functions}
+
+*what is a LF
+* X-ray LF 
+* 
+
+
+
+
+
+A luminosity function is a function that describes a population of light sources by their given luminosity and comoving volume element. The function describes how this population varies based on luminosity but also crucially on its comoving volume element. The comoving volume element is a volume dV of space that also accounts for its expansion. We usually talk about the differential luminosity function given as
+\begin{equation}
+    \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,z)}{dLdVc}
+\end{equation}
+
+The quantity of interest is now a number density which can be very useful in deriving observed flux of different objects here on earth. 
+
+Several articles express the luminosity function in abase $10$ logarithm and we note the conversion between the two. 
+
+\begin{equation}
+    \frac{d\Psi(Lx,z)}{dLog(Lx)} =  \ln (10)  Lx \frac{d\Psi(Lx,z)}{d(Lx)}
+\end{equation}
+
+\subsection{X-ray LF}
+One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
+
+In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs
+
+
+
+This is over a particular band of wavelengths
+
+
+This equation does not have a simple equation to describe all types of light sources, but for different intervals of wavelengths and redshifts (z) one can observe different trends for different light sources. 
+
+In the paper \cite{Jacobsen:2015mga} the author uses the xray luminosity function. The X-ray luminosity function is used to describe the distribution of X-ray luminosities of objects in a specific population, such as galaxies, galaxy clusters, or active galactic nuclei (AGNs). It provides information about the number density of objects at various X-ray luminosity levels within a given volume of the universe.
+
+
+In \cite{Jacobsen:2015mga} there is a mention of several different models for different populations of AGNs. There she highlights two, \cite{Ajello_2009} and \cite{Ueda_2003}. They are used for different populations.
+
+The present day XLF is presented in \cite{Ajello_2009} and is given by a simple power law. 
+
+\begin{equation}
+    \frac{d\Psi(Lx,0)}{dLog(Lx)} = A\ln (10){(\frac{Lx}{Lc})}^{(1-\gamma_2)}
+\end{equation}
+
+However there is a break with high enough score count and this break can be better fitted with a double power law 
+
+\end{document}
