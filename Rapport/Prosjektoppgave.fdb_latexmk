@@ -2,12 +2,12 @@
 ["bibtex Prosjektoppgave"] 0 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 0 -1
   "./bib.bib" 1699867044 4734 3fc8de856e5b0fa62249d2e3bd724ac9 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Prosjektoppgave.aux" 1699867713 1978 83e424b3130bc6f91595959b63a0ac86 "pdflatex"
+  "Prosjektoppgave.aux" 1699876717 2090 aa7136d31a667a090a7327285f8aa64d "pdflatex"
   (generated)
   "Prosjektoppgave.bbl"
   "Prosjektoppgave.blg"
   (rewritten before read)
-["pdflatex"] 1699867712 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1699867714 2
+["pdflatex"] 1699876717 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1699876718 2
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699867529 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/henri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699867245 24212835 1bf5a7d890c7b4c1680c4113af1d4119 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -94,10 +94,10 @@
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Logo-Ntnu.svg.png" 1699867053 33858 c329779cdda9190fa893270937323f84 ""
-  "Prosjektoppgave.aux" 1699867713 1978 83e424b3130bc6f91595959b63a0ac86 "pdflatex"
+  "Prosjektoppgave.aux" 1699876717 2090 aa7136d31a667a090a7327285f8aa64d "pdflatex"
   "Prosjektoppgave.bbl" 1699867533 1090 56f5c04241a500c2ff2b04e7ee56c8ba "bibtex Prosjektoppgave"
-  "Prosjektoppgave.tex" 1699867709 10290 c52e892515ae1f916912811ad978b9d8 ""
-  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1699867709 10290 c52e892515ae1f916912811ad978b9d8 ""
+  "Prosjektoppgave.tex" 1699876713 10341 d4dc50ebd6d00e8f61fd0b9de7c9c82c ""
+  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1699876713 10341 d4dc50ebd6d00e8f61fd0b9de7c9c82c ""
   (generated)
   "Prosjektoppgave.aux"
   "Prosjektoppgave.log"
