@@ -1,25 +1,28 @@
-\contentsline {section}{\numberline {1}Introduction}{5}{}%
-\contentsline {section}{\numberline {2}Comsological distances}{5}{}%
-\contentsline {subsection}{\numberline {2.1}comsographic parameters}{5}{}%
-\contentsline {subsection}{\numberline {2.2}Components of the universe}{5}{}%
-\contentsline {subsection}{\numberline {2.3}Redshift}{6}{}%
-\contentsline {subsection}{\numberline {2.4}Comoving distance}{6}{}%
-\contentsline {subsection}{\numberline {2.5}Comoving distance part 2}{7}{}%
-\contentsline {subsection}{\numberline {2.6}Angular distance}{7}{}%
-\contentsline {subsection}{\numberline {2.7}Luminosity distance}{7}{}%
-\contentsline {section}{\numberline {3}Particle theory}{8}{}%
-\contentsline {subsection}{\numberline {3.1}Emmision lines}{8}{}%
-\contentsline {subsubsection}{\numberline {3.1.1}Broad emmision lines}{8}{}%
-\contentsline {subsubsection}{\numberline {3.1.2}Narrow emmision lines}{8}{}%
-\contentsline {section}{\numberline {4}Neutrino production}{8}{}%
-\contentsline {section}{\numberline {5}Types of AGNs}{8}{}%
-\contentsline {subsection}{\numberline {5.1}Active galactic nuclei}{8}{}%
-\contentsline {subsection}{\numberline {5.2}AGN structure and classification}{9}{}%
-\contentsline {subsection}{\numberline {5.3}Types of AGNs}{9}{}%
-\contentsline {subsubsection}{\numberline {5.3.1}Type I and II AGNs}{10}{}%
-\contentsline {subsubsection}{\numberline {5.3.2}Blazars}{10}{}%
-\contentsline {subsubsection}{\numberline {5.3.3}Radio galaxies}{10}{}%
-\contentsline {subsubsection}{\numberline {5.3.4}Seyfert galaxies}{10}{}%
-\contentsline {section}{\numberline {6}AGN geometry}{11}{}%
-\contentsline {section}{\numberline {7} luminosity functions}{11}{}%
-\contentsline {subsection}{\numberline {7.1}X-ray LF}{11}{}%
+\contentsline {section}{\numberline {1}Introduction}{6}{}%
+\contentsline {section}{\numberline {2}Comsological distances}{6}{}%
+\contentsline {subsection}{\numberline {2.1}comsographic parameters}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Components of the universe}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Redshift}{7}{}%
+\contentsline {subsection}{\numberline {2.4}Comoving distance}{7}{}%
+\contentsline {subsection}{\numberline {2.5}Comoving distance part 2}{8}{}%
+\contentsline {subsection}{\numberline {2.6}Angular distance}{8}{}%
+\contentsline {subsection}{\numberline {2.7}Luminosity distance}{8}{}%
+\contentsline {section}{\numberline {3}Particle theory}{9}{}%
+\contentsline {subsection}{\numberline {3.1}Emmision lines}{9}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Broad emmision lines}{9}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Narrow emmision lines}{9}{}%
+\contentsline {section}{\numberline {4}Neutrino production}{9}{}%
+\contentsline {section}{\numberline {5}Types of AGNs}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Active galactic nuclei}{9}{}%
+\contentsline {subsection}{\numberline {5.2}AGN structure and classification}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Accretion disk}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}dust torus}{11}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Broad line region}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Jets}{12}{}%
+\contentsline {subsection}{\numberline {5.3}Types of AGNs}{12}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}Type I and II AGNs}{12}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Blazars}{12}{}%
+\contentsline {subsubsection}{\numberline {5.3.3}Radio galaxies}{12}{}%
+\contentsline {subsubsection}{\numberline {5.3.4}Seyfert galaxies}{13}{}%
+\contentsline {section}{\numberline {6} luminosity functions}{13}{}%
+\contentsline {subsection}{\numberline {6.1}X-ray LF}{13}{}%
