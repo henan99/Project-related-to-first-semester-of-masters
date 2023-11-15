@@ -1,4 +1,4 @@
-\documentclass[14pt]{article}
+\documentclass{article}
 \setlength{\headheight}{13.59999pt}
 \usepackage[utf8]{inputenc}
 
@@ -16,6 +16,7 @@
 \usepackage{fancyhdr}
 \usepackage{mathtools}
 \usepackage{tabularx}
+\usepackage{lipsum}
 \usepackage{pdfpages}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
@@ -64,9 +65,37 @@
 \fancyhead[R]{Luminosity functions}
 \fancyfoot[R]{Page \thepage \:}
 \setcounter{page}{1}
+\bibliography{bib}
 \bibliographystyle{apalike}
 
 \maketitle
+
+% Abstract
+\begin{abstract}
+\lipsum[1] % Replace with your abstract text
+\end{abstract}
+
+\newpage 
+% Summary (you might use a simple section for this)
+\section*{Summary}
+\lipsum[2] % Replace with your summary text
+
+\newpage
+% Acknowledgments
+\section*{Acknowledgments}
+\lipsum[3] % Replace with your acknowledgment text
+
+\newpage
+% Table of Contents (optional)
+\tableofcontents
+
+\newpage
+% List of Figures
+\listoffigures
+
+% List of Tables
+\listoftables
+
 -abstract 
 -sammendrag
 -acknowledgments
@@ -75,7 +104,7 @@
 
 
 \section{Introduction}
-\bibliography{bib}
+
 \section{Comsological distances}
 In order to investigate sources very far away from an observer it is important to understand the influence this distance has on your desired observable. Therefore in astrophysics and astronomy in general there are distances created to take into account the effects of an expanding universe. 
 
@@ -351,22 +380,21 @@ presence of broad emission lines. BL Lacs have no broad emission lines while FSR
 
 \subsubsection{Radio galaxies}
 As the name suggest these sources are very bright in the radio band. The usally refer to AGN viewed edge on, where the
-torus might block the emmisions from the accretion disk. The oriantation of Radio galaxies give may for strong 
-synchrotron radiation, and therefore they are often used to study the jet structure of AGNs.
+torus might block the emmisions from the accretion disk. The oriantation of Radio galaxies give way for strong 
+synchrotron radiation, and they are often used to study the jet structure of AGNs.
 
 \subsubsection{Seyfert galaxies}
-Spiral galaxies the have a birght nucleous. They are bright in the optical band and have a smaller active region 
+Spiral galaxies that have a bright nucleous. They are bright in the optical band and have a smaller active region 
 than radio galaxies. They are often divided into two groups Seyfert I and Seyfert II where the distinction comes from type I and II. 
 They also show quite high variablitlty indicating a small emmiting region. 
 
-https://iopscience.iop.org/article/10.1086/305813/fulltext/37493.text.html#:~:text=,line%20time%20delays%2C%20or%20lags
+%https://iopscience.iop.org/article/10.1086/305813/fulltext/37493.text.html#:~:text=,line%20time%20delays%2C%20or%20lags
 
 
+All these different distinctions are a help in understanding what processes one might be observing. The different
+dominant bands indicate different procesess being in our line of sight, and by considereing the modern structure of 
+AGNs one can then try to determine the underlying dynamics.  
 
-
-
-
-\section{AGN geometry}
 
 \section{ luminosity functions}
 
@@ -374,7 +402,7 @@ https://iopscience.iop.org/article/10.1086/305813/fulltext/37493.text.html#:~:te
 * X-ray LF 
 * 
 
-a luminosity function is a function that describes the distribution of objects for a population of celestial sources,
+A luminosity function is a function that describes the distribution of objects for a population of celestial sources,
 such as galaxies or quasars. It is a powerful tool for understanding the properties and evolution of 
 these objects, as well as the larger-scale structure of the universe. 
 The function describes how a population varies based on luminosity but also crucially on its comoving volume element. 
@@ -394,18 +422,18 @@ Several articles express the luminosity function in abase $10$ logarithm and we 
 \subsection{X-ray LF}
 
 \begin{table}
-\tiny 
-\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|X|}
+\centering
+\begin{tabularx}{\textwidth}{|l|X|X|X|X|X|X|X|X|X|}
 \hline
-Model & A & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$ & $corr$-$fac$ \\
+Model & A & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$\\
 \hline
-RG-SLDDE & 8.375e-07 & 2.138e+44 & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & 3.981e+44 & 0.317 & 1 \\
+RG-SLDDE & 8.375 & 2.138 & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & 3.981 & 0.317  \\
 \hline
-AMPLE-Blazar & 1.379e-07 & 1.810e+44 & -0.87 & 2.73 & 3.45 & -0.25 & & & & 400 \\
+AMPLE-Blazar & 1.379 & 1.810 & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
 \hline
-AMPLE-FSRQ & 1.750e-08 & 2.420e+44 & -50.00 & 2.49 & 3.67 & -0.30 & & & & 400 \\
+AMPLE-FSRQ & 0.175 & 2.420& -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
 \hline
-APLE-BLlac & 8.300e-08 & 1.000e+44 & 2.61 & -0.79 & & & & & &400 \\
+APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 \hline
 \end{tabularx}
 \caption{X-ray LF parameters}
