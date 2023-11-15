@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[14pt]{article}
 \setlength{\headheight}{13.59999pt}
 \usepackage[utf8]{inputenc}
 
@@ -49,7 +49,7 @@
 \author{
     \normalsize 
 	\textbf{Henrik Andrews } \\
-	Sorbonne Université \\ 
+	Norwegian university of Science and Technology \\ 
 }
 
 \maketitle
@@ -77,12 +77,12 @@
 \section{Introduction}
 \bibliography{bib}
 \section{Comsological distances}
-In order to investigate sources very far away from an observer it is important to understand the influence this distance has on your desired observable. Therefore in astrophysics and astronomy in general there are defined terms created to take into account the effects of f.ex the ever-expanding universe. 
+In order to investigate sources very far away from an observer it is important to understand the influence this distance has on your desired observable. Therefore in astrophysics and astronomy in general there are distances created to take into account the effects of an expanding universe. 
 
 
 \subsection{comsographic parameters}
 
-The most notorious parameter is the Hubble constant $H_0$. This parameter set the recession speed of a point at proper distance d and our current position via this equation.
+The most notorious parameter is the Hubble constant $H_0$. This parameter sets the recession speed of a point at proper distance d and our current position via this equation.
 \begin{equation}
     v = H_0 d 
 \end{equation}
@@ -92,11 +92,13 @@ H_0= 100\frac{km}{s}\frac{1}{Mpc} h
 $$
 where $h$ is a dimensionless number that according to current knowledge  can take the value between $0.5$ to $0.8$  
 
-The Hubble constant has units of inverse time and therefore one defines the Hubble time as 
+The Hubble constant has units of inverse time and therefore one can define the Hubble time as 
 $$
 t_H = \frac{1}{H_0}
 $$
-and also has units of speed, and therefore we can define the Hubble distance. 
+
+
+The constant also has units of speed, and therefore we can define the Hubble distance. 
 
 $$
 D_H = \frac{c}{H_0}
@@ -105,7 +107,7 @@ $$
 \subsection{Components of the universe}
 In this paper and in most articles one refers to the flat lambda CDM model to parameterize the contents of the universe and by extension the properties of its expansion. Here two important parameters to define are the mass density of the universe $\rho_0$ and the cosmological constant $\Lambda$. These variables which change with time also define the metric tensor in general relativity and allow us to model the curvature of the universe given an initial configuration.  njaaa, skriv på nytt. 
 
-one can write these into dimensionless variables as such
+One can write these into dimensionless variables as such
 
 $$
 \Omega_m = \frac{8\pi G\rho_0}{3H_0^2}
@@ -135,7 +137,12 @@ Redshift is defined as the fractional Doppler shift of emitting light. The Doppl
     z = \frac{\nu_e}{\nu_o}-1 = \frac{\lambda_o}{\lambda_e}-1
 \end{equation}
 
-Here $o$ refers to the observed quantity and $e$ the emmited. If one want to connect this redshift to the velocity of the observed object one needs to go to general relativity. There is an analog in special but one omits it here since one does not use it. The important factor is that redshift is an observable and can help us determine distances of objects. especially if they are far away the relative velocity becomes negligible and only the effect of the expansion of the universe is important. 
+Here $o$ refers to the observed quantity and $e$ the emmited. 
+If one want to connect this redshift to the velocity of the observed object one needs to go to general relativity. 
+There is an analog in special but one omits it here since one does not use it.
+The important factor is that redshift is an observable and can help us determine distances of objects. 
+especially if they are far away the relative velocity becomes negligible and 
+only the effect of the expansion of the universe become important. 
 
 
 \subsection{Comoving distance}
@@ -145,14 +152,16 @@ The comoving distance or more clearly the line of sight distance for an observer
  This quantity defines the distance between two objects that remains constant when both objects expand with the Hubble flow.
   One can think of it as a proper distance from relativity since it is constant in all "time-frames". 
   If one wants the total comoving distance one integrates all $\delta D_c$ in the line of sight from $z= 0$ to the object. 
-From  \cite{hogg2000distance} one defines the function 
+In order to do this one need to take into account the different densities in the universe, from  \cite{hogg2000distance} one defines the function 
 
 \begin{equation}
     E(z)  = \sqrt{\Omega_m(z+1)^3 +\Omega_k (1+z)^2 + \Omega_\Lambda  }
 \end{equation}
 
 
-This function is defined by the density parameters defined above and also the redshift $z$. One can also relate this to the measured Hubble constant as measured by an hypothetical observer at redshift $z$ via $ H(z) = H_0 E(z)$. 
+This function is defined by the density parameters defined above and also the redshift $z$. 
+One can also relate this to the measured Hubble constant as measured by an hypothetical observer at 
+redshift $z$ via $ H(z) = H_0 E(z)$. 
 
 
 One then recives the comoving distance $D_c$ from 
@@ -160,7 +169,9 @@ One then recives the comoving distance $D_c$ from
     D_c =D_H \int_0^z\frac{dz}{E(z)}
 \end{equation}
 \subsection{Comoving distance part 2}
-$D_c$ is the line of sight of an object and its observer but given different space-time geometry that line is distorted. If one looks a two objects, both at redshift z the distance between them will be given as as a function of the angle between them. If they are sperated by an angle $d\theta$ then the distance between them will be $d\theta D_m$ where $D_m$ is the comoving distance
+$D_c$ is the line of sight of an object and its observer but given different space-time geometry that line 
+is distorted. If one looks a two objects, both at redshift z the distance between them will be given as as a 
+function of the angle between them. If they are sperated by an angle $d\theta$ then the distance between them will be $d\theta D_m$ where $D_m$ is the comoving distance
 
 %Therefore for different curvature, one need to map the geodesic onto our simplistic view. Therefore one gets the three different space geometry cases
 
@@ -214,6 +225,25 @@ If one wishes to translate an observed spectral flux of particles to a density d
 
 \section{Particle theory}
 
+\subsection{Emmision lines}
+When a particle is photionized by the continuum radiation of a source it will emit a photon when it returns to its ground state. 
+This photon will have a specific wavelength that is determined by the energy difference between the two states.
+This wavelength is called the emmision line of the particle. When looking a dynamical systems with high velocities 
+the doppler shift of these emmision lines becomes important since it will affect the observed spectra of the source.
+
+https://lweb.cfa.harvard.edu/~pberlind/whipple/agn.html
+
+
+
+\subsubsection{Broad emmision lines}
+Broad emission lines in the case of AGN are formed from the high density gas clouds located close the the central black hole. The 
+high density parameter is innferred from the fact that one only sees broad emission from permitted line transitions (f.ex hydrogen Lynman and Balmer,
+iron II, and magnesium II).High densities allow for collisional de-exitation. And the boradaning is an indictation that these gas clouds are moving are moving 
+at huge velocities around the massive objects. This implies that they are located close to the black hole
+\subsubsection{Narrow emmision lines}
+Narrow emission lines are on the other hand formed in low density gas clouds. The low densities are inferred from the fact that one sees
+both permitted and forbbiden line transitions. They are narrow lines due to their velocities being substantially lower than the inner most gas clouds.
+
 \section{Neutrino production}
 
 We will be discussing two types of neutrino generation. The pp chain and p$\gamma$ production
@@ -237,18 +267,18 @@ it became clear that these were not stars but a distinct class of celestial obje
 Research done by M. Schmidt on of the emission lines from 
 the Quasar 3C 273 opened the interpretation of these celestial objects. 
 He found that the emmision lines of quasars were similar to hydrogen, but were redshifted by a factor of 0.158,
-an exceptionally high value at the time. Observations at the same time also revealed significant 
+an exceptionally high value at the time \cite{Shields_1999}. Observations at the same time also revealed significant 
 variability in quasar luminosity, suggesting that these objects were no larger than one light year across. 
 
 These observations lead to the speculation of super luminous objects located very far away from earth. The problem was that such objects
-had no reasonable explaination at the time. It was not until the late 1960 early 1970s when modern cosmology was 
+had no reasonable explaination at the time. It was not until the mid 1960 early 1970s when modern cosmology was 
 afoot that more of these issues were resolved.
 
 Observation of the surrounding galaxy of AGNs with matching redshift and observation of gravitational lensing cemented 
 the distances of these objects. In addition the modern view of black holes which had only been a theory in the 1950s came to
 furition and the modern model of a AGN was born. This modern perspective views AGNs as supermassive black holes that
 accrete matter from surrounding accretion disks. This accretion releases large amounts of energy and has also according to 
-processes such as  the Blandford-Znajek process, been shown to produce relativistic jets, when the black hole is rotating.
+processes such as  the Blandford-Znajek process (1977), been shown to produce relativistic jets, when the black hole is rotating.
 
 In the most recent times a landmark achievement was achieved in March 2021, when scientists associated with the Event Horizon Telescope project 
 presented the first image of the supermassive black hole at the center of the Messier 87 galaxy, located 55 million light-years away.
@@ -257,14 +287,81 @@ reinforcing our understanding of these powerful cosmic sources.
 
 
 
+\subsection{AGN structure and classification}
+
+
+The modern view of AGNs is  unified model that combined different categories of powerful luminous objects viisble in the night sky.
+These distinctions that astronomers made still
+have value, but to understand an AGN it is important to get a picture of the modern structure of an AGN
+
+An active galatic nucleous i defined as a galaxy containing a massive accreting black hole. This mass acording to \cite{Netzer_2015} 
+is defined as $M_{BH} > 10^5 M_\odot$. AGNs aslo containt an Eddington ratio exceeding
+the limit of $\frac{L_{AGN}}{L_{Edd}} = 10^{-5}$, where $L_{AGN}$ is the bolometric luminosity, and $L_{Edd}$ is the Eddington luminosity for a solar 
+composition gas. These definitions are help constrain what galaxies might contain an AGN, f.ex it exludes the milky way 
+by these criteria, but it failes to capture the full structure definition of an AGN. 
+Therefore the structure of most AGNs will include several of the following components. 
+
+\begin{itemize}
+    \item A close rotational dominated accretion disc around the SMBH. The thickness defining this accretion flow will distinguish different AGNs. 
+    One examples is an optiacl thin accretion disks that sometimes become advenction dominated.
+    These flows will be referred to as radiation inefficient accretion flows(RIAF) due to the special nature of the disk.
+    \item high density gas clouds that are said to be dust free moving at high velocities close to the black hole, in the so called broad line region(BLR)
+    \item Low density gas clouds that move at lower velocities further away from the black hole in the so called narrow line region(NLR)
+    \item A axisymmetric structure of dust that is responsible for the obscuration of the central region of the AGN. This is called the torus.
+     It lies at a luminosity depended distance from the SMBH, but according to \cite{Netzer_2015} this is around 0.1 - 10 pc depending on the luminosity.
+    \item A relativisitc jet that is powered by the accretion disk. This is not always present but is a common feature of AGNs.
+
+
+\end{itemize}
+The reader is directed to image \ref{fig:my_label} for a visual representation of the different components.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.5\textwidth]{unified model agn.jpg}
+    \caption{AGN unification}
+    \label{fig:my_label}
+\end{figure}
+
+
 
 
 \subsection{Types of AGNs}
+
+https://astrobites.org/guides/galaxy-and-agn-types/
+
 Before the unification of the AGNs astornomers named the pusseling objects based on their observational properties. These 
 names are still used to this day and are somewhat usfull since their observational properties are important parameters for further study. 
 The different classification are important in understanding which objects could have the potential to produce the different oberservables one 
 looks for in the night sky. There is a lot of talk around AGNs being possible sources for ultra high energy comsic rays (UHECRs) and neutrinos.
-This is yet to be comfirmed, but the theoretical framework for the neceassary particle acceleration is there.
+This is yet to be comfirmed, but the theoretical framework for the neceassary particle acceleration is there. therefore is seems appropriate to
+discuss the different types of AGNs and their observational properties.
+
+\subsubsection{Type I and II AGNs}
+One distinguishes type I and type II AGNs based on the presence of broad emission lines. In other words this distinction is
+a matter of a visible nucleous or not. Type I refers to sources whose nucleus is exposed to the observer and whos spectrum is 
+has both narrow and broad emmision lines. Type II refers to sources whose nucleus is obscured by a torus and therefore only has narrow emission lines.
+
+\subsubsection{Blazars}
+The most extreme class of AGN. These sources are distinuished by their relativistic jets that are pointed towards the observer. 
+This jet produce both synchrotron and Inverse Compton gamma rays and are extremyl varaible over short timescales. The
+emission is also highly polarized. Often and including in this paper one divides blazars into subgroups based on the 
+emission lines. The two most common are BL Lacs and Flat spectrum radio quasars (FSRQs). The difference between these two is the
+presence of broad emission lines. BL Lacs have no broad emission lines while FSRQs do.
+
+\subsubsection{Radio galaxies}
+As the name suggest these sources are very bright in the radio band. The usally refer to AGN viewed edge on, where the
+torus might block the emmisions from the accretion disk. The oriantation of Radio galaxies give may for strong 
+synchrotron radiation, and therefore they are often used to study the jet structure of AGNs.
+
+\subsubsection{Seyfert galaxies}
+Spiral galaxies the have a birght nucleous. They are bright in the optical band and have a smaller active region 
+than radio galaxies. They are often divided into two groups Seyfert I and Seyfert II where the distinction comes from type I and II. 
+They also show quite high variablitlty indicating a small emmiting region. 
+
+https://iopscience.iop.org/article/10.1086/305813/fulltext/37493.text.html#:~:text=,line%20time%20delays%2C%20or%20lags
+
+
 
 
 
@@ -277,10 +374,10 @@ This is yet to be comfirmed, but the theoretical framework for the neceassary pa
 * X-ray LF 
 * 
 
-a luminosity function is a function that describes the distribution of objects for a population of celestial objects,
+a luminosity function is a function that describes the distribution of objects for a population of celestial sources,
 such as galaxies or quasars. It is a powerful tool for understanding the properties and evolution of 
 these objects, as well as the larger-scale structure of the universe. 
-The function describes how this population varies based on luminosity but also crucially on its comoving volume element. 
+The function describes how a population varies based on luminosity but also crucially on its comoving volume element. 
  We usually talk about the differential luminosity function given as
 \begin{equation}
     \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,z)}{dLdVc}
@@ -297,7 +394,7 @@ Several articles express the luminosity function in abase $10$ logarithm and we 
 \subsection{X-ray LF}
 
 \begin{table}
-\tiny
+\tiny 
 \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|X|}
 \hline
 Model & A & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$ & $corr$-$fac$ \\
