@@ -1,18 +1,19 @@
 # Fdb version 4
-["bibtex Prosjektoppgave"] 1699897222 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1699897374 0
+["bibtex Prosjektoppgave"] 0 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1699967222 -1
   "./bib.bib" 1699867044 4734 3fc8de856e5b0fa62249d2e3bd724ac9 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Prosjektoppgave.aux" 1699897374 2311 34058a2459e183d56247b3aead39d4d4 "pdflatex"
+  "Prosjektoppgave.aux" 1699967221 2432 764081cc46af9cd69ab4e029504a397a "pdflatex"
   (generated)
   "Prosjektoppgave.bbl"
   "Prosjektoppgave.blg"
   (rewritten before read)
-["pdflatex"] 1699897373 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1699897374 0
+["pdflatex"] 1699967220 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1699967222 0
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699867529 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/henri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699867245 24212835 1bf5a7d890c7b4c1680c4113af1d4119 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/euler/eurm10.tfm" 1233951852 1228 9be37fdf0dc0e1f4df4af3594876d628 ""
+  "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/euler/eurm5.tfm" 1233951852 1228 6fc4d2f2c0a79dc4f413411f6e2f336c ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/euler/eurm7.tfm" 1233951852 1228 22a83614922c993c1b2e124955a38ca1 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -36,11 +37,13 @@
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247596667 37912 07513ec114ac737ab54cea0152f4424b ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1247596667 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -89,15 +92,17 @@
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty" 1668505912 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.sty" 1671486494 54859 c2b191f8d736ddb86177723cc23c30a9 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pppdftex.def" 1671486494 6591 7c9b26513263b04a3b43be6474a4ef4d ""
+  "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1698867131 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1698867131 10214 547fd4d29642cb7c80bf54b49d447f01 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1698867131 32515 51caec75eda9c8890135f12f1a4eddc3 ""
+  "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1698867131 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/was/upgreek.sty" 1665850770 5794 9054e31be15d93f1e6bd28cca2b6643f ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "Logo-Ntnu.svg.png" 1699867053 33858 c329779cdda9190fa893270937323f84 ""
-  "Prosjektoppgave.aux" 1699897374 2311 34058a2459e183d56247b3aead39d4d4 "pdflatex"
-  "Prosjektoppgave.bbl" 1699897222 1090 56f5c04241a500c2ff2b04e7ee56c8ba "bibtex Prosjektoppgave"
-  "Prosjektoppgave.tex" 1699897372 14718 13e2889b18433f71e3c9ee4ddbeccd13 ""
-  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1699897372 14718 13e2889b18433f71e3c9ee4ddbeccd13 ""
+  "Prosjektoppgave.aux" 1699967221 2432 764081cc46af9cd69ab4e029504a397a "pdflatex"
+  "Prosjektoppgave.bbl" 1699966795 1090 56f5c04241a500c2ff2b04e7ee56c8ba "bibtex Prosjektoppgave"
+  "Prosjektoppgave.tex" 1699967219 15844 6c48a237991f30d5946bc535b3c5d377 ""
+  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1699967219 15844 6c48a237991f30d5946bc535b3c5d377 ""
   (generated)
   "Prosjektoppgave.aux"
   "Prosjektoppgave.log"

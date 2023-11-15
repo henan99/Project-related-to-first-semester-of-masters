@@ -15,6 +15,7 @@
 \usepackage{bbold}
 \usepackage{fancyhdr}
 \usepackage{mathtools}
+\usepackage{tabularx}
 \usepackage{pdfpages}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{1em}
@@ -261,6 +262,10 @@ reinforcing our understanding of these powerful cosmic sources.
 \subsection{Types of AGNs}
 Before the unification of the AGNs astornomers named the pusseling objects based on their observational properties. These 
 names are still used to this day and are somewhat usfull since their observational properties are important parameters for further study. 
+The different classification are important in understanding which objects could have the potential to produce the different oberservables one 
+looks for in the night sky. There is a lot of talk around AGNs being possible sources for ultra high energy comsic rays (UHECRs) and neutrinos.
+This is yet to be comfirmed, but the theoretical framework for the neceassary particle acceleration is there.
+
 
 
 
@@ -272,11 +277,11 @@ names are still used to this day and are somewhat usfull since their observation
 * X-ray LF 
 * 
 
-
-
-
-
-A luminosity function is a function that describes a population of light sources by their given luminosity and comoving volume element. The function describes how this population varies based on luminosity but also crucially on its comoving volume element. The comoving volume element is a volume dV of space that also accounts for its expansion. We usually talk about the differential luminosity function given as
+a luminosity function is a function that describes the distribution of objects for a population of celestial objects,
+such as galaxies or quasars. It is a powerful tool for understanding the properties and evolution of 
+these objects, as well as the larger-scale structure of the universe. 
+The function describes how this population varies based on luminosity but also crucially on its comoving volume element. 
+ We usually talk about the differential luminosity function given as
 \begin{equation}
     \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,z)}{dLdVc}
 \end{equation}
@@ -290,6 +295,26 @@ Several articles express the luminosity function in abase $10$ logarithm and we 
 \end{equation}
 
 \subsection{X-ray LF}
+
+\begin{table}
+\tiny
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|X|X|X|}
+\hline
+Model & A & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$ & $corr$-$fac$ \\
+\hline
+RG-SLDDE & 8.375e-07 & 2.138e+44 & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & 3.981e+44 & 0.317 & 1 \\
+\hline
+AMPLE-Blazar & 1.379e-07 & 1.810e+44 & -0.87 & 2.73 & 3.45 & -0.25 & & & & 400 \\
+\hline
+AMPLE-FSRQ & 1.750e-08 & 2.420e+44 & -50.00 & 2.49 & 3.67 & -0.30 & & & & 400 \\
+\hline
+APLE-BLlac & 8.300e-08 & 1.000e+44 & 2.61 & -0.79 & & & & & &400 \\
+\hline
+\end{tabularx}
+\caption{X-ray LF parameters}
+\end{table}
+
+
 One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
 
 In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs
