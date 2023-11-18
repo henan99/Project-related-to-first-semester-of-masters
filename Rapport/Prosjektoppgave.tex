@@ -235,6 +235,8 @@ In more clearer words it describes the total loss in energy due to lights travel
 The total observed flux an observer will see will be different from different distances.  the intrisic luminosity emmited at the source
 
 
+
+
 It is related to the transverse comoving distance via 
 
 \begin{equation}
@@ -279,6 +281,7 @@ We will be discussing two types of neutrino generation. The pp chain and p$\gamm
 \section{Types of AGNs}
 
 \subsection{Active galactic nuclei}
+
 
 
 
@@ -450,22 +453,46 @@ AGNs one can then try to determine the underlying dynamics.
 
 \section{ luminosity functions}
 
-A luminosity function is a function that describes the distribution of objects for a population of celestial sources,
+A luminosity function is a function that describes the distribution of objects per luminosity and per comvoing volume for a population of celestial sources,
 such as galaxies or quasars. It is a powerful tool for understanding the properties and evolution of 
 these objects, as well as the larger-scale structure of the universe. 
-The function describes how a population varies based on luminosity but also crucially on its comoving volume element. 
+%The function describes how a population varies based on luminosity but also crucially on its comoving volume element. 
  We usually talk about the differential luminosity function given as
 \begin{equation}
-    \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,z)}{dLdVc}
+    \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,V_c(z))}{dLdV_c(z)}
 \end{equation}
 
-The quantity of interest is now a number density which can be very useful in deriving observed flux of different objects here on earth. 
+%The quantity of interest is now a number density which can be very useful in deriving observed flux of different objects here on earth. 
+We also can change the differential of the comoving volume into a term only depending on the redhsift.
+
+\begin{equation}
+    \frac{d^2N(L,V_c(z))}{dLdV_c(z)}\frac{dV_c(z)}{dz} = \frac{N(L,z)}{dLdz}
+\end{equation}
+
 
 Several articles express the luminosity function in abase $10$ logarithm and we note the conversion between the two. 
 
 \begin{equation}
-    \frac{d\Psi(Lx,z)}{dLog(Lx)} =  \ln (10)  Lx \frac{d\Psi(Lx,z)}{d(Lx)}
+    \frac{d\Psi(L,z)}{dLog(L)} =  \ln (10)  Lx \frac{d\Psi(L,z)}{d(L)}
 \end{equation}
+
+
+The luminsoty function(LF) is a theoretical tool, but in order to determine the luminosity functions one usally seperate the function into two terms. 
+One takes the local luminosity function at $z=0$ and then multiply it with a redshift evolution function. These evolutions functions
+are varying from survey to survey, but in general one has two main classes. 
+The different classes are seperated on how the evolution term is added to the local LF and is determined on what fits the evolution the best. 
+The pure density evoltuion (PDE) model evolves the local density function while the pure luminosity evolution (PLE) model evolves the local luminosity.
+The evoution is better represented by its equations and is given as 
+
+\begin{equation}\frac{d\Psi(L,z)}{d(L)} = 
+    \begin{cases}
+        \frac{d\Psi(L/e(z),z=0)}{d(L)} \quad (PLE)\\
+        \frac{d\Psi(L,z=0)}{d(L)}e(z) \quad (PDE)\\
+    \end{cases}
+\end{equation}
+
+The PLE and PDE models sometimes fails to capture the evolution of the luminosity function. Therefore modern 
+LF might use a modified version. This will be come more clear in the next section.
 
 \subsection{X-ray LF}
 
@@ -488,7 +515,13 @@ APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 \end{table}
 
 
-One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
+%One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. 
+%Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
+
+For a given type of AGN different bands will be more important than others. And for populations such as blazars seyfert I or the sub population of blazars where the 
+X-ray factory close to the central engine is visible the x-ray luminosity from these sources will be important. 
+Therefore several studies attempt to describe the luminosity functions of these sources through the use of the x-ray band. 
+
 
 In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs
 
@@ -511,5 +544,14 @@ The present day XLF is presented in \cite{Ajello_2009} and is given by a simple 
 \end{equation}
 
 However there is a break with high enough score count and this break can be better fitted with a double power law 
+
+
+
+\section{Evolution}
+\subsection{Galaxy evoltuion}
+\subsection{AGN evolution}
+\subsubsection{Luminosity distribution}
+\subsubsection{Density distribution}
+
 
 \end{document}
