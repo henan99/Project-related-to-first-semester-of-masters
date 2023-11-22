@@ -26,8 +26,8 @@
 \contentsline {subsubsection}{\numberline {5.3.4}Seyfert galaxies}{13}{}%
 \contentsline {section}{\numberline {6} luminosity functions}{13}{}%
 \contentsline {subsection}{\numberline {6.1}X-ray LF}{13}{}%
-\contentsline {section}{\numberline {7}Evolution}{14}{}%
-\contentsline {subsection}{\numberline {7.1}Galaxy evoltuion}{14}{}%
-\contentsline {subsection}{\numberline {7.2}AGN evolution}{14}{}%
-\contentsline {subsubsection}{\numberline {7.2.1}Luminosity distribution}{14}{}%
-\contentsline {subsubsection}{\numberline {7.2.2}Density distribution}{14}{}%
+\contentsline {section}{\numberline {7}Evolution}{15}{}%
+\contentsline {subsection}{\numberline {7.1}Galaxy evoltuion}{15}{}%
+\contentsline {subsection}{\numberline {7.2}AGN evolution}{15}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}Luminosity distribution}{15}{}%
+\contentsline {subsubsection}{\numberline {7.2.2}Density distribution}{15}{}%

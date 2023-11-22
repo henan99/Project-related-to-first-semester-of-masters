@@ -522,8 +522,68 @@ For a given type of AGN different bands will be more important than others. And 
 X-ray factory close to the central engine is visible the x-ray luminosity from these sources will be important. 
 Therefore several studies attempt to describe the luminosity functions of these sources through the use of the x-ray band. 
 
+The most simplest form of the local luminsoty function is expressed in \cite{Ajello_2009} and is given as a power law.
 
-In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs
+\begin{equation}
+    \frac{d\Psi(L,z=0)}{dL} = \frac{A}{L_x} \left( \frac{L_x}{L_*}\right)^{1-\gamma_2}
+\end{equation}
+
+This simpler power law fails to capture all the details of the evolution and
+therefore a more complex model is needed. In \cite{Ajello_2009} and  \cite{Ueda_2003} 
+they use a double power law to better fit the data.
+   
+\begin{equation}
+    \frac{d\Psi(L,z=0)}{dL} =  \frac{A}{\log(10)} \frac{1}{L_x} \left( \left( \frac{L_x}{L_*} \right)^{\gamma_1} + \left( \frac{L_x}{L_*} \right)^{\gamma_2} \right)^{-1}
+\end{equation}
+
+Which has the effect of splitting the luminosity function at the break luminosity $L_*$.
+In addition to the local LF one also considers the evolution factor denoted $e(z)$. 
+
+Again for the simplest evolution a power law is used.
+ $$
+e(z) = (1 + z)^{v_1 + v_2 z}
+ $$
+
+ where $v_2 = 0$ gives the simple power law. In for some cases a more complex evolution is needed. As described in 
+ \cite{Ajello_2009} A modiified evolution is often required transformin the usuall PLE and PDE into so called
+ Modified PLE and PDE (MPLE, MPDE) and is where the dependenciy on $z$ in the exponent arrives. 
+
+ As described in \cite{Ueda_2003} the evolution of the luminosity function is not always a simple as a power law.
+ And for some sources a more complex evolution is needed. In \cite{Ueda_2003} they use a double power law to better fit the data where 
+ the evolutions is now not only dependent on the redshift but also on the luminosity. This then recvies the apt name as a luminsoty dependent density evolution
+
+
+ \begin{equation}
+    e_z(z, L) = 
+    \begin{cases} 
+    (1 + z)^{v_1} & \text{if } z \leq z_*(L) \\
+    e_z(z_*(L), L) \times \left( \frac{1 + z}{1 + z_*(L)} \right)^{v_2} & \text{if } z >  z_*(L)
+    \end{cases}
+ \end{equation}
+
+ with $z(L)$ being defined as
+
+ \begin{equation}
+    z_*(L) = 
+    \begin{cases} 
+    z_c \left( \frac{L}{L_c} \right)^\alpha & \text{if } L \leq L_c \\
+    z_c & \text{if } L > L_c 
+    \end{cases}
+ \end{equation}
+
+
+ The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity. 
+
+
+
+ \subsection{Luminosity density}
+ 
+
+
+
+
+In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs. 
+
 
 
 
