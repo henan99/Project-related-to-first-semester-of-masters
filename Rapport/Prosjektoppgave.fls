@@ -159,24 +159,15 @@ INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tf
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
-INPUT .\Prosjektoppgave.toc
-INPUT .\Prosjektoppgave.toc
-INPUT Prosjektoppgave.toc
+OUTPUT Prosjektoppgave.toc
+OUTPUT Prosjektoppgave.lof
+OUTPUT Prosjektoppgave.lot
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm10.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm7.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\euler\eurm5.tfm
-OUTPUT Prosjektoppgave.toc
-INPUT .\Prosjektoppgave.lof
-INPUT .\Prosjektoppgave.lof
-INPUT Prosjektoppgave.lof
-OUTPUT Prosjektoppgave.lof
-INPUT .\Prosjektoppgave.lot
-INPUT .\Prosjektoppgave.lot
-INPUT Prosjektoppgave.lot
-OUTPUT Prosjektoppgave.lot
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
