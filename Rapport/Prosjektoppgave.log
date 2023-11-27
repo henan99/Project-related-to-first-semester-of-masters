@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  24 NOV 2023 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  27 NOV 2023 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,149 +457,61 @@ Package pdftex.def Info: Logo-Ntnu.svg.png  used on input line 56.
 (pdftex.def)             Requested size: 100.09526pt x 100.09294pt.
  [0
 
-{C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo-Ntnu.svg.png>] (Prosjektoppgave.bbl) [1] [2] [3]
-No file Prosjektoppgave.toc.
+{C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo-Ntnu.svg.png>] (Prosjektoppgave.bbl) [1] [2] [3] (Prosjektoppgave.toc [4])
 \tf@toc=\write3
 \openout3 = `Prosjektoppgave.toc'.
 
-[4]
-No file Prosjektoppgave.lof.
+ [5] (Prosjektoppgave.lof)
 \tf@lof=\write4
 \openout4 = `Prosjektoppgave.lof'.
 
-No file Prosjektoppgave.lot.
+ (Prosjektoppgave.lot)
 \tf@lot=\write5
 \openout5 = `Prosjektoppgave.lot'.
 
-[5]
-
-Package natbib Warning: Citation `hogg2000distance' on page 6 undefined on input line 184.
-
-[6] [7]
-
-Package natbib Warning: Citation `Shields_1999' on page 8 undefined on input line 302.
-
-[8]
-
-Package natbib Warning: Citation `Netzer_2015' on page 9 undefined on input line 329.
-
-
-Package natbib Warning: Citation `Netzer_2015' on page 9 undefined on input line 343.
-
-
-LaTeX Warning: Reference `fig:my_label' on page 9 undefined on input line 348.
-
-<unified model agn.jpg, id=49, 602.25pt x 466.74374pt>
+ [6] [7] [8] [9] [10]
+<unified model agn.jpg, id=56, 602.25pt x 466.74374pt>
 File: unified model agn.jpg Graphic file (type jpg)
 <use unified model agn.jpg>
-Package pdftex.def Info: unified model agn.jpg  used on input line 353.
+Package pdftex.def Info: unified model agn.jpg  used on input line 359.
 (pdftex.def)             Requested size: 250.24199pt x 193.93718pt.
-[9] [10 <./unified model agn.jpg>] [11] [12]
-
-Package natbib Warning: Citation `Ajello_2009' on page 13 undefined on input line 527.
-
-
-Package natbib Warning: Citation `Ajello_2009' on page 13 undefined on input line 534.
+ [11 <./unified model agn.jpg>] [12] [13]
+Overfull \hbox (13.91078pt too wide) in paragraph at lines 524--524
+[]|\OT1/cmr/bx/n/10 Evolution
+ []
 
 
-Package natbib Warning: Citation `Ueda_2003' on page 13 undefined on input line 534.
+Overfull \hbox (1.89136pt too wide) in paragraph at lines 524--524
+\OT1/cmr/bx/n/10 params| 
+ []
 
-
-Package natbib Warning: Citation `Ajello_2009' on page 13 undefined on input line 550.
-
-
-Package natbib Warning: Citation `Ueda_2003' on page 13 undefined on input line 553.
-
-
-Package natbib Warning: Citation `Ueda_2003' on page 13 undefined on input line 554.
-
-[13]
-<Luminosirt density.png, id=69, 722.7pt x 722.7pt>
+[14] [15]
+<Luminosirt density.png, id=75, 722.7pt x 722.7pt>
 File: Luminosirt density.png Graphic file (type png)
 <use Luminosirt density.png>
-Package pdftex.def Info: Luminosirt density.png  used on input line 599.
+Package pdftex.def Info: Luminosirt density.png  used on input line 667.
+(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
+<Redshift AGN Evolution.png, id=76, 722.7pt x 722.7pt>
+File: Redshift AGN Evolution.png Graphic file (type png)
+<use Redshift AGN Evolution.png>
+Package pdftex.def Info: Redshift AGN Evolution.png  used on input line 706.
+(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
+ [16] [17 <./Luminosirt density.png>] [18 <./Redshift AGN Evolution.png>]
+<Redshift density Evolution.png, id=89, 722.7pt x 722.7pt>
+File: Redshift density Evolution.png Graphic file (type png)
+<use Redshift density Evolution.png>
+Package pdftex.def Info: Redshift density Evolution.png  used on input line 743.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
 
-c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex:600: Illegal parameter number in definition of \@tempa.
-<to be read again> 
-                   /
-l.600 ...inosity density is given in units of #/L}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
 
-c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex:600: Illegal parameter number in definition of \reserved@a.
-<to be read again> 
-                   /
-l.600 ...inosity density is given in units of #/L}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
+LaTeX Warning: Reference `tab:lum_range' on page 19 undefined on input line 759.
 
-c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex:600: Illegal parameter number in definition of \caption@tempa.
-<to be read again> 
-                   /
-l.600 ...inosity density is given in units of #/L}
-                                                  
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex:600: You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ...sity density is given in units of ##
-                                                  /L
-l.600 ...inosity density is given in units of #/L}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex:600: You can't use `macro parameter character #' in horizontal mode.
-<argument> ...sity density is given in units of ##
-                                                  /L
-l.600 ...inosity density is given in units of #/L}
-                                                  
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Reference `fig:LD' on page 14 undefined on input line 604.
-
-
-Package natbib Warning: Citation `Ajello_2009' on page 14 undefined on input line 608.
-
-
-Package natbib Warning: Citation `Ueda_2003' on page 14 undefined on input line 608.
-
-
-Package natbib Warning: Citation `Jacobsen:2015mga' on page 14 undefined on input line 618.
-
-
-Package natbib Warning: Citation `Jacobsen:2015mga' on page 14 undefined on input line 621.
-
-
-Package natbib Warning: Citation `Ajello_2009' on page 14 undefined on input line 621.
-
-
-Package natbib Warning: Citation `Ueda_2003' on page 14 undefined on input line 621.
-
-
-Package natbib Warning: Citation `Ajello_2009' on page 14 undefined on input line 623.
-
-
-Package natbib Warning: There were undefined citations.
-
-[14] [15 <./Luminosirt density.png>] (Prosjektoppgave.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+<Luminosity and Emissivity.png, id=90, 722.7pt x 722.7pt>
+File: Luminosity and Emissivity.png Graphic file (type png)
+<use Luminosity and Emissivity.png>
+Package pdftex.def Info: Luminosity and Emissivity.png  used on input line 763.
+(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
+[19] [20 <./Redshift density Evolution.png>] [21 <./Luminosity and Emissivity.png>] [22] (Prosjektoppgave.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -608,22 +520,19 @@ L3 programming layer <2023-11-01>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 8728 strings out of 474592
- 145004 string characters out of 5745798
+ 8765 strings out of 474592
+ 146278 string characters out of 5745798
  1946533 words of memory out of 5000000
- 30793 multiletter control sequences out of 15000+600000
+ 30824 multiletter control sequences out of 15000+600000
  567046 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,12n,93p,617b,409s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Prosjektoppgave.pdf (16 pages, 523466 bytes).
+Output written on Prosjektoppgave.pdf (23 pages, 848953 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 183 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
