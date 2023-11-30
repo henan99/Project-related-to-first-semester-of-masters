@@ -7,7 +7,7 @@
 
 \usepackage{natbib}
 
-
+\usepackage{subcaption}
 \usepackage[ portrait, margin=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -65,8 +65,7 @@
 \fancyhead[R]{Luminosity functions}
 \fancyfoot[R]{Page \thepage \:}
 \setcounter{page}{1}
-\bibliography{bib}
-\bibliographystyle{apalike}
+
 
 \maketitle
 
@@ -102,41 +101,48 @@
 -list of figure
 -list of tables
 
+\newpage
 
 \section{Introduction}
 
 \section{The ever expanding universe}
-In order to investigate sources very far away from an observer it is important to understand the influence this distance has on your desired observable. Therefore in astrophysics and astronomy in general there are distances created to take into account the effects of an expanding universe. 
+In order to investigate sources very far away from an observer it is important to understand the influence this distance 
+has on your desired observablea. Therefore in astrophysics and astronomy in general there are distances created to take into account the effects of an expanding universe. 
 
 
 \subsection{comsographic parameters}
 
-The most notorious parameter is the Hubble constant $H_0$. This parameter sets the recession speed of a point at proper distance d and our current position via this equation.
-\begin{equation}
-    v = H_0 d 
-\end{equation}
-The subscript $0$ refers to the present epoch since in general $H_0$ changes with time. The value of $H_0$ is quite debated so I will  follow the nomenclature of D. Hogg and write it as a parameterized equation. 
+The most notorious parameter due to its controversy when first discovered is the Hubble constant $H_0$. 
+This parameter sets the recession speed of a point at proper distance $d$ and our current position via this simple relation. $v = H_0 d$ 
+The subscript $0$ refers to the present epoch signifiing that $H_0$ is not static butchanges with time. 
+The precise value of $H_0$ is quite debated so its commenly expressed in a parameterized form. 
 $$
 H_0= 100\frac{km}{s}\frac{1}{Mpc} h 
 $$
-where $h$ is a dimensionless number that according to current knowledge  can take the value between $0.5$ to $0.8$  
+where $h$ is a dimensionless number that according to current knowledge  can take the value between $0.5$ to $0.8$ reflecting the range of answers collected from recent work. 
 
-The Hubble constant has units of inverse time and therefore one can define the Hubble time as 
-$$
-t_H = \frac{1}{H_0}
-$$
+Beyond its basic definition,$H_0$ also allows for the derivation of two significant cosmic scales:
+
+\textbf{Hubble Time ($t_H$) }: Defined as the inverse of 
+$H_0$ , $t_H$ provides an estimate of the age of the universe. 
+It sets a scale for the time since the Big Bang, assuming the universe has been expanding at a constant rate. The equation 
+$t_H = \frac{1}{H_0} \approx 14 \quad \text{Billon years}$ offers a simple way to approximate this expansive timescale.
 
 
-The constant also has units of speed, and therefore we can define the Hubble distance. 
+\textbf{Hubble Distance ($D_H$) }: This is a measure of the distance over which the universe's expansion is significant. Calculated as 
+$D_H = \frac{c}{H_0} \approx 4.4 \quad \text{Gly}$, where $c$ is the speed of light, 
+it represents a critical boundary in observational cosmology. %Beyond this distance, the expansion of the universe dominates the motion of galaxies, providing a fundamental constraint for cosmological observations and theories.
 
-$$
-D_H = \frac{c}{H_0}
-$$
+\subsection{Shape of the universe}
 
-\subsection{Components of the universe}
-In this paper and in most articles one refers to the flat lambda CDM model to parameterize the contents of the universe and by extension the properties of its expansion. Here two important parameters to define are the mass density of the universe $\rho_0$ and the cosmological constant $\Lambda$. These variables which change with time also define the metric tensor in general relativity and allow us to model the curvature of the universe given an initial configuration.  njaaa, skriv på nytt. 
 
-One can write these into dimensionless variables as such
+The shape and expansion of the universe are central themes in cosmology, but in order to do that one needs to define the structure of the universe and its contents. 
+In this paper and in many articles the universe is
+often explored through the lens of the flat Lambda Cold Dark Matter ($\Lambda$CDM) model. 
+This model, widely accepted in contemporary cosmology, provides a framework for understanding the universe's composition and its expansion dynamics by assuming as the name suggests no curvature.
+In the $\Lambda$CDM model, two key parameters are important: the mass density of the universe, $\rho_0$, and the cosmological constant, $\Lambda$.
+These parameters, which evolve over time, are a part in defining the metric tensor in general relativity, thereby allowing us to model the curvature of the universe based on its initial conditions.
+These parameters are often expressed as dimensionless variables:
 
 $$
 \Omega_m = \frac{8\pi G\rho_0}{3H_0^2}
@@ -146,17 +152,22 @@ $$
 \Omega_\Lambda = \frac{\Lambda c^2}{3H_0^2}
 $$
 
+Here, $\Omega_m$ represents the matter density parameter, encompassing both ordinary (baryonic) matter and dark matter. 
+$\Omega_\Lambda$, on the other hand, corresponds to the density parameter associated with the cosmological constant, which is often interpreted as dark energy.
 
 
-In general one has a third density parameter $\Omega_k$ which defines the curvature of spacetime and is defined from 
+
+
+In general one has a third density parameter $\Omega_k$ which defines the curvature of spacetime and the relationship between these paramters is expressed as: 
 
 $$
 \Omega_m + \Omega_\Lambda + \Omega_k = 1
 $$
 
 
+In a flat universe one has $\Omega_k = 0$ and the universe is dominated by dark energy and dark matter. The model used in this paper and the papers cited if not expressed otherwise is the flat $\Lambda$CDM model where the parameters take the values of 
+$\Omega_\Lambda = 0.7$ and $\Omega_m = 0.3$. These values align with current obersvational data (refff).
 
-The flat lambda CDM has three components, the dark energy density, the dark matter density, and the ordinary matter parameter. In the rest of this paper and other articles used by this dissertation the values of these components are represented by their $\Omega$ parameter and one has a universe with $\Omega_\Lambda = 0.7$, and $\Omega_m = 0.3$ also known as the flat lambda since the curvature parameter is $0$
 
 
 \subsection{Redshift}
@@ -166,43 +177,43 @@ Redshift is defined as the fractional Doppler shift of emitting light. The Doppl
     z = \frac{\nu_e}{\nu_o}-1 = \frac{\lambda_o}{\lambda_e}-1
 \end{equation}
 
-Here $o$ refers to the observed quantity and $e$ the emmited. 
-If one want to connect this redshift to the velocity of the observed object one needs to go to general relativity. 
-There is an analog in special but one omits it here since one does not use it.
-The important factor is that redshift is an observable and can help us determine distances of objects. 
-especially if they are far away the relative velocity becomes negligible and 
-only the effect of the expansion of the universe become important. 
+Here $o$ refers to the observed quantity and $e$ the emmited. Due to the expansion of the universe the light emitted from a distant source will be increasingly redshifted the further away it is.
+In these scenarios the redhsift serves as a distance measure, allowing  us to deduce distances to faraway objects.
+
 
 
 \subsection{Comoving distance}
-The comoving distance or more clearly the line of sight distance for an observer locted here
- at earth is a foundational distance measure in cosmography. All other distance measures can be 
- derived from it. One derives it by defining the small co-moving distance $\delta D_c$. 
- This quantity defines the distance between two objects that remains constant when both objects expand with the Hubble flow.
-  One can think of it as a proper distance from relativity since it is constant in all "time-frames". 
-  If one wants the total comoving distance one integrates all $\delta D_c$ in the line of sight from $z= 0$ to the object. 
-In order to do this one need to take into account the different densities in the universe, from  \cite{hogg2000distance} one defines the function 
 
+
+Comoving distance is an important concept in cosmography, 
+acting as a standard unit for various distance measurements in the universe. 
+This distance, often termed the line-of-sight distance for an observer on Earth, 
+remains constant even as objects expand with the Hubble flow. 
+To calculate the total comoving distance ($D_c$) to an object, 
+one integrates the differnetial comoving distances ($\delta D_c$) along the line of sight, starting from redshift 
+$z=0$ to the object. This integration necessitates consideration of the universe's parametric composition and the $\delta D_c$ is expressed as
+
+\begin{equation}
+    \delta D_c = \frac{D_H}{E(z)}dz
+\end{equation}
+where the function $E(z)$ is defined as
 \begin{equation}
     E(z)  = \sqrt{\Omega_m(z+1)^3 +\Omega_k (1+z)^2 + \Omega_\Lambda  }
 \end{equation}
-
-
-This function is defined by the density parameters defined above and also the redshift $z$. 
-One can also relate this to the measured Hubble constant as measured by an hypothetical observer at 
-redshift $z$ via $ H(z) = H_0 E(z)$. 
-
+Here, 
+$E(z)$ incorporates the density parameters previously discussed and the redshift 
+$z$. It also relates to the Hubble constant observed by hypothetical observer at redshift $z$, expressed as 
+$H(z) = H_0 E(z)$.
 
 One then recives the comoving distance $D_c$ from 
 \begin{equation}
     D_c =D_H \int_0^z\frac{dz}{E(z)}
 \end{equation}
-\subsection{Comoving distance part 2}
-$D_c$ is the line of sight of an object and its observer but given different space-time geometry that line 
-is distorted. If one looks a two objects, both at redshift z the distance between them will be given as as a 
-function of the angle between them. If they are sperated by an angle $d\theta$ then the distance between them will be $d\theta D_m$ where $D_m$ is the comoving distance
 
-%Therefore for different curvature, one need to map the geodesic onto our simplistic view. Therefore one gets the three different space geometry cases
+In addition to the line of sight one needs to define the transverse comoving distance $D_m$. This distance 
+relates two points in the nights sky at the same redshift seperated by an angle $d\theta$. The actual distance
+between them $d\theta D_m$ will then vary depending on the curvature of the universe. This reltionship is summariesed in the followin equation
+which accounts for differen geometries.
 
 $$
 D_m =
@@ -213,29 +224,25 @@ D_m =
 \end{cases}
 $$
 
-The different cases are dependent on the curvature of the universe, and one can see that one enters hyperbolic geometry or spherical geometry based on the different curvatures. The true curvature of the universe is still a mystery but recent studies suggest that it is flat, as expected. 
+The different cases corresponds to hyperbolic, flat and spherical geometry respectively. The true nature 
+of the universe is still unknown but the recent observations indicate a flat universe. grand design!!!
 
 
-\subsection{Angular distance}
 
 
-THe angul
+
+
 
 
 \subsection{Luminosity distance}
 The luminosity distance $D_l$ is defined through the relation between 
-the bolometrix flux $F$ of a source and its bolometric luminosity $L$. 
-The flux is the amount of energy per unit time per unit area and the luminosity is the total amount of energy per unit time. 
+the bolometrix flux $F$ of a source and its bolometric luminosity $L$. bolometric flux is the energy received per unit time per unit area, while bolometric luminosity is the total energy emmited per unit time.
 The luminosity distance is defined as
 \begin{equation}
     D_l = \sqrt{\frac{L}{4\pi F}}
 \end{equation}
 
-In more clearer words it describes the total loss in energy due to lights travel across an expanding universe. 
-The total observed flux an observer will see will be different from different distances.  the intrisic luminosity emmited at the source
-
-
-
+This fomula essentially describes the loss of energy due to the expansion of the universe. It reflects how the observed flux at the observer's location differs based on the distance from the source and the intrinsic luminosity emmited. 
 
 It is related to the transverse comoving distance via 
 
@@ -251,41 +258,260 @@ observed. The spectrum of the differnetial flux $F_\nu$ is related to the spectr
     F_\nu = (1+z) \frac{L_{(1+z)\nu}}{L_\nu}\frac{L_\nu}{4\pi D_l^2}
 \end{equation}
 
-If one wishes to translate an observed spectral flux of particles to a density distriubtion one needs to take into account this redshift effect
 
+All these equations listed help include the effects of an expanding universe when astronomers study distant objects and their properties. 
 
 \section{High energy particles}
+In this section i will discuss the different types of high energy particles that are of interest in this paper, i.e neutrinos and ultra high energy cosmic rays(UHECRs).
+I will breifly discuss their generation and how they are detected. Then introduce how they lose energy in their journey to earth, and lastly calculate the emmisivity of their hypothetical sources from ground 
+observations here on earth. 
 
-\subsection{Cosmic rays and Neutrinios}
+\subsection{Acceleration of high energy particles}
 
-\subsection{Energy loss}
+In order to reach high energy, particles need to be accelrated. 
+Knowing the exact source of acceleration can be difficult since we do not know the sources, but nontheless one can put constraints on any source due to some simple arguments.
+By arguing that the acceleration needs to be of a certain strength and that the particle being accelerated need to stay confined witihn the accelerator for long enough one can put constraints on the source.
+This is called the Hillas criterion and is a simple way of estimating the maximum energy a particle can reach in a given source.(ref hillas)
 
-\subsection{Emissivity estimates}
-
-
-
-
-\subsection{Emmision lines}
-When a particle is photionized by the continuum radiation of a source it will emit a photon when it returns to its ground state. 
-This photon will have a specific wavelength that is determined by the energy difference between the two states.
-This wavelength is called the emmision line of the particle. When looking a dynamical systems with high velocities 
-the doppler shift of these emmision lines becomes important since it will affect the observed spectra of the source.
-
-https://lweb.cfa.harvard.edu/~pberlind/whipple/agn.html
+For relativistic particle with charge $Z$ and energy $\epsilon$ in a magnetic field of strength $B$ one can define the larmor radius
 
 
+\begin{equation}
+    R_L = \frac{\epsilon}{ZB}
+\end{equation}
 
-\subsubsection{Broad emmision lines}
-Broad emission lines in the case of AGN are formed from the high density gas clouds located close the the central black hole. The 
-high density parameter is innferred from the fact that one only sees broad emission from permitted line transitions (f.ex hydrogen Lynman and Balmer,
-iron II, and magnesium II).High densities allow for collisional de-exitation. And the boradaning is an indictation that these gas clouds are moving are moving 
-at huge velocities around the massive objects. This implies that they are located close to the black hole
-\subsubsection{Narrow emmision lines}
-Narrow emission lines are on the other hand formed in low density gas clouds. The low densities are inferred from the fact that one sees
-both permitted and forbbiden line transitions. They are narrow lines due to their velocities being substantially lower than the inner most gas clouds.
+By arguing that the definition of confinment of a particle to a source is by equtating the larmor radius to the size of the source one can 
+easily derive the maximum acheivable energy for a particle as follows. (ref M. Bustamante. https://cds.cern.ch/record/1249755/files/p533.pdf)
+
+\begin{equation}
+    \epsilon_{max} = ZBR
+\end{equation}
+
+Via this method one can illustra the potential candidates needed to produce the required and importantly observed high energy particles. 
+This requirement is named the hillas criterion after G. Hillas who first proposed this method.
+In figure \ref{fig:hillas_c} one can see the different candidates for the acceleration of two different ions, protons and iron. One of the candidates is the AGN, which is the focus of this paper.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.5\textwidth]{hillas_criterion.jpeg}
+    \caption{Hillas criterion for proton (blue line) and iron (red line) accelerated up to $10^{20}eV$ and $10^{21}eV$ respectively. Image taken from \cite{doi:10.1146/annurev-astro-081710-102620}}
+    \label{fig:hillas_c}
+\end{figure}
 
 
-We will be discussing two types of neutrino generation. The pp chain and p$\gamma$ production
+One can try to build sources in bottom up models, and then it is necessaery to understand the different processes that can accelerate particles to high energies, here i will breifly go through some. 
+
+\textbf{One-shot acceleration}:
+In the precence of an ordered field one can accelerate particles in an continous manner. This could be the feature of some astrophysical objects such as neutron stars and black holes. (ref cern paper)
+
+
+\textbf{Diffusive acceleration/ Fermi acceleration}
+In regions where one has high varaibility in the magnetic field strength one can accelerate particles in burst. 
+This is called diffusive acceleration and the most common way of this happening is through first and second order fermi acceleration.
+The second order fermi acceleration is the simplest and is based on the fact that particles can gain energy by bouncing back and forth between magnetic clouds which acts as mirrors. 
+This is a stochastic process and the average energy gain can be showed to be proportional $(\frac{v}{c})^2$. Here $v$ is the speed of the cloud 
+and $c$ the speed of the particle. This is a slow process due to the scarcity of clouds and therefore it is not a prefered method.
+The first order fermi acceleration happens when particles collide with strong shock fronts. These shock fronts can be quite a bit faster than our interstellar clouds
+and when a particle moves through the shock it gains energy proportional to $\frac{v}{c}$. In addition to this there is a probability that the particle will stay in the accelerating region and 
+experience several shocks accelerations. 
+
+By knowing how particles can accelerate and their potential sources one can continue an look at the two particles of question in this paper. 
+Neutrinos and UHECRs.
+\subsection{UHECRs}
+
+UHECRs are simply put charged particles that are bombarding earth with energy exceeding .... (1exaelectronvolt ($10^{18}$ eV)). The origin of 
+these particles are still a mystery but  due to their high energies they are thought to be extragalactic in origin and due to the hillas criterion need to be suffciently good accelerators.
+The composition of UHECRs are mostly protons and heavier nuclei such as helium or iron, and when these particles interact with the atmosphere they produce a shower of secondary particles.
+The air showers could also give extra infromation such as direction, but due to the nature of UHECRs the location of their source is
+difficult to pinpoint. This is due to the fact that UHECRs are charged particles and therefore are deflected by the magnetic fields it encounter.
+
+\subsubsection{Production and Energy loss}
+The neceassary requirements for a UHECRs is a charge particle and a powerfull accelerator. From the hillas criterion one can see that there are several candidates so i will assume that these reuirements are fufilled and we have a particle with sufficent energy that has been released from its source.
+An equal interesting part is the journey of the particle to earth since during the acceleration and during the journey to earth the UHECRs will lose energy. The important parameters for this energy loss is its  composition  and its enviroment. In addition as mentioned before
+, the intersteller magnetic field will also deflect the particles and therefore the direction of the particle will be changed. These effects are important parameters since it limits the 
+distance a particle can travel before its start energy becomes unreasonable, and thefore limits the local volume in which it can be produced. 
+Here i will briefly discuss the different energy loss mechanisms. 
+\textbf{Photo-pair production}
+
+\begin{equation}
+    p + \gamma \rightarrow p + e^- + e^+
+\end{equation}
+For UHECRs the most potent sink of energy is the Bethe-Heitler process. In this process a proton of sufficent energy interacts with the 
+the photon field in its vicinity and produces a pair of electron and positron. The photon field can vary from the cosmic microwave background to the generated field from different sources. 
+The energy loss of this process is quite small $\sim \frac{2m_e}{m_p}= 10^{-3}$ of the original energy of the proton, but the process is very common and therefore it is a significant energy loss over time.
+
+
+\textbf{Pion production thorugh delta resonance}
+\begin{equation}
+    p + \gamma \rightarrow \Delta^+ \rightarrow (p + \pi^0)\quad \text{or} \quad (\pi^+ + n)
+    \label{eq:delta_resonance}
+\end{equation}
+
+Given enough energy the proton can interact with the photon field and produce a delta resonance. This resonance can then decay into a pion and a proton or a neutron and a pion. 
+This process is important since it also puts an upper limit on the UHECRs energy for intergalactic particles. 
+This limit, called the Greisen-Zatsepin-Kuzmin (GZK) limit comes from the UHECRs interacting with the cosmic microwave background in this delta resonance process. The limit caps proton energy at $5\times 10^{19}$ eV.
+
+\textbf{photodisintegration}
+mabye include this. 
+
+\subsubsection{detection}
+When a cosmic ray hits the atmosphere it will interact with the air molecules and produce a cascade of particles and light that can more easily be detected than 
+the original cosmic ray.In addition, since the UHECR flux at high energy is extremly low (<1 particle per $km^2$ per year for $E > 10^{19}$ ) one need a large area to collect enough data. 
+The best detectors to do this kind of work are the Pierre Auger observatory and the Telescope Array. 
+
+The Pierre Auger observatory is located in Argentina and is the largest detector of its kind. It consists of 1660  Cherenkov detectors spread over 3000 km$^2$ and 27 fluorescence telescopes in four locations. With 
+these instruments the observatory is very capable of reconstructing the air showers and therefore the original cosmic ray. The observatory has a blind spot in the night sky 
+and therefore the observatory is complemented by the Telescope Array located in Utah. The Telescope Array is a smaller observatory with 507 scintillator detectors and 3 fluorescence telescopes. Combined they have been able to map the full sky of UHECRs.  
+
+\subsubsection{Emissivity estimates}
+
+Now that one somwhat understand the nature of UHECRs one can try to make tangible estimates of the UHECRs sources. One such
+estiamte is the emissivity of UHECR sources. An emmisivty is a measure of the energy released per unit time per unit volume. The question 
+we can ask ourself is what is the neceassary emmisivity of UHECRs to explain the observed flux here on earth.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.7\textwidth]{UHECRs.png}
+    \caption{The diffuse flux of UHECRs as measured by the Pierre Auger observatory and the Telescope Array. The flux is seperated into galactic and extra galactic sources where the total spectrum follows the black dots. Image taken from \cite{Abdul_Halim_2023}}
+    \label{fig:flux_UHECRs}
+\end{figure}
+
+Via observations from the Pierre Auger observatory and the Telescope Array one can observe and model the diffuse flux of UHECRs. The result is an isotropic flux and is represented in figure \ref{fig:flux_UHECRs} .  By seperating the 
+flux into contribution from extra galactic sources and galactic sources one can estimate the reuqired energy density in the univers of extragalactic UHECRs. From here can define a the loss time for a UHECRs as the loss length divided by the speed of light $c$. This factor is depended on the differen method of energy loss for an UHECR. and 
+then the emmsiivity of UHECRs produced by our sources as the energy density divided by the loss time.
+
+To estimate a simple emmisivity for UHECRs one can use the following equation.
+
+\begin{equation}
+    \epsilon_{UHECR} = \frac{u_{UHECR}}{t_{loss}} = \frac{u_{UHECR}}{D_{loss}/c} = \frac{4\pi c \int_{E_0}^{E_{max}}J_{extragalactic}(E)E dE}{c D_{loss}} \approx 7\times 10^{44} \frac{erg}{Mpc^3 yr}
+\end{equation}
+
+Here $u_{UHECR}$ is the energy density of UHECRs, $t_{loss}$ is the loss time, $D_{loss}$ is the loss distance, $J(E)$ is the flux of UHECRs, $E_0$ is the minimum energy of the flux where it is dominated by extragalactic UHECRs, and $E_{max}$ is the maximum energy of extragalactic UHECRs.
+The value of $\epsilon_{UHECR}$ is caulcated in the script avaible on github by using data from  Auger \cite{thepierreaugercollaboration2017pierre}
+
+
+\subsection{Neutrinos}
+
+The second particle of interest is the neutrino. Neutrinos compared to UHECRs are neutral particles that are produces in various processes in the universe.
+The most common and well know is the fusion reaction in the sun where neutrinos are produced in the pp chain. On the other hand the neutrinos of focus in this paper 
+are high energy neutrinos that are likley produced in the same sources as our UHECRs.
+
+
+
+\subsubsection{Production and Energy loss}
+The production of the highest energy neutrinos are thought to be produced in the same sources as UHECRs 
+and i will go through the most probable way of producing high energy neutrinos in sources such as AGNs.
+
+\textbf{Hardonic processes}
+Hardonic procesess have the ability to release neutrinoes with a suffuciently high energy to explain the obersvations here on earth. 
+Processes such as nuclear interactions are limitied by the bindign energy of the nucleaous and accelerating a neutrino after its production is difficult.
+therefore a common way of producing the observed neutrinos is thorugh the decay of pions. The most important decay is the decay of charged pions into muons and muon neutrinos as seen in \ref{eq:pion_decay}
+
+
+\begin{equation}
+    \pi^+ \rightarrow \mu^+ + \nu_\mu \rightarrow e^+ + \nu_e + \nu_\mu + \bar{\nu_\mu}
+    \label{eq:pion_decay}
+\end{equation}
+
+I will disucss two possible ways of producing these pion in two different enviroments. 
+
+
+In proton rich enviroment where the protons are able to accelerate up to high energies one can produce pions through the following process
+\begin{equation}
+    p + p \rightarrow \begin{cases}
+        \pi^+ + n+ p \\
+        \pi^- + \pi^+ +p + p  \\
+        \pi^0 + p+p
+    \end{cases}
+\end{equation}
+
+The energy of these protons at a few GeV is enough to introduce the delta-baryon resonance and therefore it becomes more complicated.
+The most efficient way of producing pions is through the already seen delta resonance when a proton interacts with a photon \ref{eq:delta_resonance}.
+This process being similar to the cooling of UHECRs is a strong indicator that these two particles are produced in the same sources. 
+After having produced our neutrinos it also becomes important to understand their behaviour during their travel to earth. Here I will higlight two points
+
+
+\textbf{Neutrino oscillations}
+In the previous paragraph I disussed the production of these neutrinos, but not their inital flavour.
+The pion decay model is know to prodcue a flavour composition of $\nu_e : \nu_\mu : \nu_\tau = 1:2:0$. 
+A naive thought would be an indentical composition observed on earth, but sadly this is not the case. 
+The reason for this is that the neutrinos mass state has the ability to oscillate between the different flavours. Therefore the neutrinoes produced in the source will oscillate during their travel to earth and when they reach us one would expect a 
+uniform mix of the three flavours, $\nu_e : \nu_\mu : \nu_\tau = 1:1:1$.
+
+\textbf{Energy loss}
+To model the travel of a neutrino of any flavour one only need to take into account the interaction of our neutrino with the expanding universe. Since it is so weakly interacting the only 
+source of energy loss our flux of neutrinos will experience is the redshift created by the expansion of the universe. This redshift is the same as the one discussed in the previous section and our neutrinos 
+behave the same way light does in this manner with a drop in energy proportional to $(1+z)$.
+
+
+
+ 
+
+\subsubsection{detection}
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.5\textwidth]{Ice_cube_layot.png}
+    \caption{The ICE CUBE neutrino observatory. The detector is located at the south pole and is a large block of ice instrumented with photomultiplier tubes. Image taken from \cite{Andeen_2019}}
+    \label{fig:Ice_cube}
+\end{figure}
+
+Neutrinos are weakly interacting matter particles and therefore are very difficult to detect. This makes them excellent candidates for the study of the universe since they can travel large distances without interacing, but make them 
+quite difficult to detect with high accuracy. The most famous detector and the one used in this paper is the ICE CUBE neutrino observatory. This detector is precisely what it sounds. It is a large block of ice located at the south pole.
+The observaotry uses the ice located deep in the south pole as a giant cherecencov detector. The ice is instrumented with photomultiplier tubes that can detect the Cherenkov radiation produced by neutrinos interacting with the ice. 
+More precisely the observatory is fitted with 5160 photomultiplier tubes located at a depth of 1450-2450 m. The photomultipliers are divided into 86 strings of 60 modules each. The detector is also complemented by the DeepCore detector which is a denser array of photomultiplier tubes located in the center of the detector. See figure \ref{fig:Ice_cube} for a visual representation of the detector.
+The energy range for this detector is from 10 GeV to 10 EeV. The interaction of neutrinoes with the water molcules in the ice can produce charged leptons( muons ,electrons or taus). These charged particles if energetic enough will then produce Cherenkov radiation which can be detected by the photomultiplier tubes.
+
+
+\subsubsection{Emissivity estimates}
+
+Armed with the required knowledge above one can also make simple arguments for the soruces of these neutrinos based on the observed 
+flux here on earth. The flux used in this paper is the diffuse flux of neutrinos as measured by the Ice Cube observatory. The flux is shown in figure \ref{fig:flux_neutrinos}. 
+For any calculations we use the astrophyscal flux as modeled as a power law. The powerlaw is on the from 
+
+\begin{equation}
+    \Phi(E) = \Phi_0 \left(\frac{E}{E_0}\right)^{-\gamma}
+\end{equation}
+
+with $\Phi_0$ being the normalization constant, $E_0$ being the reference energy and $\gamma$ being the spectral index. The model parameters are seen in table \ref{tab:neutrino_flux}.
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        $\Phi_0$ & $E_0$ & $\gamma$ \\
+        \hline
+        $6.7\times 10^{-18} GeV^{-1} cm^{-2} s^{-1} sr^{-1}$ & $100 TeV$ & 2.37 \\
+        \hline
+    \end{tabular}
+    \caption{The model parameters for the astrophysical flux of neutrinos as measured by the Ice Cube observatory.}
+    \label{tab:neutrino_flux}
+\end{table}
+
+The emmisivity of neutrinos is calculated in the same way as for UHECRs. The only difference is the loss time. neutrinos do not lose energy in the same way as UHECRs and therefore the loss distance will be the size of the universe. 
+The modeled emmisivity is then approximatly $1.19 10{45} \quad erg/Mpc^3/yr$
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Ice_cube_flux_tot.png}
+        \caption{Number of events per bin}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Ice_cube_flux_astro.png}
+        \caption{Modeled Astrophysical flux}
+    \end{subfigure}
+    \caption{The diffuse flux of neutrinos as measured by the Ice Cube observatory. The y-axis on the left image is the number of events per bin.  The flux is separated into contributions from atmospheric neutrinos and astrophysical neutrinos. The right image is the model astrophysical flux as measured by ICE CUBE. Images taken from \cite{Abbasi_2022} }
+    \label{fig:flux_neutrinos}
+\end{figure}
+
+
+
+
+
+
 \section{Active galactic nuclei}
 
 
@@ -397,6 +623,27 @@ Get sources!
 
 write about BB radiation from accretion disk which give rise to x-rays. 
 
+\subsubsection{Emmision lines}
+When a particle is photionized by the continuum radiation of a source it will emit a photon when it returns to its ground state. 
+This photon will have a specific wavelength that is determined by the energy difference between the two states.
+This wavelength is called the emmision line of the particle. When looking a dynamical systems with high velocities 
+the doppler shift of these emmision lines becomes important since it will affect the observed spectra of the source.
+
+https://lweb.cfa.harvard.edu/~pberlind/whipple/agn.html
+
+
+
+\subsubsection{Broad emmision lines}
+Broad emission lines in the case of AGN are formed from the high density gas clouds located close the the central black hole. The 
+high density parameter is innferred from the fact that one only sees broad emission from permitted line transitions (f.ex hydrogen Lynman and Balmer,
+iron II, and magnesium II).High densities allow for collisional de-exitation. And the boradaning is an indictation that these gas clouds are moving are moving 
+at huge velocities around the massive objects. This implies that they are located close to the black hole
+\subsubsection{Narrow emmision lines}
+Narrow emission lines are on the other hand formed in low density gas clouds. The low densities are inferred from the fact that one sees
+both permitted and forbbiden line transitions. They are narrow lines due to their velocities being substantially lower than the inner most gas clouds.
+
+
+We will be discussing two types of neutrino generation. The pp chain and p$\gamma$ production
 \subsubsection{Corona}
 
 \subsubsection{dust torus}
@@ -539,7 +786,7 @@ APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 
 \end{tabular}
 \caption{Luminosity range for different models}
-\label{tab:Lum_range}
+\label{tab:lum_range}
 
 \end{table}
 
@@ -747,8 +994,8 @@ a product of a different conditions in the universe, for example the totalt dens
 
 
 
-\subsubsection{Expected luminosity evolution}
-Another point of interest is the exptect luminosity of an object at different redshift. This is important since it will directly relate to the 
+\subsubsection{Expected luminosity}
+Another point of interest is the exptect luminosity of an source class at different redshift. This is important since it will directly relate to the 
 power output of the different epochs and from this one can calcualte an expected emmisitivty of the different classes of AGNs. 
 The expected luminosity of each group can be calcualted with the following formula. 
 
@@ -789,17 +1036,29 @@ a big splash in the observables here on earth should these objects be the origin
 With the calculated emmisivity for the different groups there is now possibility to look very briefly into the possibility of AGNs being the origin of UHECRs. The 
 reasoning is quite crude but in order for the AGNs to be the origin of UHECRs they must be able to produce the necessary energy. 
 
-According to .... the energy density of UHECRs is given as $3*10^{44}\frac{erg}{Mpc^3yr}$ ....
+According to .... the energy density of UHECRs is given as $3 \cdot 10^{44}\frac{erg}{Mpc^3yr}$ ....
 
 In order to estimate the sources of these UHECRs and based on the limit of how close an UHECR could be produced to earth one can calculate the emmisivity needed to produce these UHECRs.
 By estimating the emmisivity produced from our sources at a very low redshift (i.e $z=0.01$) one can then calculate emmisitivty of our sources and compared to the required emmisivity.
+To calculate the emmsisitity of our sources one takes the density of these sources at the desired redshift and multiplies it with the expected luminosity at that redshift.
+
+The resutling figure is shown in figure \ref{fig:UHECR}.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = \textwidth]{L_n_line.png}
+    \caption{UHECR emmisivity for the four different classes of AGNs.}
+    \label{fig:UHECR}
+\end{figure}
+
+The figure shows that almost all classes produce enough energy in X-rays in order to produce the required emmisivity. The only exception is the FSRQs where the number
+density limits the required emmisivity. This result is a fine indication that AGNs could be the origin of UHECRs. However this is a very crude estimate and the
+the correlation between X-ray luminosity and UHECR luminosity is not well defined and might include intrinquities that are not accounted for.
 
 
 
-\subsection{Galaxy evoltuion}
-\subsection{AGN evolution}
-\subsubsection{Luminosity distribution}
-\subsubsection{Density distribution}
 
+\bibliography{bib}
+\bibliographystyle{apalike}
 
 \end{document}

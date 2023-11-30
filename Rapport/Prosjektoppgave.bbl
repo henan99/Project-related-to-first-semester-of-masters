@@ -1,5 +1,18 @@
 \begin{thebibliography}{}
 
+\bibitem[Abbasi et~al., 2022]{Abbasi_2022}
+Abbasi, R., Ackermann, M., Adams, J., and Aguilar, J.~A. (2022).
+\newblock Improved characterization of the astrophysical muon–neutrino flux
+  with 9.5 years of icecube data.
+\newblock {\em The Astrophysical Journal}, 928(1):50.
+
+\bibitem[Abdul~Halim et~al., 2023]{Abdul_Halim_2023}
+Abdul~Halim, A., Abreu, P., Aglietta, M., and Allekotte (2023).
+\newblock Constraining the sources of ultra-high-energy cosmic rays across and
+  above the ankle with the spectrum and composition data measured at the pierre
+  auger observatory.
+\newblock {\em Journal of Cosmology and Astroparticle Physics}, 2023(05):024.
+
 \bibitem[Ajello et~al., 2009]{Ajello_2009}
 Ajello, M., Costamante, L., Sambruna, R.~M., Gehrels, N., Chiang, J., Rau, A.,
   Escala, A., Greiner, J., Tueller, J., Wall, J.~V., and Mushotzky, R.~F.
@@ -8,15 +21,27 @@ Ajello, M., Costamante, L., Sambruna, R.~M., Gehrels, N., Chiang, J., Rau, A.,
   background.
 \newblock {\em The Astrophysical Journal}, 699(1):603.
 
-\bibitem[Hogg, 2000]{hogg2000distance}
-Hogg, D.~W. (2000).
-\newblock Distance measures in cosmology.
+\bibitem[Andeen and Plum, 2019]{Andeen_2019}
+Andeen, K. and Plum, M. (2019).
+\newblock Latest cosmic ray results from icetop and icecube.
+\newblock {\em EPJ Web of Conferences}, 210:03005.
+
+\bibitem[Collaboration et~al., 2017]{thepierreaugercollaboration2017pierre}
+Collaboration, T. P.~A., Aab, A., Abreu, P., Aglietta, M., Albuquerque, I.
+  F.~M., and Allekotte, I. (2017).
+\newblock The pierre auger observatory: Contributions to the 35th international
+  cosmic ray conference (icrc 2017).
 
 \bibitem[Jacobsen et~al., 2015]{Jacobsen:2015mga}
 Jacobsen, I.~B., Wu, K., On, A. Y.~L., and Saxton, C.~J. (2015).
 \newblock {High-energy neutrino fluxes from AGN populations inferred from X-ray
   surveys}.
 \newblock {\em Mon. Not. Roy. Astron. Soc.}, 451(4):3649--3663.
+
+\bibitem[Kotera and Olinto, 2011]{doi:10.1146/annurev-astro-081710-102620}
+Kotera, K. and Olinto, A.~V. (2011).
+\newblock The astrophysics of ultrahigh-energy cosmic rays.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 49(1):119--153.
 
 \bibitem[Netzer, 2015]{Netzer_2015}
 Netzer, H. (2015).
