@@ -43,6 +43,12 @@ Kotera, K. and Olinto, A.~V. (2011).
 \newblock The astrophysics of ultrahigh-energy cosmic rays.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 49(1):119--153.
 
+\bibitem[Mason, 2015]{MASON201597}
+Mason, R.~E. (2015).
+\newblock Dust in the torus of the agn unified model.
+\newblock {\em Planetary and Space Science}, 116:97--101.
+\newblock Cosmic Dust VII.
+
 \bibitem[Netzer, 2015]{Netzer_2015}
 Netzer, H. (2015).
 \newblock Revisiting the unified model of active galactic nuclei.
@@ -59,5 +65,12 @@ Ueda, Y., Akiyama, M., Ohta, K., and Miyaji, T. (2003).
 \newblock Cosmological evolution of the hard x-ray active galactic nucleus
   luminosity function and the origin of the hard x-ray background.
 \newblock {\em The Astrophysical Journal}, 598(2):886.
+
+\bibitem[Walg et~al., 2013]{walg2013relativistic}
+Walg, S., Achterberg, A., Markoff, S., Keppens, R., and Meliani, Z. (2013).
+\newblock {Relativistic AGN jets I. The delicate interplay between jet
+  structure, cocoon morphology and jet-head propagation}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  433(2):1453--1478.
 
 \end{thebibliography}

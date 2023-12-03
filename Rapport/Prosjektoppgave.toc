@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{7}{}%
 \contentsline {section}{\numberline {2}The ever expanding universe}{7}{}%
-\contentsline {subsection}{\numberline {2.1}comsographic parameters}{7}{}%
+\contentsline {subsection}{\numberline {2.1}Comsographic parameters}{7}{}%
 \contentsline {subsection}{\numberline {2.2}Shape of the universe}{7}{}%
 \contentsline {subsection}{\numberline {2.3}Redshift}{8}{}%
 \contentsline {subsection}{\numberline {2.4}Comoving distance}{8}{}%
@@ -9,32 +9,25 @@
 \contentsline {subsection}{\numberline {3.1}Acceleration of high energy particles}{9}{}%
 \contentsline {subsection}{\numberline {3.2}UHECRs}{11}{}%
 \contentsline {subsubsection}{\numberline {3.2.1}Production and Energy loss}{11}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}detection}{11}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Detection}{11}{}%
 \contentsline {subsubsection}{\numberline {3.2.3}Emissivity estimates}{12}{}%
 \contentsline {subsection}{\numberline {3.3}Neutrinos}{13}{}%
 \contentsline {subsubsection}{\numberline {3.3.1}Production and Energy loss}{13}{}%
-\contentsline {subsubsection}{\numberline {3.3.2}detection}{14}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Detection}{14}{}%
 \contentsline {subsubsection}{\numberline {3.3.3}Emissivity estimates}{14}{}%
 \contentsline {section}{\numberline {4}Active galactic nuclei}{15}{}%
 \contentsline {subsection}{\numberline {4.1}AGN structure and classification}{16}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}Accretion disk}{16}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Emmision lines}{17}{}%
-\contentsline {subsubsection}{\numberline {4.1.3}Broad emmision lines}{18}{}%
-\contentsline {subsubsection}{\numberline {4.1.4}Narrow emmision lines}{18}{}%
-\contentsline {subsubsection}{\numberline {4.1.5}Corona}{18}{}%
-\contentsline {subsubsection}{\numberline {4.1.6}dust torus}{18}{}%
-\contentsline {subsubsection}{\numberline {4.1.7}Broad line region}{18}{}%
-\contentsline {subsubsection}{\numberline {4.1.8}Jets}{18}{}%
-\contentsline {subsection}{\numberline {4.2}Types of AGNs}{18}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Type I and II AGNs}{19}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Blazars}{19}{}%
-\contentsline {subsubsection}{\numberline {4.2.3}Radio galaxies}{19}{}%
-\contentsline {subsubsection}{\numberline {4.2.4}Seyfert galaxies}{19}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Corona and X-ray emission}{17}{}%
+\contentsline {subsubsection}{\numberline {4.1.3}Broad and narrow lines region}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.4}dust torus}{18}{}%
+\contentsline {subsubsection}{\numberline {4.1.5}Jets}{18}{}%
+\contentsline {subsection}{\numberline {4.2}Types of AGNs}{19}{}%
 \contentsline {section}{\numberline {5} Luminosity functions}{19}{}%
 \contentsline {subsection}{\numberline {5.1}X-ray LF}{20}{}%
 \contentsline {section}{\numberline {6}Evolution}{22}{}%
 \contentsline {subsection}{\numberline {6.1}AGN evolution}{22}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}Luminosity distribution}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Density distribution}{22}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Density distribution}{24}{}%
 \contentsline {subsubsection}{\numberline {6.1.3}Expected luminosity}{24}{}%
 \contentsline {section}{\numberline {7}UHECRS emmisivity}{28}{}%
