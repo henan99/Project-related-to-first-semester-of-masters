@@ -32,12 +32,6 @@ Collaboration, T. P.~A., Aab, A., Abreu, P., Aglietta, M., Albuquerque, I.
 \newblock The pierre auger observatory: Contributions to the 35th international
   cosmic ray conference (icrc 2017).
 
-\bibitem[Jacobsen et~al., 2015]{Jacobsen:2015mga}
-Jacobsen, I.~B., Wu, K., On, A. Y.~L., and Saxton, C.~J. (2015).
-\newblock {High-energy neutrino fluxes from AGN populations inferred from X-ray
-  surveys}.
-\newblock {\em Mon. Not. Roy. Astron. Soc.}, 451(4):3649--3663.
-
 \bibitem[Kotera and Olinto, 2011]{doi:10.1146/annurev-astro-081710-102620}
 Kotera, K. and Olinto, A.~V. (2011).
 \newblock The astrophysics of ultrahigh-energy cosmic rays.
@@ -59,6 +53,21 @@ Shields, G.~A. (1999).
 \newblock A brief history of active galactic nuclei.
 \newblock {\em Publications of the Astronomical Society of the Pacific},
   111(760):661--678.
+
+\bibitem[Silverman et~al., 2008]{Silverman_2008}
+Silverman, J.~D., Green, P.~J., Barkhouse, W.~A., Kim, D.-W., Kim, M., Wilkes,
+  B.~J., Cameron, R.~A., Hasinger, G., Jannuzi, B.~T., Smith, M.~G., Smith,
+  P.~S., and Tananbaum, H. (2008).
+\newblock The luminosity function of x-ray-selected active galactic nuclei:
+  Evolution of supermassive black holes at high redshift.
+\newblock {\em The Astrophysical Journal}, 679(1):118.
+
+\bibitem[Ueda et~al., 2014]{Ueda_2014}
+Ueda, Y., Akiyama, M., Hasinger, G., Miyaji, T., and Watson, M.~G. (2014).
+\newblock Toward the standard population synthesis model of the x-ray
+  background: Evolution of x-ray luminosity and absorption functions of active
+  galactic nuclei including compton-thick populations.
+\newblock {\em The Astrophysical Journal}, 786(2):104.
 
 \bibitem[Ueda et~al., 2003]{Ueda_2003}
 Ueda, Y., Akiyama, M., Ohta, K., and Miyaji, T. (2003).

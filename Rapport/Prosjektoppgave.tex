@@ -803,6 +803,7 @@ APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 \hline
 \end{tabularx}
 \caption{X-ray LF parameters}
+\label{tab:xray_lf}
 \end{table}
 
 \begin{table}
@@ -827,39 +828,60 @@ APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 %One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. 
 %Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
 
-For a given type of AGN, different bands will be more important than others. And for populations such as blazars seyfert I or the sub population of blazars where the 
-X-ray factory close to the central engine is visible the x-ray luminosity from these sources will be important. 
+For a given type of celestial objects, different bands will be more important than others, but for populations such as AGNs
+ the x-ray luminosity from these sources are of interest. 
 Therefore several studies attempt to describe the luminosity functions of these sources through the use of the x-ray band. 
 
+In the following analysis I will look at the x-ray luminsity functions of several classes of AGNs; Radio galaxies, Blazars alone with the additonal subdivision into FSRQs and BLlacs, and Seyfert galaxies. In addition to this 
+a study by \cite{Ueda_2014} also look at the total evolution of AGNs which is interesting. The luminosity functions are collected from three papers \cite{Ajello_2009} and \cite{Silverman_2008}, and \cite{Ueda_2014} and their form is explained below.
+
+\textbf{The local luminosity function}:
+The local luminosity function is the luminosity function at $z=0$ and is the starting point for the evolution of the luminosity function.
 The most simplest form of the local luminsoty function is expressed in \cite{Ajello_2009} and is given as a power law.
 
 \begin{equation}
     \frac{d\Psi(L,z=0)}{dL} = \frac{A}{L_x} \left( \frac{L_x}{L_*}\right)^{1-\gamma_2}
 \end{equation}
 
-This simpler power law fails to capture all details for all population evolution and
-therefore a more complex model is needed. For some sources \cite{Ajello_2009} and  \cite{Ueda_2003} 
-use a double power law to better fit the data.
+This functional form has the fewest parameters, but has the disadvantage of not being able to capture all the details of the observed local luminosity functions.
+For that reason a more complex local function is needed which was proposed in \cite{Ueda_2003} and is described by a double power law.
+The functional form of the double power law is as follows.
+
+
    
 \begin{equation}
     \frac{d\Psi(L,z=0)}{dL} =  \frac{A}{\log(10)} \frac{1}{L_x} \left( \left( \frac{L_x}{L_*} \right)^{\gamma_1} + \left( \frac{L_x}{L_*} \right)^{\gamma_2} \right)^{-1}
 \end{equation}
 
-Which has the effect of splitting the luminosity function at the break luminosity $L_*$.
-In addition to the local LF one also considers the evolution factor denoted $e(z)$. 
+The double power law introduced a break luminosity $L_*$ which is the luminosity where the slope of the luminosity function changes.
 
-Again for the simplest evolution a power law is used.
+
+\textbf{Evolution factor}
+In addition to the local LF one also considers the evolution factor denoted $e(z)$. This factor captured the observed evolution of these objects and is the second part of the total luminosity function.
+
+Again for the simplest evolution with the fewest parameters a power law is used.
  $$
-e(z) = (1 + z)^{v_1 + v_2 z}
+e(z) = (1 + z)^{v_1 }
  $$
 
- where $v_2 = 0$ gives the simple power law. In for some cases a more complex evolution is needed. As described in 
- \cite{Ajello_2009} A modiified evolution is often required transformin the usuall PLE and PDE into so called
- Modified PLE and PDE (MPLE, MPDE) and is where the dependenciy on $z$ in the exponent arrives. 
 
- As described in \cite{Ueda_2003} the evolution of the luminosity function is not always a simple as a power law.
- And for some sources a more complex evolution is needed. In \cite{Ueda_2003} they use a double power law to better fit the data where 
- the evolutions is now not only dependent on the redshift but also on the luminosity. This then recvies the apt name as a luminsoty dependent density evolution (LDDE)
+  
+Certain situations necessitate a more detailed approach to model evolution. 
+ As detailed in \cite{Ajello_2009}, a modified evolution is frequently employed. 
+ This adaptation transforms the conventional Pure Luminosity Evolution (PLE) and Pure Density Evolution 
+ (PDE) into their modified counterparts, namely Modified PLE (MPLE) and Modified PDE (MPDE).
+It is within these modified frameworks that a dependence on redshift $z$ emerges in the exponent,
+providing a more nuanced understanding of the evolutionary processes involved. It is given as
+
+$$
+e(z) = (1 + z)^{v_1 +v_2 z }
+ $$
+
+
+
+ To expand further as described in \cite{Ueda_2003} the evolution factor of the luminosity function is not always a simple as a modified power law only dependent on the redshfit $z$.
+For some sources a more complex evolution is needed. In \cite{Ueda_2003} they use a double power law to better fit the data where 
+ the evolutions is now not only dependent on the redshift but also on the luminosity. This then recvies the apt name as a luminsoty dependent density evolution (LDDE) since it is a modified version of a (PDE)
 
 
  \begin{equation}
@@ -884,30 +906,10 @@ e(z) = (1 + z)^{v_1 + v_2 z}
  The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity. 
 
 
+Armed with the functional form of the total luminsoity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008} and \cite{Ajello_2009} and their 
+model name is a comination of the soruce paper (S, A), the type of model it desribes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray sruveys, see the cited papers for more information.
+One can see the parameters for the different models in table \ref{tab:xray_lf} and the luminosity range for which the different models are valid in table \ref{tab:lum_range}.
 
-
-In both \cite{Ajello_2009} and \cite{Ueda_2003} they calculate the luminsity function for different types of AGNs. 
-
-
-
-
-This is over a particular band of wavelengths
-
-
-This equation does not have a simple equation to describe all types of light sources, but for different intervals of wavelengths and redshifts (z) one can observe different trends for different light sources. 
-
-In the paper \cite{Jacobsen:2015mga} the author uses the xray luminosity function. The X-ray luminosity function is used to describe the distribution of X-ray luminosities of objects in a specific population, such as galaxies, galaxy clusters, or active galactic nuclei (AGNs). It provides information about the number density of objects at various X-ray luminosity levels within a given volume of the universe.
-
-
-In \cite{Jacobsen:2015mga} there is a mention of several different models for different populations of AGNs. There she highlights two, \cite{Ajello_2009} and \cite{Ueda_2003}. They are used for different populations.
-
-The present day XLF is presented in \cite{Ajello_2009} and is given by a simple power law. 
-
-\begin{equation}
-    \frac{d\Psi(Lx,0)}{dLog(Lx)} = A\ln (10){(\frac{Lx}{Lc})}^{(1-\gamma_2)}
-\end{equation}
-
-However there is a break with high enough score count and this break can be better fitted with a double power law 
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  3 DEC 2023 15:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  3 DEC 2023 16:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,29 +526,29 @@ Overfull \hbox (1.89136pt too wide) in paragraph at lines 804--804
 <Luminosirt density.png, id=102, 722.7pt x 722.7pt>
 File: Luminosirt density.png Graphic file (type png)
 <use Luminosirt density.png>
-Package pdftex.def Info: Luminosirt density.png  used on input line 947.
+Package pdftex.def Info: Luminosirt density.png  used on input line 949.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
  [22] [23 <./Luminosirt density.png>]
 <Redshift AGN Evolution.png, id=110, 722.7pt x 722.7pt>
 File: Redshift AGN Evolution.png Graphic file (type png)
 <use Redshift AGN Evolution.png>
-Package pdftex.def Info: Redshift AGN Evolution.png  used on input line 986.
+Package pdftex.def Info: Redshift AGN Evolution.png  used on input line 988.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
 <Redshift density Evolution.png, id=111, 722.7pt x 722.7pt>
 File: Redshift density Evolution.png Graphic file (type png)
 <use Redshift density Evolution.png>
-Package pdftex.def Info: Redshift density Evolution.png  used on input line 1023.
+Package pdftex.def Info: Redshift density Evolution.png  used on input line 1025.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
 <Luminosity and Emissivity.png, id=112, 722.7pt x 722.7pt>
 File: Luminosity and Emissivity.png Graphic file (type png)
 <use Luminosity and Emissivity.png>
-Package pdftex.def Info: Luminosity and Emissivity.png  used on input line 1043.
+Package pdftex.def Info: Luminosity and Emissivity.png  used on input line 1045.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
  [24] [25 <./Redshift AGN Evolution.png>] [26 <./Redshift density Evolution.png>] [27 <./Luminosity and Emissivity.png>]
 <L_n_line.png, id=129, 722.7pt x 722.7pt>
 File: L_n_line.png Graphic file (type png)
 <use L_n_line.png>
-Package pdftex.def Info: L_n_line.png  used on input line 1082.
+Package pdftex.def Info: L_n_line.png  used on input line 1084.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
  (Prosjektoppgave.bbl [28] [29 <./L_n_line.png>]) [30] (Prosjektoppgave.aux)
  ***********
@@ -557,15 +557,15 @@ L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8944 strings out of 474592
- 150142 string characters out of 5745798
+ 8948 strings out of 474592
+ 150200 string characters out of 5745798
  1945533 words of memory out of 5000000
- 31001 multiletter control sequences out of 15000+600000
+ 31005 multiletter control sequences out of 15000+600000
  567046 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,12n,93p,570b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Prosjektoppgave.pdf (31 pages, 1776083 bytes).
+Output written on Prosjektoppgave.pdf (31 pages, 1776835 bytes).
 PDF statistics:
  220 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
