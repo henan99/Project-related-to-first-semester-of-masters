@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Prosjektoppgave"] 1701610195 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1701612496 0
+["bibtex Prosjektoppgave"] 1701610195 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1701613189 0
   "./bib.bib" 1701607843 14518 c018f3f6b915a24737a1d58d707f6475 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Prosjektoppgave.aux" 1701612495 9103 2d1b0ff8b1c7bfd9c7d5bcf95dd20705 "pdflatex"
+  "Prosjektoppgave.aux" 1701613188 9103 2d1b0ff8b1c7bfd9c7d5bcf95dd20705 "pdflatex"
   (generated)
   "Prosjektoppgave.bbl"
   "Prosjektoppgave.blg"
   (rewritten before read)
-["pdflatex"] 1701612493 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1701612496 0
+["pdflatex"] 1701613185 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1701613189 0
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700052251 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1700038417 11548 96266e0d0fb57f3629721b4944d7908a ""
   "C:/Users/henri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699867245 24212835 1bf5a7d890c7b4c1680c4113af1d4119 ""
@@ -113,16 +113,16 @@
   "Logo-Ntnu.svg.png" 1699867053 33858 c329779cdda9190fa893270937323f84 ""
   "Luminosirt density.png" 1700830178 172793 7690d92c1f46c5171349bd3f165c669d ""
   "Luminosity and Emissivity.png" 1701113973 95876 694de08f60f6a91ebf2d9fc74cc625b5 ""
-  "Prosjektoppgave.aux" 1701612495 9103 2d1b0ff8b1c7bfd9c7d5bcf95dd20705 "pdflatex"
+  "Prosjektoppgave.aux" 1701613188 9103 2d1b0ff8b1c7bfd9c7d5bcf95dd20705 "pdflatex"
   "Prosjektoppgave.bbl" 1701610195 3380 59c9a67fa562ddc86cb62a70c64238f0 "bibtex Prosjektoppgave"
-  "Prosjektoppgave.lof" 1701612495 2243 7720c23124c5a5ca132fb55a4f8733e5 "pdflatex"
-  "Prosjektoppgave.lot" 1701612495 343 dee1d4c0c0e87e38bfab27f79f5ce0b7 "pdflatex"
-  "Prosjektoppgave.tex" 1701612492 64317 757de9d9ad41600dc7bdc52bcf015a53 ""
-  "Prosjektoppgave.toc" 1701612495 2364 d5bcc0c23afde09a32e4cccbb701592a "pdflatex"
+  "Prosjektoppgave.lof" 1701613188 2243 7720c23124c5a5ca132fb55a4f8733e5 "pdflatex"
+  "Prosjektoppgave.lot" 1701613188 343 dee1d4c0c0e87e38bfab27f79f5ce0b7 "pdflatex"
+  "Prosjektoppgave.tex" 1701613184 64318 a8df113755e2496fbbc10e365a3ae711 ""
+  "Prosjektoppgave.toc" 1701613188 2364 d5bcc0c23afde09a32e4cccbb701592a "pdflatex"
   "Redshift AGN Evolution.png" 1700754655 148462 7e8fbfbef18956de4d3867d9d2df17ec ""
   "Redshift density Evolution.png" 1700754656 165130 c071b379894a5875d8531b237279ccaa ""
   "UHECRs.png" 1701275044 152701 0057c36c9c72c63a9d683f952063d0ad ""
-  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1701612492 64317 757de9d9ad41600dc7bdc52bcf015a53 ""
+  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1701613184 64318 a8df113755e2496fbbc10e365a3ae711 ""
   "hillas_criterion.jpeg" 1701267250 82189 baf9a45c194f5ce59f12f3d05a001503 ""
   "unified model agn.jpg" 1700036843 91732 bc82d2fca4511913f2864041351d46e3 ""
   (generated)
