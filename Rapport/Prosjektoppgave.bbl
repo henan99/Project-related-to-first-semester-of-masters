@@ -13,6 +13,11 @@ Abdul~Halim, A., Abreu, P., Aglietta, M., and Allekotte (2023).
   auger observatory.
 \newblock {\em Journal of Cosmology and Astroparticle Physics}, 2023(05):024.
 
+\bibitem[Abramowicz and Straub, 2023]{scholarpedia_accretion_discs}
+Abramowicz, M.~A. and Straub, D.~O. (2023).
+\newblock Accretion discs.
+\newblock 3.12.2023.
+
 \bibitem[Ajello et~al., 2009]{Ajello_2009}
 Ajello, M., Costamante, L., Sambruna, R.~M., Gehrels, N., Chiang, J., Rau, A.,
   Escala, A., Greiner, J., Tueller, J., Wall, J.~V., and Mushotzky, R.~F.
@@ -32,6 +37,18 @@ Collaboration, T. P.~A., Aab, A., Abreu, P., Aglietta, M., Albuquerque, I.
 \newblock The pierre auger observatory: Contributions to the 35th international
   cosmic ray conference (icrc 2017).
 
+\bibitem[Dermer and Menon, 2009]{BHradiation}
+Dermer, C.~D. and Menon, G. (2009).
+\newblock {\em High Energy Radiation from Black Holes: Gamma Rays, Cosmic Rays,
+  and Neutrinos}.
+\newblock Princeston University Press.
+
+\bibitem[Jacobsen et~al., 2015]{Jacobsen:2015mga}
+Jacobsen, I.~B., Wu, K., On, A. Y.~L., and Saxton, C.~J. (2015).
+\newblock {High-energy neutrino fluxes from AGN populations inferred from X-ray
+  surveys}.
+\newblock {\em Mon. Not. Roy. Astron. Soc.}, 451(4):3649--3663.
+
 \bibitem[Kotera and Olinto, 2011]{doi:10.1146/annurev-astro-081710-102620}
 Kotera, K. and Olinto, A.~V. (2011).
 \newblock The astrophysics of ultrahigh-energy cosmic rays.
@@ -47,6 +64,13 @@ Mason, R.~E. (2015).
 Netzer, H. (2015).
 \newblock Revisiting the unified model of active galactic nuclei.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 53(1):365--408.
+
+\bibitem[Palladino et~al., 2020]{Palladino_2020}
+Palladino, A., van Vliet, A., Winter, W., and Franckowiak, A. (2020).
+\newblock Can astrophysical neutrinos trace the origin of the detected
+  ultra-high energy cosmic rays?
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 494(3):4255
+  4265.
 
 \bibitem[Shields, 1999]{Shields_1999}
 Shields, G.~A. (1999).

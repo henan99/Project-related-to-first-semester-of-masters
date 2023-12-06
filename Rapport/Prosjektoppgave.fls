@@ -218,27 +218,27 @@ INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Luminosirt density.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift AGN Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
-INPUT .\Redshift density Evolution.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift AGN evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
+INPUT .\new_plots\Redshift density evolution.png
 INPUT .\Luminosity and Emissivity.png
 INPUT .\Luminosity and Emissivity.png
 INPUT .\Luminosity and Emissivity.png
@@ -253,6 +253,20 @@ INPUT .\L_n_line.png
 INPUT .\L_n_line.png
 INPUT .\L_n_line.png
 INPUT .\L_n_line.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\L_n_neut_calc.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
+INPUT .\new_plots\Blazar_test_fit.png
 INPUT .\Prosjektoppgave.bbl
 INPUT .\Prosjektoppgave.bbl
 INPUT Prosjektoppgave.bbl

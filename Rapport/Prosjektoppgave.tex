@@ -183,6 +183,7 @@ In these scenarios the redhsift serves as a distance measure, allowing  us to de
 
 
 \subsection{Comoving distance}
+\label{sec:comoving_distance}
 
 
 Comoving distance is an important concept in cosmography, 
@@ -364,6 +365,7 @@ these instruments the observatory is very capable of reconstructing the air show
 and therefore the observatory is complemented by the Telescope Array located in Utah. The Telescope Array is a smaller observatory with 507 scintillator detectors and 3 fluorescence telescopes. Combined they have been able to map the full sky of UHECRs.  
 
 \subsubsection{Emissivity estimates}
+\label{sec:emmisivity}
 
 Now that one somwhat understand the nature of UHECRs one can try to make tangible estimates of the UHECRs sources. One such
 estiamte is the emissivity of UHECR sources. An emmisivty is a measure of the energy released per unit time per unit volume. The question 
@@ -464,6 +466,7 @@ The energy range for this detector is from 10 GeV to 10 EeV. The interaction of 
 
 
 \subsubsection{Emissivity estimates}
+\label{sec:emmisivity_neutrinos}
 
 Armed with the required knowledge above one can also make simple arguments for the soruces of these neutrinos based on the observed 
 flux here on earth. The flux used in this paper is the diffuse flux of neutrinos as measured by the Ice Cube observatory. The flux is shown in figure \ref{fig:flux_neutrinos}. 
@@ -591,7 +594,7 @@ The reader is directed to image \ref{fig:my_label} for a visual representation o
 \subsubsection{Accretion disk}
 An accretion disk is a natural consquence of the consveration of angular momentum. In the case for innfalling 
 matter comming close to a super massiv black hole, the matter will have some angular momentum. This angular momentum would in a 
-an ideal fluid orbit the black hole at some stable distance. Du to radative procesess and some fluid viscosity in this high density matter
+an ideal fluid orbit the black hole at some stable distance. Du to radative procesess, fluid viscosity and gravitational turbulence 
 the matter will lose angular momentum and spiral inwards. This inward spiral will eventually allow the matter to fall onto the black hole. 
 This process of insprial is what is called accretion and the forces acting on the matter to cause the inspiral 
 will also in the same process heat it up to high energies causing it to radiate. This radiation is closly linked to the 
@@ -599,18 +602,22 @@ infalling matter that is accreted onto the black hole and one can express the to
 
 \begin{equation}
     L_{acc} = \eta \dot{M}c^2
+    \label{eq:accretion_luminosity}
 \end{equation}
 
 Here $\eta$ is the efficiency of the accretion disk, $\dot{M}$ is the mass accretion rate and $c$ is the speed of light.
 
 The efficiency of the accretion disk is a function of the spin of the black hole and the radius of the innermost stable circular orbit (ISCO).
 The ISCO is a counter intruitve term in classical mechanics but in general relativity the maximum speed of a particle 
-in addtion to a energy term in the calculationg of the orbit set bounds for how close a particle can be to 
+in addtion to a energy term when calculationg the orbit set bounds for how close a particle can be to 
 a black hole without spiraling in. without going into to much detail the ISCO will be a solution of this equation based on the black holes mass and spin $a$
 
 \begin{equation}
-    6\frac{M}{r}-8\frac{aM^(\frac{1}{2})}{r^{3/2}}+3\frac{a^2}{r^2} = 1
+    6\frac{M}{r_{ISCO}}-8\frac{aM^(\frac{1}{2})}{r^{3/2}_{ISCO}}+3\frac{a^2}{r_{ISCO}^2} = 1
+    \label{eq:ISCO}
 \end{equation}
+It is clear from \ref{eq:ISCO} that for a non rotating black hole the ISCO takes the radius of $6M$, the result obtained from the calculation using the swarzschild metric.
+
 
 The accretion disk also has a bound for its maximum luminosity. As calculated for stars the Eddington
 luminosity sets a maximum strength for the radiation pressure of the accretion disk. This is given as
@@ -619,7 +626,19 @@ Get sources!
 
 \begin{equation}
     L_{Edd} = \frac{4\pi G M m_p c}{\sigma_T}
+    \label{eq:eddington_luminosity}
 \end{equation}
+
+The heating of the accretion disc will lead to thermal radaition from the disc and this radiation will be
+is proportional to the temperature of the disc. This temperature is radially dependent and if one assumse a opticlly thick but geometricly thin disk, also called a Shakura-Sunuaev disk
+one can express the radative surface energy flux taken from \cite{BHradiation}(p. 106) as 
+
+\begin{equation}
+    \frac{dE}{dAdt}= F_{rad}(r) = \frac{3GM\dot{M}}{8\pi r^3}\left(1-\beta\sqrt{\frac{r_{ISCO}}{r}}\right)
+\end{equation}
+
+Here $\beta$ is a constant that relates the fraction of angular momentum captured by the black hole, and $r_{ISCO}$ is the radius of the innermost stable circular orbit. 
+The temperature of the disk lie between $10^5 - 10^2$ K with emmision in the optical, UV to soft X-ray range. \cite{scholarpedia_accretion_discs}
 
 
 \subsubsection{Corona and X-ray emission}
@@ -627,7 +646,7 @@ From high varying x-ray observations of AGNs it became indicative that there was
 The most contemporary idea is that a corona of energetic particles is located above the accretion disk, and through inverse compton scattering
 of the optical/UV photons that arise from the accretion disk produce the seen x-ray emission. 
 
-Inverse compton scattering is the process of a photon gaining energy from a nearby relativistic particle, usally an electron or positron. Due to the increase in efficiency 
+Inverse compton scattering is the process of a photon gaining energy from a nearby relativistic particle. Due to the increase in efficiency 
 of uppscattering a photon with an electron compared to a proton, the corona is thought to be dominated by electrons. The process is as follows
 
 \begin{equation}
@@ -635,12 +654,12 @@ of uppscattering a photon with an electron compared to a proton, the corona is t
 \end{equation}
 
 The reason of interest for this area is that the correlation between the produced x-ray luminsoity can be used to infer some lumunoisty of the more elusive 
-particles UHECRs and neutrinoes. 
+particles UHECRs and neutrinoes. The reason for this is that the ingredients for this x-ray production is the same as for the production of UHECRs and neutrinos (charged praticles and photons). In addition 
+the acceleration into the jet like structure of AGN needs a source of particles and the corona is a natural candidate for this.
 
 
 
 
-write about BB radiation from accretion disk which give rise to x-rays. 
 
 %\subsubsection{Emmision lines}
 %When a particle is photionized by the continuum radiation of a source it will emit a photon when it returns to its ground state. 
@@ -711,7 +730,7 @@ discuss the different types of AGNs and their observational properties.
 
 \textbf{Type I and II AGNs}:
 One distinguishes type I and type II AGNs based on the presence of broad emission lines. In other words this distinction is
-a matter of a visible nucleous or not. Type I refers to sources whose nucleus is exposed to the observer and whos spectrum is 
+a matter of a visible nucleous or not. Type I refers to sources whose nucleus is exposed to the observer and whos spectrum
 has both narrow and broad emmision lines. Type II refers to sources whose nucleus is obscured by a torus and therefore only has narrow emission lines.
 
 \textbf{Blazars}:
@@ -740,7 +759,7 @@ AGNs one can then try to determine the underlying dynamics.
 
 
 \section{ Luminosity functions}
-
+In this section we will discuss the use of luminosity functions to characterize the populations of different AGNs in time/volume and energy. 
 A luminosity function is a function that describes the distribution of objects by their luminosity and their comvoing volume element for a population of celestial sources,
 such as galaxies or quasars. It is a powerful tool for understanding the properties and evolution of 
 these objects, as well as the larger-scale structure of the universe. 
@@ -751,14 +770,14 @@ these objects, as well as the larger-scale structure of the universe.
 \end{equation}
 
 %The quantity of interest is now a number density which can be very useful in deriving observed flux of different objects here on earth. 
-We also can change the differential of the comoving volume into a term only depending on the redhsift assuming it is isotropic.
+On also can change the differential of the comoving volume into a term only depending on the redhsift assuming the source population is isotropic and by mulitplying with the differential comoving volume element.
 
 \begin{equation}
     \frac{d^2N(L,V_c(z))}{dLdV_c(z)}\frac{dV_c(z)}{dz} = \frac{N(L,z)}{dLdz}
 \end{equation}
 
 
-Several articles express the luminosity function in abase $10$ logarithm and we note the conversion between the two. 
+Several articles express the luminosity function in base $10$ logarithm and we note the conversion between the two. 
 
 \begin{equation}
     \frac{d\Psi(L,z)}{dLog(L)} =  \ln (10)  Lx \frac{d\Psi(L,z)}{d(L)}
@@ -786,23 +805,24 @@ LF might use a modified version. This will be come more clear in the next sectio
 
 \begin{table}
 \centering
+\title{Parameter values for the X-ray luminosity functions}
 \begin{tabularx}{\textwidth}{|l|XXXX|XXXXX|}
 \hline
 
 & \multicolumn{2}{c}{\textbf{LF params}} &&&  \textbf{Evolution params} &&&&\\
 
-\textbf{Model} & A & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$\\
+\textbf{Model} & $A$ & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$\\
 \hline
-SLDDE RG & 8.375 & 2.138 & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & 3.981 & 0.317  \\
+SLDDE RG & $8.375^a$ & $2.138^b$ & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & $3.981^b$ & 0.317  \\
 
-AMPLE-Blazar & 1.379 & 1.810 & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
+AMPLE-Blazar & $1.379^a$ & $1.810^b$ & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
 
-AMPLE-FSRQ & 0.175 & 2.420& -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
+AMPLE-FSRQ & $0.175^a$ & $2.420^b$ & -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
 
-APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
+APLE-BLlac & $0.830^a$& $1.000^b$ & 2.61 & &-0.79& & & &  \\
 \hline
 \end{tabularx}
-\caption{X-ray LF parameters}
+\caption{X-ray LF parameters, $a)$ normalised by a factor of $10^{-7}$, $b)$ normalised by a factor of $10^{44}$}
 \label{tab:xray_lf}
 \end{table}
 
@@ -820,6 +840,7 @@ APLE-BLlac & 0.830& 1.000 & 2.61 & -0.79 & & & & &  \\
 
 \end{tabular}
 \caption{Luminosity range for different models}
+
 \label{tab:lum_range}
 
 \end{table}
@@ -832,7 +853,7 @@ For a given type of celestial objects, different bands will be more important th
  the x-ray luminosity from these sources are of interest. 
 Therefore several studies attempt to describe the luminosity functions of these sources through the use of the x-ray band. 
 
-In the following analysis I will look at the x-ray luminsity functions of several classes of AGNs; Radio galaxies, Blazars alone with the additonal subdivision into FSRQs and BLlacs, and Seyfert galaxies. In addition to this 
+In the following analysis I will look at the x-ray luminosity functions of several classes of AGNs; Radio galaxies, Blazars alone and with the additonal subdivision into FSRQs and BLlacs, and Seyfert galaxies. In addition to this 
 a study by \cite{Ueda_2014} also look at the total evolution of AGNs which is interesting. The luminosity functions are collected from three papers \cite{Ajello_2009} and \cite{Silverman_2008}, and \cite{Ueda_2014} and their form is explained below.
 
 \textbf{The local luminosity function}:
@@ -857,7 +878,7 @@ The double power law introduced a break luminosity $L_*$ which is the luminosity
 
 
 \textbf{Evolution factor}
-In addition to the local LF one also considers the evolution factor denoted $e(z)$. This factor captured the observed evolution of these objects and is the second part of the total luminosity function.
+In addition to the local LF one also considers the evolution factor denoted $e(z)$. This factor captures the observed evolution of these objects and is the second part of the total luminosity function.
 
 Again for the simplest evolution with the fewest parameters a power law is used.
  $$
@@ -866,7 +887,7 @@ e(z) = (1 + z)^{v_1 }
 
 
   
-Certain situations necessitate a more detailed approach to model evolution. 
+Certain situations necessitate a more detailed approach to the redshift evolution. 
  As detailed in \cite{Ajello_2009}, a modified evolution is frequently employed. 
  This adaptation transforms the conventional Pure Luminosity Evolution (PLE) and Pure Density Evolution 
  (PDE) into their modified counterparts, namely Modified PLE (MPLE) and Modified PDE (MPDE).
@@ -881,7 +902,7 @@ e(z) = (1 + z)^{v_1 +v_2 z }
 
  To expand further as described in \cite{Ueda_2003} the evolution factor of the luminosity function is not always a simple as a modified power law only dependent on the redshfit $z$.
 For some sources a more complex evolution is needed. In \cite{Ueda_2003} they use a double power law to better fit the data where 
- the evolutions is now not only dependent on the redshift but also on the luminosity. This then recvies the apt name as a luminsoty dependent density evolution (LDDE) since it is a modified version of a (PDE)
+ the evolutions is now not only dependent on the redshift but also on the luminosity. This then recvies the apt name as a luminosity dependent density evolution (LDDE) since it is a modified version of a (PDE)
 
 
  \begin{equation}
@@ -903,11 +924,11 @@ For some sources a more complex evolution is needed. In \cite{Ueda_2003} they us
  \end{equation}
 
 
- The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity. 
+ The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity and possible overfitting. 
 
 
 Armed with the functional form of the total luminsoity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008} and \cite{Ajello_2009} and their 
-model name is a comination of the soruce paper (S, A), the type of model it desribes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray sruveys, see the cited papers for more information.
+model name is a comination of the soruce paper (S, A), the type of model it desribes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray surveys, see the cited papers for more information.
 One can see the parameters for the different models in table \ref{tab:xray_lf} and the luminosity range for which the different models are valid in table \ref{tab:lum_range}.
 
 
@@ -915,13 +936,15 @@ One can see the parameters for the different models in table \ref{tab:xray_lf} a
 
 
 \section{Evolution}
-
+In this section we will be using the different luminosity functions from the previous section to calculate the evolution of the different classes of AGNs. 
+This evolution illustrates the different distribution one can expect from our different classes accros luminosity and redhsift, highliting their evolution in time and energy.
+%By looking at the different trends for the different type of distributions one can observe the evolution and energy distribution of the different classes of AGNs. 
 
 
 \subsection{AGN evolution}
-With the luminosity function one can calculate the evolution of the different classes of AGNs.This evolution is interesting to not because it will 
-illuminate the proccesses that allow for such powerfull objects to be created and will be important for any observable particle that 
-might encounter earth should its origin be AGNs. In this section we will be looking at the different distribution of the different classes of AGN 
+With the luminosity function one can calculate the evolution of the different classes of AGNs.This evolution is interesting because it will 
+illuminate what could be the expected trend of different oberservables such as UHECRs and neutrinoes produces in the same crucible.
+In this section we will be looking at the different distribution of the different classes of AGN 
 mentioned above, by using the X-ray luminosity function. 
 
 
@@ -932,7 +955,7 @@ object. This distribution highlighst the difference over emmitting power and the
 sources and their prevelance. One calculates the Luminosity density by mulitplying the class specific luminosity
 function with the differential comoving volume and integrating over the relevant redshift bin. By seperating it into
 bins of redshift one will illuminate the number evolution in time of these objects. It is important to note 
-that the evolution beyong the given luminosity range is not known and therefore the distribution is not complete. And deducing continued evolution
+that the evolution beyond the given luminosity range is not known and therefore the distribution is not complete. And deducing continued evolution
 can be done but must be taken with a grain of salt. The number of objects these functions are built upon are not very numberous and therefore
 the error bars are quite large, especially in the edges. 
 
@@ -946,25 +969,27 @@ the error bars are quite large, especially in the edges.
 
 \begin{figure}
     \centering
-    \includegraphics[width = \textwidth]{Luminosirt density.png}
+    \includegraphics[width = \textwidth]{new_plots/Luminosity density.png}
     \caption{Luminosity density for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}
     \label{fig:LD}
 \end{figure}
 
-In \ref{fig:LD} one can see the luminosity density for the four different classes of AGNs. The distribution are 
-seperated into four bins of redshift ($0<z<2,2<z<4,4<z<6,6<z<8$). This is done to illuminate the evolution of the different classes at different 
-epochs
-
+In figure \ref{fig:LD} one can see the luminosity density for the four different classes of AGNs. The distribution are 
+seperated into four bins of redshift ($0<z<2,2<z<4,4<z<6,6<z<8$). %
+%This is done to illuminate the evolution of the different classes at different epochs
+  
 For the blazar population in the top left of image \ref{fig:LD} one sees a clear break around $10^{46}$ erg/s. This break indicate that there is a distribution
 around this value and that the most common blazar will be found around this energy level. The distribution also shows a clear evolution in time. wheras the earliest epoch
-and the current epoch both have the fewest number of sources. This evoltion will become more clear in the next section.
+and the current epoch both have the fewest number of sources. In addition the middles epochs have a larger population at higher energies meaning a much energy output in these times. 
 
 For the FSRQs and for the BL Lacs one sees a different distribution. Where one sees more sources as we go to lower energies. The break luminosity for FSRQs 
-is very close to the edge of the luminosity range and is almost nor visible. The Bl Lacs on the other hand do not have a break 
-due to their representation as a simple power law.  
+is very close to the edge of the luminosity range and is almost not visible. The Bl Lacs on the other hand do not have a break 
+due to their representation as a simple power law. They have a clear difference in what epochs contributed most where the FSRQs follow the blazar population by having a larger population at the 
+middle epochs. The bl lacs on the other hand have an increasing population over all energy bins as we go to lower redshifts.
 
-For the Radio galaxy population one sees a different distribution. Here the distribution has a break at $10^{45}$ erg/s and then continues to 
-decrease but with a harder slope. To explain the hardening of the slope one might turn to classification issues with AGNs but it is not clear.
+For the Radio galaxy population one sees a broken powerlaw distribution. Here the distribution has a break at $10^{45}$ erg/s and then continues to 
+decrease but with a harder slope. The figure also shows an increase in population of the lower energies but a stagnation in the higher energies. 
+ %To explain the hardening of the slope one might turn to classification issues with AGNs but it is not clear.
 
 
 \subsubsection{Density distribution}
@@ -985,30 +1010,28 @@ it gives one a stronger intution of the number of objects that are most common a
 
 \begin{figure}
     \centering
-    \includegraphics[width = \textwidth]{Redshift AGN Evolution.png}
+    \includegraphics[width = \textwidth]{new_plots/Redshift AGN evolution.png}
     \caption{Number evolution in terms of redshift for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}
     \label{fig:ND}
 \end{figure}
 
 
 
-In \ref{fig:ND} one sees the number evolution of the different classes of AGNs. The evolution is seperated into four bins of redshift ($0<z<2,2<z<4,4<z<6,6<z<8$).
+In figure \ref{fig:ND} one sees the number evolution of the different classes of AGNs. The evolution is seperated into three bins of luminosty each calculated in the same manner as \cite{Jacobsen:2015mga} which did the same analysis.
 
 For the blazar population in the top left of image \ref{fig:ND} one sees a clear trend with a top point around redshift $z=5$. 
-This is then the epoch where most blazars are present, but it takes a quite uniform shape over all time.
+This is then the epoch where most blazars are present, and the evoltion is more clear for higher energies. This is simialr to what we saw for the luminosity distribution and highlights the fact that blazars dominated earlier epochs and are in decline. 
 
 
 For the FSRQs the evolution is quite linked to the blazard population. This is expected since FSRQs and BLlacs are thought to be 
 sub groups of the bigger blazar group. The evolution also peaks around redshift $z=5$ but is less uniform over time. There is a bigger drop 
-in numbers in the earlier and more recent epochs. 
-
-For Bllacs the distribution is very different. Here the peak comes more aorund redhsift $z=2$ and then drops of quite rapidly for older epochs.
-This evolution is very fascinating since it could contain information about the evolution of the universe and the creation of these 
-objects. 
+in numbers in the earlier and more recent epochs. For Bllacs the distribution is very different. Here the peak comes more aorund redhsift $z=2$ and then drops of quite rapidly for older epochs.
+This is interesting since it might indicate a change in type of AGN that is created. Why does one see less broad band emmision lines from blazars as these plots indicate? 
 
 For the radio galaxies the trend is similar to the Bllacs. The peak of the time evolution is at more recent epoch ($z=1$) and the peak is 
-luminosity dependent. The peak of the most luminous radio galaxies are at higher redshift than the less luminous ones.In addition from source .... one can find
-the evolution comparable to the evolution of the star formation rate. This is interesting since it might indicate that the two are linked.
+luminosity dependent. The peak of the most luminous radio galaxies are at higher redshift than the less luminous ones. This shift indacates a decline in these super luminous objects and they are being replace by less powerfull objects. 
+%In addition from source .... one can find
+%the evolution comparable to the evolution of the star formation rate. This is interesting since it might indicate that the two are linked.
 
 
 The representation of these objects can also be shown by their density distribution. By simply dividing the total number density by the comoving volume one can
@@ -1016,13 +1039,15 @@ find the density of these objects in the universe. By looking at figure \ref{fig
 
 The evolution is similar to that of the total number evolution, but one highlights the biggest difference between the groups. That one groups namely the Bllacs and the radio galaxies
 are increasing in density when looking at lower redshifts and the other two groups are decreasing. This is a very interesting result since it might indicate that the two groups are 
-a product of a different conditions in the universe, for example the totalt density of matter. 
+a product of a different conditions in the universe, for example the totalt density of matter. In addition the decline in higher luminosty objects of both blazars and RG is curious since one would only expect the 
+super massive black holes that produce these objects to increase in size since the beginning of the universe and from equation \ref{eq:eddington_luminosity} this evolution allows for higher stable luminosities. The explaination is probably related to equation \ref{eq:accretion_luminosity} 
+and realising that the accretion rate is not constant and is dependent on the amount of surrounding material to accrete.  
 
 
 
 \begin{figure}
     \centering
-    \includegraphics[width = \textwidth]{Redshift density Evolution.png}
+    \includegraphics[width = \textwidth]{new_plots/Redshift density evolution.png}
     \caption{Density distribution for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}
     \label{fig:DD}
 \end{figure}
@@ -1030,7 +1055,7 @@ a product of a different conditions in the universe, for example the totalt dens
 
 
 \subsubsection{Expected luminosity}
-Another point of interest is the exptect luminosity of an source class at different redshift. This is important since it will directly relate to the 
+From the luminsity function one can also calculate the exptect luminosity of an source class at different redshift. This is important since it will directly relate to the 
 power output of the different epochs and from this one can calcualte an expected emmisitivty of the different classes of AGNs. 
 The expected luminosity of each group can be calcualted with the following formula. 
 
@@ -1039,6 +1064,7 @@ The expected luminosity of each group can be calcualted with the following formu
 \end{equation}
 
 The different luminosity ranges are the same as before and are given in table \ref{tab:lum_range}. The results are shown in figure \ref{fig:EL}.
+In addition a simple multiplication of the density distribution and the expected luminosity will give the expected emmisivity of the different classes of AGNs. This is also shown in figure \ref{fig:EL}.
 
 \begin{figure}
     \centering
@@ -1048,7 +1074,7 @@ The different luminosity ranges are the same as before and are given in table \r
 \end{figure}
 
 The expected luminosity shown at the top is a great reminder of the different classes. Here one sees that FSRQs are inndeed the most luminous part of a blazar AGN and 
-that they represent some of the most luminous objects in the universe. The trend for FSRQs is also very flat with a small bump at the middle epochs. 
+that they represent some of the most luminous objects in the universe. The trend for FSRQs is also very flat with a small bump at the middle epochs. showing that the FSRQs are not becoming dimmer but less numerous.
 
 The Bllacs on the other hand are not as luminous as the FSRQs but are still very luminous. 
 The trend for the Bllacs is a very flat evolution indicating that the produced Bllacs although fewer at earlier epochs are still 
@@ -1056,30 +1082,35 @@ of similar magnitudes.
 
 The group with the biggest varaibility in expected Luminosity is the blazars. Here one sees a curve over the epochs with a peak around redshift $z=5$. 
 This indicates that the produced blazars in newer epochs are less luminous on averge. A similar results obtained from the luminsoity distribution in figure \ref{fig:LD}.
-The evolution of the expected luminosity might be indicative of a badly defiend gorup of objects since one usually distinctions objects based on their luminosity.
+%The evolution of the expected luminosity might be indicative of a badly defiend gorup of objects since one usually distinctions objects based on their luminosity.
 
 The radio galaxies are the least luminous of the four groups and have a very flat evolution. This is expected since the radio galaxies are not as luminous as the blazars.
 
 The emmisivity shown at the bottom in figure \ref{fig:EL} shows a more intersting evolution. The figure shows the output of energy per unit volume per unit time. In other words 
 how much energy these objects are producing and by extension which objects would be relevant at different epochs due to their dominance over the others.
 The most interesting point is around redhsift $z=2$ where the emmisivity of the radio galaxies overtake the dominant blazars. This change would in theory make
-a big splash in the observables here on earth should these objects be the origin of the UHECRs and neutrinos. 
+a big splash in the observables here on earth should these objects be the origin of the UHECRs and neutrinos. The most interesting part is that a higher luminousity in x-ray would 
+reasonably increase the luminosity of neutrinos and UHECRs, but due to energy loss, UHECRs can't be produce far away from earth. By speculating that they are produced in the same source one should expect a 
+higher local energy flux of neutrinoes since more should be created in blazars whih would reach us. 
 
 
+\section{Energy arguments}
+\subsection{UHECRS emmisivity}
+With the calculated emmisivity for the different groups there is now possibility to look from an energy budget viewpoint into the possibility of AGNs being the origin of UHECRs. The 
+reasoning is quite simple but in order for the AGNs to be the origin of UHECRs they must be able to produce the necessary emissivity. 
 
-\section{UHECRS emmisivity}
-With the calculated emmisivity for the different groups there is now possibility to look very briefly into the possibility of AGNs being the origin of UHECRs. The 
-reasoning is quite crude but in order for the AGNs to be the origin of UHECRs they must be able to produce the necessary energy. 
+From our own calcuation in \ref{sec:emmisivity} the energy density of UHECRs is given as $7 \cdot 10^{44}\frac{erg}{Mpc^3yr}$ this was calcuated from the observed flux of UHECRs from the Pierre Auger observatory \cite{thepierreaugercollaboration2017pierre}.
+This emmisivity is very interesting due to the energy loss a UHECR will experience when travelling through the universe. We used the energy loss to somewhat arbritrarly limit the distance a UHECR could be produced from.
+Therefore we must choose the emmisivity of our sources from similar distances since it may change. By looking at the emmisivity at very close redshift one can comapre the two values. The redshift chosen for comparison is $z=0.01$ which is  very close to our local area. %smoewhat in the middle of the distance limit of our UHECRs ($z= 0.2$). 
+To calculate the emmsisitity of our sources one takes the density of these sources at the desired redshift and multiplies it with the expected luminosity at the same redshift.
 
-According to .... the energy density of UHECRs is given as $3 \cdot 10^{44}\frac{erg}{Mpc^3yr}$ ....
 
-In order to estimate the sources of these UHECRs and based on the limit of how close an UHECR could be produced to earth one can calculate the emmisivity needed to produce these UHECRs.
-By estimating the emmisivity produced from our sources at a very low redshift (i.e $z=0.01$) one can then calculate emmisitivty of our sources and compared to the required emmisivity.
-To calculate the emmsisitity of our sources one takes the density of these sources at the desired redshift and multiplies it with the expected luminosity at that redshift.
+%In order to estimate the sources of these UHECRs and based on the limit of how close an UHECR could be produced to earth one can calculate the emmisivity needed to produce these UHECRs.
+%By estimating the emmisivity produced from our sources at a very low redshift (i.e $z=0.01$) one can then calculate emmisitivty of our sources and compared to the required emmisivity.
 
 The resutling figure is shown in figure \ref{fig:UHECR}.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width = \textwidth]{L_n_line.png}
     \caption{UHECR emmisivity for the four different classes of AGNs.}
@@ -1090,7 +1121,46 @@ The figure shows that almost all classes produce enough energy in X-rays in orde
 density limits the required emmisivity. This result is a fine indication that AGNs could be the origin of UHECRs. However this is a very crude estimate and the
 the correlation between X-ray luminosity and UHECR luminosity is not well defined and might include intrinquities that are not accounted for.
 
+\subsection{Neutrino emmisivity}
+In a similat fashion we calcualted the local emmisivity for the neutrinos in section \ref{sec:emmisivity}. The result was $1.2 \cdot 10^{45}\frac{erg}{Mpc^3yr}$ which is a factor 10 higher than for UHECRs.
+In the calcualtion the neutrino flux was taken from the IceCube observatory \cite{Abbasi_2022} and the energy range was taken to be $1TeV - 10PeV$ which should be the astrophysical neutrino flux.
+the difference from the UHECR flux is the energy loss and our emmiting area is now the whole universe. In order to reach a comparable emmisivity one must therefore take an average of our sources over the whole universe.
+The  resulting figure is shown in figure \ref{fig:neutrino}.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{L_n_neut_calc.png}
+    \caption{Neutrino emmisivity for the four different classes of AGNs.}
+    \label{fig:neutrino}
+\end{figure}
+
+This figure shows that the neutrino flux can be produced by all classes except 
+the BL Lacs. This is an effect of the avereging since the BL lacs have a postive evoultion.
+ The opposite are the FSRQs who now are able to produce the required emmisivity.
+
+The averaging proceedure does not take into account that the neutrino flux accutally loses energy when it travels throught the universe which should weigh earlier source less, and we can do better than a crude average. 
+From \cite{Palladino_2020} one can define the diffuse neutrino flux as a transfer function which takes into account the energy loss of the neutrinos. This transfer function is given as
+
+\begin{equation}
+    \frac{d\phi_\nu}{dE_\nu} = \int_0^{z_{max}} \frac{D_H}{E(z)} \frac{L(E_\nu (1+z))}{(1+z)^2} \rho(z) dz
+\end{equation}
+
+here $D_H$ is the Hubble distance, $E(z)$ is the function defined in section \ref{sec:comoving_distance} , $L(E_\nu (1+z))$ is a power law representing the neutrino flux at the source, when integrated reproduces the source luminosity, and $\rho(z)$ is the number density of our sources at redshift $z$.
+with this function we can calculated the expected diffuse flux of neutrinos from our sources. The result is shown in figure \ref{fig:neutrino_diffuse}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \textwidth]{new_plots/Blazar_test_fit.png}
+    \caption{Diffuse neutrino flux for the four different classes of AGNs.}
+    \label{fig:neutrino_diffuse}
+\end{figure}
+
+what one sees here is the same result from our crude average. The FSRQs are now able to produce the required emmisivity and the BL Lacs are not. The result has several flaws. Firstly the estimated power law of neutrinos is the same as for the observed ICE CUBE diffuse flux. This is a very arbritrarly chosen power law and does not represent any of the parameters that might be included into the production of neutrinos except the x-ray luminosity. 
+The remedy for this is to define a bottom up approach for the nuetrino prudction more carefully based on the x-ray luminosity. By doing such an approach one can begin to test our different models for the neutrino production and see if they are able to produce the observed diffuse flux. 
+This is however outside the scope of this paper and will be left for future work.
+The fact that all sources are overshooting the observed neutrino flux would be a problem if we had a more constrained solution. Any solution that overshoots will not be the source since it is not what we observe, but in our case 
+our solution rest on the fact that the neutrino luminsity is equal to the x-ray, an assumition easily broken and without nuance. Therefore the only concrete conclusion one can draw from this is that the neutrino flux can be produced by our AGNs since they are able to produce the required emmisivity.
+From several papers one can also include the dipole moment arguments which introduces a required density of sources to produce the observed isotropy of neutrinos. This would be a problem for our more obscure sources FSRQs and BLlacs since they are not as numerous as the radio galaxies, but again they are more luminous.  
+\section{Conclusion}
 
 
 \bibliography{bib}

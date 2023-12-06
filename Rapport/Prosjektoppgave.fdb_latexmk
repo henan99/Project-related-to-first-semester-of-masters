@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Prosjektoppgave"] 1701615189 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1701615739 0
-  "./bib.bib" 1701614074 17341 cab9676ebf855ed82dc8ee2dba9a7c2a ""
+["bibtex Prosjektoppgave"] 1701876206 "Prosjektoppgave.aux" "Prosjektoppgave.bbl" "Prosjektoppgave" 1701876577 0
+  "./bib.bib" 1701853234 18375 581c645063e4cd5a5d08797bf0317029 ""
   "C:/Users/henri/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Prosjektoppgave.aux" 1701615738 9141 08f3cd567ebb8a256272a799370d2715 "pdflatex"
+  "Prosjektoppgave.aux" 1701876576 10701 05bed2ddedc0a08e68f44ec861a6169e "pdflatex"
   (generated)
   "Prosjektoppgave.bbl"
   "Prosjektoppgave.blg"
   (rewritten before read)
-["pdflatex"] 1701615735 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1701615739 0
+["pdflatex"] 1701876574 "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" "Prosjektoppgave.pdf" "Prosjektoppgave" 1701876577 0
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1700052251 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/henri/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1700038417 11548 96266e0d0fb57f3629721b4944d7908a ""
   "C:/Users/henri/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699867245 24212835 1bf5a7d890c7b4c1680c4113af1d4119 ""
@@ -110,20 +110,22 @@
   "Ice_cube_flux_tot.png" 1701354659 141280 be0c0a9a8035390ce40c73eac0862580 ""
   "Ice_cube_layot.png" 1701351285 544081 a4bd41daee03d2aa66dd08ad2ec75337 ""
   "L_n_line.png" 1701177341 54128 2c79d23a320edbbcaa2e04358046c12e ""
+  "L_n_neut_calc.png" 1701259932 56382 02f72ba992db6a8aecd314d22778a5bc ""
   "Logo-Ntnu.svg.png" 1699867053 33858 c329779cdda9190fa893270937323f84 ""
-  "Luminosirt density.png" 1700830178 172793 7690d92c1f46c5171349bd3f165c669d ""
   "Luminosity and Emissivity.png" 1701113973 95876 694de08f60f6a91ebf2d9fc74cc625b5 ""
-  "Prosjektoppgave.aux" 1701615738 9141 08f3cd567ebb8a256272a799370d2715 "pdflatex"
-  "Prosjektoppgave.bbl" 1701615190 3920 3ebe1aeb610f43c2f14e64d4b6fbe4a4 "bibtex Prosjektoppgave"
-  "Prosjektoppgave.lof" 1701615738 2243 7720c23124c5a5ca132fb55a4f8733e5 "pdflatex"
-  "Prosjektoppgave.lot" 1701615738 343 dee1d4c0c0e87e38bfab27f79f5ce0b7 "pdflatex"
-  "Prosjektoppgave.tex" 1701615734 64945 b227866130df2118289f85846d0dea04 ""
-  "Prosjektoppgave.toc" 1701615738 2364 d5bcc0c23afde09a32e4cccbb701592a "pdflatex"
-  "Redshift AGN Evolution.png" 1700754655 148462 7e8fbfbef18956de4d3867d9d2df17ec ""
-  "Redshift density Evolution.png" 1700754656 165130 c071b379894a5875d8531b237279ccaa ""
+  "Prosjektoppgave.aux" 1701876576 10701 05bed2ddedc0a08e68f44ec861a6169e "pdflatex"
+  "Prosjektoppgave.bbl" 1701876206 4908 770fbf07d285548fa7bacef7cb626934 "bibtex Prosjektoppgave"
+  "Prosjektoppgave.lof" 1701876576 2491 3f54ca79fa3c359e5c423b9c26c63bb3 "pdflatex"
+  "Prosjektoppgave.lot" 1701876576 427 6a4d11b97f6dff11108e5770aba18081 "pdflatex"
+  "Prosjektoppgave.tex" 1701876433 74232 574a2020da22cbe1ab3894e47ce8072f ""
+  "Prosjektoppgave.toc" 1701876576 2563 73a66a2e42f06dfbe976c6554e4ee22a "pdflatex"
   "UHECRs.png" 1701275044 152701 0057c36c9c72c63a9d683f952063d0ad ""
-  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1701615734 64945 b227866130df2118289f85846d0dea04 ""
+  "c:/Users/henri/OneDrive/Documents/Prosjektoppgave/Luminosity functions/Rapport/Prosjektoppgave.tex" 1701876433 74232 574a2020da22cbe1ab3894e47ce8072f ""
   "hillas_criterion.jpeg" 1701267250 82189 baf9a45c194f5ce59f12f3d05a001503 ""
+  "new_plots/Blazar_test_fit.png" 1701870387 41342 b544632fae2a492aa8262a4d1050cfc4 ""
+  "new_plots/Luminosity density.png" 1701876571 203622 ea06bc785c0f2cfc37e7e8669ee13536 ""
+  "new_plots/Redshift AGN evolution.png" 1701876573 155444 f3ef633ca87583250c282626b8cc5915 ""
+  "new_plots/Redshift density evolution.png" 1701876575 168656 379d9397c11023ea39c5366c3759f2c9 ""
   "unified model agn.jpg" 1700036843 91732 bc82d2fca4511913f2864041351d46e3 ""
   (generated)
   "Prosjektoppgave.aux"
