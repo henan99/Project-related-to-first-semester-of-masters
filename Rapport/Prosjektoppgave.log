@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  6 DEC 2023 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  6 DEC 2023 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -513,12 +513,12 @@ File: unified model agn.jpg Graphic file (type jpg)
 Package pdftex.def Info: unified model agn.jpg  used on input line 589.
 (pdftex.def)             Requested size: 350.33727pt x 271.52345pt.
  [16] [17 <./unified model agn.jpg>] [18] [19]
-Overfull \hbox (13.91078pt too wide) in paragraph at lines 824--824
+Overfull \hbox (15.47916pt too wide) in paragraph at lines 826--826
 []|\OT1/cmr/bx/n/10 Evolution
  []
 
 
-Overfull \hbox (1.89136pt too wide) in paragraph at lines 824--824
+Overfull \hbox (3.45973pt too wide) in paragraph at lines 826--826
 \OT1/cmr/bx/n/10 params| 
  []
 
@@ -526,58 +526,58 @@ Overfull \hbox (1.89136pt too wide) in paragraph at lines 824--824
 <new_plots/Luminosity density.png, id=105, 722.7pt x 722.7pt>
 File: new_plots/Luminosity density.png Graphic file (type png)
 <use new_plots/Luminosity density.png>
-Package pdftex.def Info: new_plots/Luminosity density.png  used on input line 972.
+Package pdftex.def Info: new_plots/Luminosity density.png  used on input line 1018.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
-<new_plots/Redshift AGN evolution.png, id=106, 722.7pt x 722.7pt>
+ [23] [24 <./new_plots/Luminosity density.png>]
+<new_plots/Redshift AGN evolution.png, id=114, 722.7pt x 722.7pt>
 File: new_plots/Redshift AGN evolution.png Graphic file (type png)
 <use new_plots/Redshift AGN evolution.png>
-Package pdftex.def Info: new_plots/Redshift AGN evolution.png  used on input line 1013.
+Package pdftex.def Info: new_plots/Redshift AGN evolution.png  used on input line 1059.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
- [23] [24 <./new_plots/Luminosity density.png>] [25 <./new_plots/Redshift AGN evolution.png>]
-<new_plots/Redshift density evolution.png, id=119, 722.7pt x 722.7pt>
+<new_plots/Redshift density evolution.png, id=115, 722.7pt x 722.7pt>
 File: new_plots/Redshift density evolution.png Graphic file (type png)
 <use new_plots/Redshift density evolution.png>
-Package pdftex.def Info: new_plots/Redshift density evolution.png  used on input line 1050.
+Package pdftex.def Info: new_plots/Redshift density evolution.png  used on input line 1096.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
-<Luminosity and Emissivity.png, id=120, 722.7pt x 722.7pt>
-File: Luminosity and Emissivity.png Graphic file (type png)
-<use Luminosity and Emissivity.png>
-Package pdftex.def Info: Luminosity and Emissivity.png  used on input line 1071.
+ [25] [26 <./new_plots/Redshift AGN evolution.png>] [27 <./new_plots/Redshift density evolution.png>]
+<new_plots/Luminosity and Emissivity.png, id=127, 722.7pt x 722.7pt>
+File: new_plots/Luminosity and Emissivity.png Graphic file (type png)
+<use new_plots/Luminosity and Emissivity.png>
+Package pdftex.def Info: new_plots/Luminosity and Emissivity.png  used on input line 1117.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
- [26] [27 <./new_plots/Redshift density evolution.png>] [28 <./Luminosity and Emissivity.png>]
-<L_n_line.png, id=132, 722.7pt x 722.7pt>
-File: L_n_line.png Graphic file (type png)
-<use L_n_line.png>
-Package pdftex.def Info: L_n_line.png  used on input line 1115.
+<new_plots/L_n_uhecr_calc.png, id=128, 722.7pt x 722.7pt>
+File: new_plots/L_n_uhecr_calc.png Graphic file (type png)
+<use new_plots/L_n_uhecr_calc.png>
+Package pdftex.def Info: new_plots/L_n_uhecr_calc.png  used on input line 1161.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
- [29] [30 <./L_n_line.png>]
-<L_n_neut_calc.png, id=141, 722.7pt x 722.7pt>
-File: L_n_neut_calc.png Graphic file (type png)
-<use L_n_neut_calc.png>
-Package pdftex.def Info: L_n_neut_calc.png  used on input line 1132.
+ [28] [29 <./new_plots/Luminosity and Emissivity.png>] [30 <./new_plots/L_n_uhecr_calc.png>]
+<new_plots/L_n_neut_calc.png, id=141, 722.7pt x 722.7pt>
+File: new_plots/L_n_neut_calc.png Graphic file (type png)
+<use new_plots/L_n_neut_calc.png>
+Package pdftex.def Info: new_plots/L_n_neut_calc.png  used on input line 1178.
 (pdftex.def)             Requested size: 500.484pt x 500.48308pt.
- [31 <./L_n_neut_calc.png>]
-<new_plots/Blazar_test_fit.png, id=146, 462.528pt x 346.896pt>
-File: new_plots/Blazar_test_fit.png Graphic file (type png)
-<use new_plots/Blazar_test_fit.png>
-Package pdftex.def Info: new_plots/Blazar_test_fit.png  used on input line 1152.
-(pdftex.def)             Requested size: 500.484pt x 375.38313pt.
- [32 <./new_plots/Blazar_test_fit.png>] (Prosjektoppgave.bbl [33]) [34] (Prosjektoppgave.aux)
+ [31 <./new_plots/L_n_neut_calc.png>]
+<new_plots/diffuse_fluxes_neutrino_no_cutoff.png, id=146, 722.7pt x 722.7pt>
+File: new_plots/diffuse_fluxes_neutrino_no_cutoff.png Graphic file (type png)
+<use new_plots/diffuse_fluxes_neutrino_no_cutoff.png>
+Package pdftex.def Info: new_plots/diffuse_fluxes_neutrino_no_cutoff.png  used on input line 1198.
+(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
+ [32 <./new_plots/diffuse_fluxes_neutrino_no_cutoff.png>] (Prosjektoppgave.bbl [33]) [34] (Prosjektoppgave.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8983 strings out of 474592
- 151301 string characters out of 5745798
- 1947533 words of memory out of 5000000
- 31040 multiletter control sequences out of 15000+600000
+ 8982 strings out of 474592
+ 151661 string characters out of 5745798
+ 1951533 words of memory out of 5000000
+ 31039 multiletter control sequences out of 15000+600000
  567046 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,13n,93p,570b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Prosjektoppgave.pdf (35 pages, 1896190 bytes).
+Output written on Prosjektoppgave.pdf (35 pages, 1966075 bytes).
 PDF statistics:
  236 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

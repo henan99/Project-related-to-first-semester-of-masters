@@ -820,9 +820,12 @@ AMPLE-Blazar & $1.379^a$ & $1.810^b$ & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
 AMPLE-FSRQ & $0.175^a$ & $2.420^b$ & -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
 
 APLE-BLlac & $0.830^a$& $1.000^b$ & 2.61 & &-0.79& & & &  \\
+APLE-Seyfert & $0.909^b$ & $0.61^b$ & 0.8 & 2.67& & & & &  \\
+ULDDE-All AGN$^c$ & $2.91^a$ & $0.93^b$ & 0.96 & 2.71& 4.78 &-1.5 &1.86 &$4.07^b$ &0.29  \\
 \hline
 \end{tabularx}
-\caption{X-ray LF parameters, $a)$ normalised by a factor of $10^{-7}$, $b)$ normalised by a factor of $10^{44}$}
+\caption{X-ray LF parameters, $a)$ normalised by a factor of $10^{-7}$, $b)$ normalised by a factor of $10^{44}$
+c) has more factors that do not fit in the table, $z_{c2} = 3$, $\alpha_2 =-0.1$, $L_{c2} = 10^{44}$, $v_3 = -6.2 $, $\beta=0.84$ }
 \label{tab:xray_lf}
 \end{table}
 
@@ -832,10 +835,12 @@ APLE-BLlac & $0.830^a$& $1.000^b$ & 2.61 & &-0.79& & & &  \\
     \hline
      Model Name   & Luminosity Range (Log(L))  \\
     \hline
-     SLDDE\_RG     & 42 - 47            \\
-     AMPLE\_Blazar & 44 - 48.5          \\
-     AMPLE\_FSRQ   & 46 - 48.5          \\
-     APLE\_BLlac   & 44.5 - 48.5        \\
+     SLDDE RG     & 42 - 47            \\
+     AMPLE Blazar & 44 - 48.5          \\
+     AMPLE FSRQ   & 46 - 48.5          \\
+     APLE BLlac   & 44.5 - 48.5        \\
+     APLE Seyfert & 41 - 47          \\
+     ULDDE All AGN & 42 - 46 \\
     \hline
 
 \end{tabular}
@@ -926,9 +931,50 @@ For some sources a more complex evolution is needed. In \cite{Ueda_2003} they us
 
  The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity and possible overfitting. 
 
+ Lastly \cite{Ueda_2014} cosidered a XLF for the entire population of AGNs and naturally this has a more complex evolution structure. It is also an LDDE model but with three steps instead of two which we have in \cite{Ueda_2003}.
+The evolution is given as
 
-Armed with the functional form of the total luminsoity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008} and \cite{Ajello_2009} and their 
-model name is a comination of the soruce paper (S, A), the type of model it desribes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray surveys, see the cited papers for more information.
+ 
+\begin{equation}
+e_z(z, L) = 
+\begin{cases} 
+(1 + z)^{p_1} & \text{if } z \leq z_*(L) \\
+(1 + z_{*})^{p_1} \left( \frac{1 + z}{1 + z_*(L)} \right)^{v_2} & \text{if } z >  z_*(L)\\
+(1 + z_{*})^{p_1} (\frac{1 + z_{*2}}{1+ z_{*}})^{v_2} (\frac{1+z}{1+z_{*2}})^{v_3} & \text{if } z >  z_{*2}(L)
+
+\end{cases}
+\end{equation}
+
+with the exponent $p_1$ being defined as
+\begin{equation}
+    p_1 = v_1 + \beta(log(L)-44)
+\end{equation}
+
+with $z_{*}(L)$ being defined as
+
+\begin{equation}
+z_*(L) = 
+\begin{cases} 
+z_c \left( \frac{L}{L_c} \right)^\alpha & \text{if } L \leq L_c \\
+z_c & \text{if } L > L_c 
+\end{cases}
+\end{equation}
+
+
+and $z_{*2}(L)$ being defined as
+
+\begin{equation}
+z_{*2}(L) =
+\begin{cases}
+z_{c2} \left( \frac{L}{L_{c2}} \right)^{\alpha_2} & \text{if } L \leq L_{c2} \\
+z_{c2} & \text{if } L > L_{c2}
+\end{cases}
+\end{equation}
+
+
+
+Armed with the functional form of the total luminsoity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008}, \cite{Ajello_2009} and \cite{Ueda_2014} and their 
+model name is a combination of the source paper (S, A,U), the type of model it desribes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray surveys, see the cited papers for more information.
 One can see the parameters for the different models in table \ref{tab:xray_lf} and the luminosity range for which the different models are valid in table \ref{tab:lum_range}.
 
 
@@ -1068,7 +1114,7 @@ In addition a simple multiplication of the density distribution and the expected
 
 \begin{figure}
     \centering
-    \includegraphics[width = \textwidth]{Luminosity and Emissivity.png}
+    \includegraphics[width = \textwidth]{new_plots/Luminosity and Emissivity.png}
     \caption{Expected luminosity and emmisivity for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}
     \label{fig:EL}
 \end{figure}
@@ -1112,7 +1158,7 @@ The resutling figure is shown in figure \ref{fig:UHECR}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \textwidth]{L_n_line.png}
+    \includegraphics[width = \textwidth]{new_plots/L_n_uhecr_calc.png}
     \caption{UHECR emmisivity for the four different classes of AGNs.}
     \label{fig:UHECR}
 \end{figure}
@@ -1129,7 +1175,7 @@ The  resulting figure is shown in figure \ref{fig:neutrino}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \textwidth]{L_n_neut_calc.png}
+    \includegraphics[width = \textwidth]{new_plots/L_n_neut_calc.png}
     \caption{Neutrino emmisivity for the four different classes of AGNs.}
     \label{fig:neutrino}
 \end{figure}
@@ -1142,14 +1188,14 @@ The averaging proceedure does not take into account that the neutrino flux accut
 From \cite{Palladino_2020} one can define the diffuse neutrino flux as a transfer function which takes into account the energy loss of the neutrinos. This transfer function is given as
 
 \begin{equation}
-    \frac{d\phi_\nu}{dE_\nu} = \int_0^{z_{max}} \frac{D_H}{E(z)} \frac{L(E_\nu (1+z))}{(1+z)^2} \rho(z) dz
+    \frac{d\phi_\nu}{dE_\nu} = \int_0^{z_{max}} \frac{D_H}{E(z)} \frac{L(E_\nu (1+z),<L_x>(z))}{(1+z)^2} \rho(z) dz
 \end{equation}
 
-here $D_H$ is the Hubble distance, $E(z)$ is the function defined in section \ref{sec:comoving_distance} , $L(E_\nu (1+z))$ is a power law representing the neutrino flux at the source, when integrated reproduces the source luminosity, and $\rho(z)$ is the number density of our sources at redshift $z$.
+here $D_H$ is the Hubble distance, $E(z)$ is the function defined in section \ref{sec:comoving_distance} , $L(E_\nu (1+z), <L_x>(z))$ is a power law representing the neutrino flux at the source, when integrated reproduces the average source luminosity at redshift $z$, and $\rho(z)$ is the number density of our sources at redshift $z$.
 with this function we can calculated the expected diffuse flux of neutrinos from our sources. The result is shown in figure \ref{fig:neutrino_diffuse}.
 \begin{figure}[H]
     \centering
-    \includegraphics[width = \textwidth]{new_plots/Blazar_test_fit.png}
+    \includegraphics[width = \textwidth]{new_plots/diffuse_fluxes_neutrino_no_cutoff.png}
     \caption{Diffuse neutrino flux for the four different classes of AGNs.}
     \label{fig:neutrino_diffuse}
 \end{figure}

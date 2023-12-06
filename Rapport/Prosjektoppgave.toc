@@ -25,12 +25,12 @@
 \contentsline {subsection}{\numberline {4.2}Types of AGNs}{19}{}%
 \contentsline {section}{\numberline {5} Luminosity functions}{20}{}%
 \contentsline {subsection}{\numberline {5.1}X-ray LF}{20}{}%
-\contentsline {section}{\numberline {6}Evolution}{22}{}%
-\contentsline {subsection}{\numberline {6.1}AGN evolution}{22}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}Luminosity distribution}{22}{}%
+\contentsline {section}{\numberline {6}Evolution}{23}{}%
+\contentsline {subsection}{\numberline {6.1}AGN evolution}{23}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Luminosity distribution}{23}{}%
 \contentsline {subsubsection}{\numberline {6.1.2}Density distribution}{23}{}%
-\contentsline {subsubsection}{\numberline {6.1.3}Expected luminosity}{26}{}%
-\contentsline {section}{\numberline {7}Energy arguments}{29}{}%
-\contentsline {subsection}{\numberline {7.1}UHECRS emmisivity}{29}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}Expected luminosity}{25}{}%
+\contentsline {section}{\numberline {7}Energy arguments}{28}{}%
+\contentsline {subsection}{\numberline {7.1}UHECRS emmisivity}{28}{}%
 \contentsline {subsection}{\numberline {7.2}Neutrino emmisivity}{30}{}%
 \contentsline {section}{\numberline {8}Conclusion}{33}{}%
