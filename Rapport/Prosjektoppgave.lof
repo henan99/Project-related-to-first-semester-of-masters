@@ -1,12 +1,11 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Hillas criterion for proton (blue line) and iron (red line) accelerated up to $10^{20}eV$ and $10^{21}eV$ respectively. Image taken from \cite {doi:10.1146/annurev-astro-081710-102620}}}{10}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces The diffuse flux of UHECRs as measured by the Pierre Auger observatory and the Telescope Array. The flux is seperated into galactic and extra galactic sources where the total spectrum follows the black dots. Image taken from \cite {Abdul_Halim_2023}}}{12}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces The diffuse flux of UHECRs as measured by the Pierre Auger Observatory and the Telescope Array. The flux is separated into galactic and extra galactic sources where the total spectrum follows the black dots. Image taken from \cite {Abdul_Halim_2023}}}{12}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces The ICE CUBE neutrino observatory. The detector is located at the south pole and is a large block of ice instrumented with photomultiplier tubes. Image taken from \cite {Andeen_2019}}}{14}{}%
 \contentsline {figure}{\numberline {4}{\ignorespaces The diffuse flux of neutrinos as measured by the Ice Cube observatory. The y-axis on the left image is the number of events per bin. The flux is separated into contributions from atmospheric neutrinos and astrophysical neutrinos. The right image is the model astrophysical flux as measured by ICE CUBE. Images taken from \cite {Abbasi_2022} }}{15}{}%
 \contentsline {figure}{\numberline {5}{\ignorespaces AGN unification}}{17}{}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Luminosity density for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{24}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Number evolution in terms of redshift for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{26}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Density distribution for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{27}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Expected luminosity and emmisivity for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{29}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces UHECR emmisivity for the four different classes of AGNs.}}{30}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Neutrino emmisivity for the four different classes of AGNs.}}{31}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Diffuse neutrino flux for the four different classes of AGNs.}}{32}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Luminosity density for the luminosity functions. The different classes are defined in the title with the chosen LF model in \ref {tab:xray_lf}.}}{24}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Density distribution for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{26}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Expected luminosity and emissivity for the four different classes of AGNs. The different classes are defined in the title as well as the chosen LF model.}}{28}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces UHECR emissivity for the four different classes of AGNs.}}{29}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Neutrino emissivity for the four different classes of AGNs.}}{31}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Diffuse neutrino flux for the four different classes of AGNs.}}{32}{}%

@@ -31,6 +31,12 @@ Andeen, K. and Plum, M. (2019).
 \newblock Latest cosmic ray results from icetop and icecube.
 \newblock {\em EPJ Web of Conferences}, 210:03005.
 
+\bibitem[Bian and Zhao, 2003]{Wei-Hao_2003}
+Bian, W.-H. and Zhao, Y.-H. (2003).
+\newblock {Accretion Rates and the Accretion Efficiency in AGNs}.
+\newblock {\em Publications of the Astronomical Society of Japan},
+  55(3):599--603.
+
 \bibitem[Collaboration et~al., 2017]{thepierreaugercollaboration2017pierre}
 Collaboration, T. P.~A., Aab, A., Abreu, P., Aglietta, M., Albuquerque, I.
   F.~M., and Allekotte, I. (2017).
@@ -43,16 +49,32 @@ Dermer, C.~D. and Menon, G. (2009).
   and Neutrinos}.
 \newblock Princeston University Press.
 
-\bibitem[Jacobsen et~al., 2015]{Jacobsen:2015mga}
-Jacobsen, I.~B., Wu, K., On, A. Y.~L., and Saxton, C.~J. (2015).
-\newblock {High-energy neutrino fluxes from AGN populations inferred from X-ray
-  surveys}.
-\newblock {\em Mon. Not. Roy. Astron. Soc.}, 451(4):3649--3663.
+\bibitem[Garofalo et~al., 2019]{Garofalo_2019}
+Garofalo, D., Singh, C.~B., Walsh, D.~T., Christian, D.~J., Jones, A.~M., Zack,
+  A., Webster, B., and Kim, M.~I. (2019).
+\newblock The redshift distribution of bl lacs and fsrqs.
+\newblock {\em Research in Astronomy and Astrophysics}, 19(1):013.
 
 \bibitem[Kotera and Olinto, 2011]{doi:10.1146/annurev-astro-081710-102620}
 Kotera, K. and Olinto, A.~V. (2011).
 \newblock The astrophysics of ultrahigh-energy cosmic rays.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 49(1):119--153.
+
+\bibitem[Kurahashi et~al., 2022]{Kurahashi_2022}
+Kurahashi, N., Murase, K., and Santander, M. (2022).
+\newblock High-energy extragalactic neutrino astrophysics.
+\newblock {\em Annual Review of Nuclear and Particle Science}, 72(1):365–387.
+
+\bibitem[Laha et~al., 2021]{Laha_2021}
+Laha, S., Reynolds, C.~S., Reeves, J., and et~al. (2021).
+\newblock Ionized outflows from active galactic nuclei as the essential
+  elements of feedback.
+\newblock {\em Nature Astronomy}, 5(1):13–24.
+
+\bibitem[Madau and Dickinson, 2014]{Madau_2014}
+Madau, P. and Dickinson, M. (2014).
+\newblock Cosmic star-formation history.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 52(1):415–486.
 
 \bibitem[Mason, 2015]{MASON201597}
 Mason, R.~E. (2015).
@@ -71,6 +93,11 @@ Palladino, A., van Vliet, A., Winter, W., and Franckowiak, A. (2020).
   ultra-high energy cosmic rays?
 \newblock {\em Monthly Notices of the Royal Astronomical Society}, 494(3):4255
   4265.
+
+\bibitem[Sanders, 2021]{Astrobites}
+Sanders, N. (2021).
+\newblock Guide to classification of galaxies and agns.
+\newblock 15.11.2023.
 
 \bibitem[Shields, 1999]{Shields_1999}
 Shields, G.~A. (1999).
