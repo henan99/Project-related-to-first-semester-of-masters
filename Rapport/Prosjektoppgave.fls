@@ -9,22 +9,115 @@ INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\size10.clo
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\natbib\natbib.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\authoryear.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\authoryear.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\authoryear.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\authoryear.cbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\authoryear.cbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\cbx\authoryear.cbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
@@ -70,16 +163,10 @@ INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\eso-pic\eso-pic.sty
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
@@ -111,6 +198,23 @@ INPUT .\Prosjektoppgave.aux
 INPUT .\Prosjektoppgave.aux
 INPUT Prosjektoppgave.aux
 OUTPUT Prosjektoppgave.aux
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+OUTPUT Prosjektoppgave.bcf
+INPUT Prosjektoppgave.bbl
+INPUT .\Prosjektoppgave.bbl
+INPUT .\Prosjektoppgave.bbl
+INPUT .\Prosjektoppgave.bbl
+INPUT Prosjektoppgave.bbl
+INPUT .\Prosjektoppgave.out
+INPUT .\Prosjektoppgave.out
+INPUT Prosjektoppgave.out
+INPUT Prosjektoppgave.out
+OUTPUT Prosjektoppgave.pdf
+INPUT .\Prosjektoppgave.out
+INPUT .\Prosjektoppgave.out
+OUTPUT Prosjektoppgave.out
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -132,7 +236,6 @@ INPUT .\Logo-Ntnu.svg.png
 INPUT .\Logo-Ntnu.svg.png
 INPUT .\Logo-Ntnu.svg.png
 INPUT .\Logo-Ntnu.svg.png
-OUTPUT Prosjektoppgave.pdf
 INPUT .\Logo-Ntnu.svg.png
 INPUT .\Logo-Ntnu.svg.png
 INPUT .\Logo-Ntnu.svg.png
@@ -174,7 +277,22 @@ INPUT .\Prosjektoppgave.lot
 INPUT .\Prosjektoppgave.lot
 INPUT Prosjektoppgave.lot
 OUTPUT Prosjektoppgave.lot
+INPUT .\Introduction.tex
+INPUT .\Introduction.tex
+INPUT .\Introduction.tex
+INPUT .\Introduction.tex
+INPUT Introduction.tex
+INPUT .\Chapter2.tex
+INPUT .\Chapter2.tex
+INPUT .\Chapter2.tex
+INPUT .\Chapter2.tex
+INPUT Chapter2.tex
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\chp3.tex
+INPUT .\chp3.tex
+INPUT .\chp3.tex
+INPUT .\chp3.tex
+INPUT chp3.tex
 INPUT .\hillas_criterion.jpeg
 INPUT .\hillas_criterion.jpeg
 INPUT .\hillas_criterion.jpeg
@@ -210,7 +328,11 @@ INPUT .\Ice_cube_flux_astro.png
 INPUT .\Ice_cube_flux_astro.png
 INPUT .\Ice_cube_flux_astro.png
 INPUT .\Ice_cube_flux_astro.png
-INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\chp4.tex
+INPUT .\chp4.tex
+INPUT .\chp4.tex
+INPUT .\chp4.tex
+INPUT chp4.tex
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
@@ -218,6 +340,23 @@ INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
 INPUT .\unified model agn.jpg
+INPUT .\chp5.tex
+INPUT .\chp5.tex
+INPUT .\chp5.tex
+INPUT .\chp5.tex
+INPUT chp5.tex
+INPUT .\chp6.tex
+INPUT .\chp6.tex
+INPUT .\chp6.tex
+INPUT .\chp6.tex
+INPUT chp6.tex
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
+INPUT .\new_plots\Luminosity density.png
 INPUT .\new_plots\Redshift density evolution.png
 INPUT .\new_plots\Redshift density evolution.png
 INPUT .\new_plots\Redshift density evolution.png
@@ -232,6 +371,11 @@ INPUT .\new_plots\Luminosity and Emissivity.png
 INPUT .\new_plots\Luminosity and Emissivity.png
 INPUT .\new_plots\Luminosity and Emissivity.png
 INPUT .\new_plots\Luminosity and Emissivity.png
+INPUT .\chp7.tex
+INPUT .\chp7.tex
+INPUT .\chp7.tex
+INPUT .\chp7.tex
+INPUT chp7.tex
 INPUT .\new_plots\L_n_uhecr_calc.png
 INPUT .\new_plots\L_n_uhecr_calc.png
 INPUT .\new_plots\L_n_uhecr_calc.png
@@ -253,13 +397,16 @@ INPUT .\new_plots\diffuse_fluxes_neutrino_no_cutoff.png
 INPUT .\new_plots\diffuse_fluxes_neutrino_no_cutoff.png
 INPUT .\new_plots\diffuse_fluxes_neutrino_no_cutoff.png
 INPUT .\new_plots\diffuse_fluxes_neutrino_no_cutoff.png
-INPUT .\Prosjektoppgave.bbl
-INPUT .\Prosjektoppgave.bbl
-INPUT Prosjektoppgave.bbl
+INPUT .\chp8.tex
+INPUT .\chp8.tex
+INPUT chp8.tex
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT Prosjektoppgave.aux
-INPUT C:\Users\henri\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\henri\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT .\Prosjektoppgave.out
+INPUT .\Prosjektoppgave.out
+INPUT Prosjektoppgave.run.xml
+OUTPUT Prosjektoppgave.run.xml
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -296,3 +443,5 @@ INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\henri\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb

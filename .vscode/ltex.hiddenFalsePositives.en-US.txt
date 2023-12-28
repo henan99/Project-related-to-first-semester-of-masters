@@ -1,0 +1,2 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwith \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q being the normalization constant, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q being the reference energy and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q being the spectral index.\\E$"}
+{"rule":"MISSING_GENITIVE","sentence":"^\\QSeyfert galaxies: Spiral galaxies that have a bright nucleus.\\E$"}

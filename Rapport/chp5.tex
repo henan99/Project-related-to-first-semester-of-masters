@@ -1,0 +1,226 @@
+\section{ Luminosity functions}
+In this section, we will discuss the use of luminosity functions to characterize the populations of different AGNs. 
+A luminosity function (LF) is a function that maps the distribution of celestial bodies, like galaxies or quasars,
+based on their luminosity and corresponding comoving volume elements. These functions serve as a tool to understand the evolutionary patterns of these objects and allow us 
+to predict the number density of these objects. 
+
+%The function describes how a population varies based on luminosity but also crucially on its comoving volume element. 
+Typically, the focus is on the differential luminosity function, which is defined as
+\begin{equation}
+    \frac{d\Psi(L,z)}{dL} = \frac{d^2N(L,V_c(z))}{dLdV_c(z)}.
+\end{equation}
+
+%The quantity of interest is now a number density which can be very useful in deriving observed flux of different objects here on earth. 
+One also can change the differential of the comoving volume into a term only depending on the redshift assuming the source population is isotropic and by multiplying with the differential comoving volume element. This 
+transformation goes as follows, 
+
+\begin{equation}
+    \frac{d^2N(L,V_c(z))}{dLdV_c(z)}\frac{dV_c(z)}{dz} = \frac{N(L,z)}{dLdz}.
+\end{equation}
+
+
+Several articles express the luminosity function in base $10$ logarithm, and we note the conversion between the two:
+
+
+\begin{equation}
+    \frac{d\Psi(L,z)}{dLog(L)} =  \ln (10)  Lx \frac{d\Psi(L,z)}{d(L)}.
+\end{equation}
+
+
+To effectively determine the LF, it's typically divided into two distinct components: a local term and a time evolution term.
+ This approach involves taking the local luminosity function, calculated at a redshift 
+$z=0$, and then scaling it with a function that accounts for the redshift evolution. 
+The exact form of the total LF varies based on the source object, but it generally falls into two categories derived from the method of incorporating the evolution term into the local LF.
+ These methods are selected based on which best represents the observed evolution.
+
+ The two distinctions are the Pure Density Evolution (PDE) and the Pure Luminosity Evolution (PLE). 
+ The PDE model modifies the local density function to reflect changes over time, 
+ while the PLE model adjusts the local luminosity. The evolution is better represented by their equations and is given as 
+
+ \begin{equation}\frac{d\Psi(L,z)}{d(L)} = 
+    \begin{cases}
+        \frac{d\Psi(L/e(z),z=0)}{d(L)} \quad (PLE)\\
+        \frac{d\Psi(L,z=0)}{d(L)}e(z) \quad (PDE)\\
+    \end{cases}
+    .
+\end{equation}
+
+Here one sees the common way of representing the luminosity functions. The local luminosity function is scaled by a factor of $e(z)$ which is the evolution term.
+\subsection{X-ray LF}
+
+\begin{table}
+    \centering
+    \title{Parameter values for the X-ray luminosity functions}
+    \begin{tabularx}{\textwidth}{|l|XXXX|XXXXX|}
+        \hline
+
+        & \multicolumn{2}{c}{\textbf{LF params}} &&&  \textbf{Evolution params} &&&&\\
+
+        \textbf{Model} & $A$ & $L_{star}$ & $\gamma _1$ &  $\gamma _2$  & $v_1$ & $v_2$ & $z_c$ & $L_c$ & $ \alpha$\\
+        \hline
+        SLDDE RG & $8.375^a$ & $2.138^b$ & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & $3.981^b$ & 0.317  \\
+
+        AMPLE-Blazar & $1.379^a$ & $1.810^b$ & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
+
+        AMPLE-FSRQ & $0.175^a$ & $2.420^b$ & -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
+
+        APLE-BLlac & $0.830^a$& $1.000^b$ & 2.61 & &-0.79& & & &  \\
+        APLE-Seyfert & $0.909^b$ & $0.61^b$ & 0.8 & 2.67& & & & &  \\
+        ULDDE-CTN AGN$^c$ & $2.91^a$ & $0.93^b$ & 0.96 & 2.71& 4.78 &-1.5 &1.86 &$4.07^b$ &0.29  \\
+        \hline
+    \end{tabularx}
+    \caption{X-ray LF parameters, $a,$ normalized by a factor of $10^{-7}$, $b,$ normalized by a factor of $10^{44}$
+    c, has more factors that do not fit in the table, $z_{c2} = 3$, $\alpha_2 =-0.1$, $L_{c2} = 10^{44}$, $v_3 = -6.2 $, $\beta=0.84$ }
+    \label{tab:xray_lf}
+\end{table}
+
+\begin{table}
+    \centering
+    \begin{tabular}{ll}
+        \hline
+        Model Name   & Luminosity Range (Log(L))  \\
+        \hline
+        SLDDE RG     & 42 - 47            \\
+        AMPLE Blazar & 43 - 49          \\
+        AMPLE FSRQ   & 45.5 - 49          \\
+        APLE BLlac   & 44.5 - 49        \\
+        APLE Seyfert & 41 - 47          \\
+        ULDDE All CTN AGN & 42 - 46 \\
+        \hline
+
+    \end{tabular}
+    \caption{Luminosity range for different models}
+
+    \label{tab:lum_range}
+
+\end{table}
+
+
+%One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. 
+%Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
+
+For a given type of celestial object, different spectral bands will be more useful than others. In the case of AGNs, 
+the X-ray band is particularly significant. Therefore, several studies have focused on defining the luminosity functions of AGNs with the X-ray spectrum.
+
+In the following, I will define the x-ray luminosity functions for various AGN classifications, including Radio Galaxies, Seyfert Galaxies, and Blazars. Furthermore, an additional breakdown will consider FSRQs and BL Lacs within Blazars.  In addition to this, 
+a study by \cite{Ueda_2014} also looked at the total evolution of all Compton-thin AGNs by combining multiple surveys and research.  It will work as a reference point as well as describe the total evolution of these objects. The luminosity functions are collected from three papers \cite{Ajello_2009} and \cite{Silverman_2008}, and \cite{Ueda_2014} and their form is explained below.
+
+\textbf{The local luminosity function}:
+
+The local luminosity function is the luminosity function at $z=0$.
+The simplest form of the local luminosity function is expressed in \cite{Ajello_2009} and is given as a power law. For our classes, it represents only the local LF for the class of BL Lacs 
+and is given as
+
+\begin{equation}
+    \frac{d\Psi(L,z=0)}{dL} = \frac{A}{L_x} \left( \frac{L_x}{L_*}\right)^{1-\gamma_2}
+\end{equation}
+
+This functional form has the fewest parameters and therefore suits well for populations that have few detected sources, but has the disadvantage of not being able to capture all the details of the observed local luminosity functions when source counts increase.
+For that reason a more complex local function is needed which was proposed in \cite{Ueda_2003} and is described by a double power law.
+The double power law is used for the remaining classes of AGN and is given as follows
+
+
+   
+\begin{equation}
+    \frac{d\Psi(L,z=0)}{dL} =  \frac{A}{\log(10)} \frac{1}{L_x} \left( \left( \frac{L_x}{L_*} \right)^{\gamma_1} + \left( \frac{L_x}{L_*} \right)^{\gamma_2} \right)^{-1}
+\end{equation}
+
+%The double power law introduced a break in the form of the local LF. This break is located at $L_*$ and is the luminosity where the slope of the LF changes. 
+
+
+\textbf{Evolution factor}:
+
+In addition to the local LF one also considers the evolution factor denoted $e(z)$. This factor captures the observed evolution of these objects and is the second part of the total luminosity function.
+
+Again for the simplest evolution with the fewest parameters, a power law is used.
+ $$
+e(z) = (1 + z)^{v_1 }
+ $$
+
+
+  
+Certain situations necessitate a more detailed approach to the redshift evolution. 
+ As detailed in \cite{Ajello_2009}, a modified evolution is frequently employed. 
+ This adaptation transforms the conventional Pure Luminosity Evolution (PLE) and Pure Density Evolution 
+ (PDE) into their modified counterparts, namely Modified PLE (MPLE) and Modified PDE (MPDE).
+It is within these modified frameworks that a dependence on redshift $z$ emerges in the exponent,
+providing a more nuanced understanding of the evolutionary processes involved. It is given as
+
+$$
+e(z) = (1 + z)^{v_1 +v_2 z }
+$$
+
+
+
+ To expand further as described in \cite{Silverman_2008} the evolution factor of the luminosity function is not always as simple as a modified power law only dependent on the redshift $z$.
+For some sources, a more complex evolution is needed. In \cite{Silverman_2008} they use a double power law to better fit the data where 
+ the evolution is now not only dependent on the redshift but also on the luminosity. This then receives the apt name as a luminosity-dependent density evolution (LDDE) since it is a modified version of a (PDE)
+ The functional form of the LDDE is as follows
+
+
+ \begin{equation}
+    e_z(z, L) = 
+    \begin{cases} 
+        (1 + z)^{v_1} & \text{when} z \leq z_*(L) \\
+        e_z(z_*(L), L) \times \left( \frac{1 + z}{1 + z_*(L)} \right)^{v_2} & \text{when} z >  z_*(L).
+    \end{cases}
+ \end{equation}
+
+ with $z(L)$ being defined as
+
+ \begin{equation}
+    z_*(L) = 
+    \begin{cases} 
+        z_c \left( \frac{L}{L_c} \right)^\alpha & \text{when} L \leq L_c \\
+        z_c & \text{when} L > L_c .
+    \end{cases}
+ \end{equation}
+
+
+ The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity and possible over fitting. 
+
+Lastly \cite{Ueda_2014} considered an XLF for the entire population of AGNs and naturally this has a more complex evolution structure. It is also an LDDE model but with three steps instead of two which we have in \cite{Silverman_2008}.
+The evolution is given as
+
+ 
+\begin{equation}
+    e_z(z, L) = 
+    \begin{cases} 
+        (1 + z)^{p_1} & \text{when} z \leq z_*(L) \\
+        (1 + z_{*})^{p_1} \left( \frac{1 + z}{1 + z_*(L)} \right)^{v_2} & \text{when} z >  z_*(L)\\
+        (1 + z_{*})^{p_1} (\frac{1 + z_{*2}}{1+ z_{*}})^{v_2} (\frac{1+z}{1+z_{*2}})^{v_3} & \text{when} z >  z_{*2}(L)
+
+    \end{cases}
+\end{equation}
+
+with the exponent $p_1$ being defined as
+\begin{equation}
+    p_1 = v_1 + \beta(log(L)-44)
+\end{equation}
+
+with $z_{*}(L)$ being defined as
+
+\begin{equation}
+    z_*(L) = 
+    \begin{cases} 
+        z_c \left( \frac{L}{L_c} \right)^\alpha & \text{when} L \leq L_c \\
+        z_c & \text{when} L > L_c 
+    \end{cases}
+\end{equation}
+
+
+and $z_{*2}(L)$ being defined as
+
+\begin{equation}
+    z_{*2}(L) =
+    \begin{cases}
+        z_{c2} \left( \frac{L}{L_{c2}} \right)^{\alpha_2} & \text{when} L \leq L_{c2} \\
+        z_{c2} & \text{when} L > L_{c2}
+    \end{cases}
+\end{equation}
+
+
+
+Armed with the functional form of the total luminosity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008}, \cite{Ajello_2009} and \cite{Ueda_2014} and their 
+model name is a combination of the source paper (S, A, U), the type of model it describes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray surveys, see the cited papers for more information.
+One can see the parameters for the different models in table \ref{tab:xray_lf} and the luminosity range for which the different models are valid in table \ref{tab:lum_range}. 
