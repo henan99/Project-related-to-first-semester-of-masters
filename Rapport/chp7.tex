@@ -1,9 +1,9 @@
-\section{Exotic particle creation}
+\section{Energy budget estimation}
 \subsection{UHECRs emissivity}
-With the calculated emissivity for the different groups, there is now the possibility to look from an energy budget viewpoint into the possibility of AGNs being the origin of UHECRs. The 
-reasoning is quite simple but for the AGNs to be the origin of UHECRs they must be able to produce the necessary emissivity. 
+With the calculated emissivity for the different groups, and the discussion on acceleration there is now the possibility to look from an energy budget viewpoint into the possibility of AGNs being the origin of UHECRs. 
+By ignoring the method of acceleration, but considering that our sources must produce the required emissivity one can make a crude estimation of source candidates. 
 
-From the calculation in \ref{sec:emmisivity} the emissivity of UHECRs is given as $1.73 \cdot 10^{44}\frac{\rm erg}{\rm Mpc^3yr \rm s }$ this was calculated from the observed flux of UHECRs from the Pierre Auger observatory \cite{thepierreaugercollaboration2017pierre}.
+From the calculation in \ref{sec:emmisivity} the emissivity of UHECRs is given as $1.73 \cdot 10^{44}\rm erg/\rm Mpc^3\rm /yr$ this was calculated from the observed flux of UHECRs from the Pierre Auger observatory \cite{thepierreaugercollaboration2017pierre}.
 In this calculation, one needed to confine the area in which these sources could be produced to take into account the energy losses these particles experience. The same argument must be used 
 for our emitting sources and therefore one must use the emissivity of our sources at a redshift very close to Earth. To get a comparable emissivity one evaluates therefore the emissivity at redshift $z=0.01$. The result is shown in figure \ref*{fig:flux_UHECRs}
 
@@ -16,17 +16,19 @@ for our emitting sources and therefore one must use the emissivity of our source
 
 This figure shows that most classes of AGN produce a total emissivity in X-ray comparable to the one energy detected by the Pierre Auger observatory. The only exception is the FSRQs which are not numerous enough at this redshift. 
 To criticize this very crude estimate, one must first note that the correlation between X-ray luminosity and UHECR luminosity is not well-defined and should include parameters that are not accounted for.
-In addition to this one has not done any separation between jet-dominated and emission-line AGNs, and even though our emission-line AGNs are capable of producing the required x-ray luminosity
-the mechanism of transferring this energy into UHECRs is not well understood. A very interesting point is that the only candidate not able to produce the required emissivity, the FSRQs, are the ones where according to \cite{Wei-Hao_2003} one could find a Kerr black hole. 
-A Kerr black hole is needed in mechanisms such as the Blandford-Znajek mechanics which is a possible way of accelerating and beaming particles into jets. One notes that it is not only that mechanism that could accelerate UHECRs and 
-the outflows discussed in \cite{Laha_2021} would have an acceleration mechanism as well. The author of this paper notes that the energy gain in these outflows is not known and therefore one cannot say if they are powerful enough to produce extra galactic UHECRs. 
+In addition to this one has not done any separation between jet-dominated and non-jet-dominated AGNs, and even though our non-jet-dominated AGNs are capable of producing the required x-ray luminosity
+the mechanism of transferring this energy into UHECRs as talked about in section \ref{sec:Expt_lum} is not well understood. 
 
-Nevertheless, the result does not rule out the possibility of AGNs being the origin of UHECRs. 
+%A very interesting point is that the only candidate not able to produce the required emissivity, the FSRQs, are the ones where according to \cite{Wei-Hao_2003} one could find a Kerr black hole. 
+%A Kerr black hole is needed in mechanisms such as the Blandford-Znajek mechanics which is a possible way of accelerating and beaming particles into jets. One notes that it is not only that mechanism that could accelerate UHECRs and 
+%the outflows discussed in \cite{Laha_2021} would have an acceleration mechanism as well. The author of this paper notes that the energy gain in these outflows is not known and therefore one cannot say if they are powerful enough to produce extra galactic UHECRs. 
+
+Nevertheless, the result does not rule out the possibility of AGNs being the origin of the UHECR diffuse flux. 
 
 
 \subsection{Neutrino emissivity}
-Similarly, for the UHECRs, we calculated the local emissivity for the neutrinos in section \ref{sec:emmisivity}. The result was $1.2 \cdot 10^{44}\frac{erg}{Mpc^3yr}$ which is a factor similar to that of UHECRs.
-In the calculation, the diffuse neutrino flux on Earth was taken from the IceCube observatory \cite{Abbasi_2022} and the energy range was taken to be $1TeV - 10PeV$ corresponding to the astrophysical neutrino flux.
+Similarly, for the UHECRs, we calculated the local emissivity for the neutrinos in section \ref{sec:emmisivity}. The result was $1.2 \cdot 10^{44} \rm erg/\rm Mpc^3\rm /yr$ which is a factor similar to that of UHECRs.
+In the calculation, the diffuse neutrino flux on Earth was taken from the IceCube observatory \cite{Abbasi_2022} and the energy range was taken to be $1\rm TeV - 10\rm PeV$ corresponding to the astrophysical neutrino flux.
 The difference between the UHECR flux to the neutrino flux is the energy loss mechanism. The effect of a very limited energy loss mechanism means that the emitting area is now the whole universe. To reach a comparable emissivity one must therefore take a redshift-dependent average of the sources over the whole universe.
 One does this by scaling the emissivity at redshift $z$ with the corresponding energy loss for a neutrino from that redshift given as $(1+z)$ and then taking the average emissivity to get a comparable emissivity.
 The resulting figure is shown in figure \ref{fig:neutrino}.
@@ -42,7 +44,7 @@ This figure shows that the neutrino flux can be produced by all classes except
 the BL Lacs. This is an effect of the averaging since the BL lacs have a negative evolution.
 The opposite is the FSRQs which now can produce the required emissivity.
 
-In addition to the average picture given in figure \ref*{fig:neutrino} one can also calculate the diffuse neutrino flux from the different classes of AGNs. This is done by modifying the transfer function defined in \cite{Palladino_2020} and this is given as
+In addition to the average picture given in figure \ref*{fig:neutrino} one can also calculate the diffuse neutrino flux directly from the different classes of AGNs. This is done by modifying the transfer function defined in \cite{Palladino_2020} and this is given as
 
 
 \begin{equation}
@@ -67,11 +69,11 @@ Several papers such as \cite{Kurahashi_2022} talk about the lack of any anisotro
 
 This result in figure \ref*{fig:flux_neutrinos} is obtained differently than in figure \ref*{fig:neutrino} and therefore the agreement between them is a good sign. The argument that the x-ray luminosity should have the same value as the neutrino luminosity is not a bad first guess, but it does leave a lot to be desired. 
 This flux model does not incorporate any parameters of the AGN other than emitting strength, and therefore it is not a very nuanced model. A first fix could be a model that includes the jet orientation and most importantly the acceleration mechanism one could imagine happening. What this 
-crude model can show is that these objects do produce enough power. To make the estimation better without doing much more work, one could look at the gamma-ray luminosity functions of the same sources and see if they can produce the required neutrino flux. Gamma-ray production is a natural consequence if one is using the pion decay model with the proton delta resonance
+crude model can show is that these objects do produce enough power. To make the estimation better without doing much more work, one could look at the gamma-ray luminosity functions of the same sources and see if they can produce the required neutrino flux. Gamma-ray production is a natural consequence if one is using the pion decay model
 for neutrino production. In this way, one could more easily constrain the neutrino production with the gamma-ray production. 
 This is however outside the scope of this paper and will be left for future work. 
 
-\subsubsection{AGN as the origin of the astrophysical particles}
-Both the diffuse flux of neutrinos and UHECRs estimate an emissivity that is comparable to the x-ray emissivity of our sources. The correlation between x-ray luminosity and the production of these ultra-high energy 
-particles is also not unfounded since both require a high number of charged particles. For these arguments, one could imagine that AGNs of all classes can produce these particles. 
+%\subsubsection{AGN as the origin of the astrophysical particles}
+%Both the diffuse flux of neutrinos and UHECRs estimate an emissivity that is comparable to the x-ray emissivity of our sources. The correlation between x-ray luminosity and the production of these ultra-high energy 
+%particles is also not unfounded since both require a high number of charged particles. For these arguments, one could imagine that AGNs of all classes can produce these particles. 
 

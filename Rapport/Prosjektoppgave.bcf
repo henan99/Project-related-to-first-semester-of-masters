@@ -2402,19 +2402,18 @@
     <bcf:citekey order="42" intorder="1">Ajello_2009</bcf:citekey>
     <bcf:citekey order="43" intorder="1">Ueda_2014</bcf:citekey>
     <bcf:citekey order="44" intorder="1">Narumoto_2006</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Ajello_2009</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Garofalo_2019</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Wei-Hao_2003</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Garofalo_2019</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">Wei-Hao_2003</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">Raimundo_2012</bcf:citekey>
     <bcf:citekey order="48" intorder="1">Madau_2014</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Laha_2021</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">thepierreaugercollaboration2017pierre</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Wei-Hao_2003</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Laha_2021</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Abbasi_2022</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Blandford_1977</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Laha_2021</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">thepierreaugercollaboration2017pierre</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">Abbasi_2022</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">Palladino_2020</bcf:citekey>
     <bcf:citekey order="54" intorder="1">Palladino_2020</bcf:citekey>
     <bcf:citekey order="55" intorder="1">Palladino_2020</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">Palladino_2020</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Kurahashi_2022</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Kurahashi_2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -600,6 +600,56 @@
       \verb https://doi.org/10.1093/pasj/55.3.599
       \endverb
     \endentry
+    \entry{Blandford_1977}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0dc2697600d02df949124ac1548ce5d0}{%
+           family={Blandford},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec8ee403490b22e19151f20c1db89c71}{%
+           family={Znajek},
+           familyi={Z\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{43b1395090e0fefab73dd47f858d9cf7}
+      \strng{fullhash}{43b1395090e0fefab73dd47f858d9cf7}
+      \strng{bibnamehash}{43b1395090e0fefab73dd47f858d9cf7}
+      \strng{authorbibnamehash}{43b1395090e0fefab73dd47f858d9cf7}
+      \strng{authornamehash}{43b1395090e0fefab73dd47f858d9cf7}
+      \strng{authorfullhash}{43b1395090e0fefab73dd47f858d9cf7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{When a rotating black hole is threaded by magnetic field lines supported by external currents flowing in an equatorial disc, an electric potential difference will be induced. If the field strength is large enough, the vacuum is unstable to a cascade production of electron–positron pairs and a surrounding force-free magnetosphere will be established. Under these circumstances it is demonstrated that energy and angular momentum will be extracted electromagnetically. As a further consequence it is shown that charge can never contribute significantly to the geometry of a rotating hole. The fundamental equations describing a stationary axisymmetric magnetosphere are derived and the details of the energy and angular momentum balance are discussed. A perturbation technique is developed which can be used to provide approximate solutions for slowly rotating holes. Solutions appropriate when the field lines threading the hole lie on conical and paraboloidal surfaces at large distances are described to illustrate this mechanism.These ideas are incorporated into a discussion of a model of active galactic nuclei containing a massive black hole surrounded by a magnetized accretion disc. In this model relativistic electrons can be accelerated at large distances from the hole and therefore will not incur serious losses, which is a defect of some existing models. In addition, if the field lines have paraboloidal shape, the energy will be beamed along antiparallel directions as observations of both compact and extended radio sources seem to require.}}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{07}
+      \field{number}{3}
+      \field{title}{{Electromagnetic extraction of energy from Kerr black holes}}
+      \field{volume}{179}
+      \field{year}{1977}
+      \field{pages}{433\bibrangedash 456}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1093/mnras/179.3.433
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/179/3/433/9333653/mnras179-0433.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/mnras/179.3.433
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/mnras/179.3.433
+      \endverb
+    \endentry
     \entry{Ueda_2014}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=8f1277ef861bcebc27ad98741abc0c15}{%
@@ -1315,6 +1365,74 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1093/mnras/staa1003
+      \endverb
+    \endentry
+    \entry{Raimundo_2012}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2b766f494bceb20153583de265fb9521}{%
+           family={Raimundo},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi I.},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b9be215732688abb02cf630aec54a82}{%
+           family={Fabian},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98fdf8d54ed9d152a53c0cd91846f90d}{%
+           family={Vasudevan},
+           familyi={V\bibinitperiod},
+           given={R.\bibnamedelimi V.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9975c774e81f9ea5504a2ce7a2ea84dc}{%
+           family={Gandhi},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1e51525c107cd522a76e96386eebdaa}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{87b2f048f0d146791f04bb9060aa46e7}
+      \strng{fullhash}{d3838aed3736f339191f6fe3d1b545ad}
+      \strng{bibnamehash}{87b2f048f0d146791f04bb9060aa46e7}
+      \strng{authorbibnamehash}{87b2f048f0d146791f04bb9060aa46e7}
+      \strng{authornamehash}{87b2f048f0d146791f04bb9060aa46e7}
+      \strng{authorfullhash}{d3838aed3736f339191f6fe3d1b545ad}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The accretion efficiency for individual black holes is very difficult to determine accurately. There are many factors that can influence each step of the calculation, such as the dust and host galaxy contribution to the observed luminosity, the black hole mass and more importantly the uncertainties on the bolometric luminosity measurement. Ideally, we would measure the active galactic nuclei (AGNs) emission at every wavelength, remove the host galaxy and dust, reconstruct the AGN spectral energy distribution and integrate them to determine the intrinsic emission and the accretion rate. In reality, this is not possible due to observational limitations and our own galaxy line-of-sight obscuration. We have then to infer the bolometric luminosity from spectral measurements made in discontinuous wavebands and at different epochs. In this paper, we tackle this issue by exploring different methods to determine the bolometric luminosity. We first explore the trend of accretion efficiency with black hole mass (ε ∝ M∼0.5) found in recent work by Davis \\&amp; Laor and discuss why this is most likely an artefact of the parameter space covered by their Palomar–Green quasar sample. We then target small samples of AGNs at different redshifts, luminosities and black hole masses to investigate the possible methods to calculate the accretion efficiency. For these sources we are able to determine the mass accretion rate and, with some assumptions, the accretion efficiency distributions. Even though we select the sources for which we are able to determine the parameters more accurately, there are still factors affecting the measurements that are hard to constrain. We suggest methods to overcome these problems based on contemporaneous multiwavelength data measurements and specifically targeted observations for AGNs in different black hole mass ranges.}}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{01}
+      \field{number}{3}
+      \field{title}{{Can we measure the accretion efficiency of active galactic nuclei?}}
+      \field{volume}{419}
+      \field{year}{2012}
+      \field{pages}{2529\bibrangedash 2544}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2011.19904.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/419/3/2529/18717746/mnras0419-2529.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1365-2966.2011.19904.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1365-2966.2011.19904.x
       \endverb
     \endentry
     \entry{Astrobites}{misc}{}

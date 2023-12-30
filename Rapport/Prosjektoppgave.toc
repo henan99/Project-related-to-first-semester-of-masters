@@ -28,9 +28,8 @@
 \contentsline {section}{\numberline {6}Evolution}{25}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Luminosity distribution}{25}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Density distribution}{27}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Expected luminosity}{29}{subsubsection.6.2.1}%
-\contentsline {section}{\numberline {7}Exotic particle creation}{32}{section.7}%
-\contentsline {subsection}{\numberline {7.1}UHECRs emissivity}{32}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Neutrino emissivity}{33}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}AGN as the origin of the astrophysical particles}{35}{subsubsection.7.2.1}%
-\contentsline {section}{\numberline {8}Conclusion}{36}{section.8}%
+\contentsline {subsection}{\numberline {6.3}Expected luminosity}{28}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Energy budget estimation}{31}{section.7}%
+\contentsline {subsection}{\numberline {7.1}UHECRs emissivity}{31}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Neutrino emissivity}{32}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Conclusion}{35}{section.8}%
