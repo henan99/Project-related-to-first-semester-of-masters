@@ -650,72 +650,6 @@
       \verb https://doi.org/10.1093/mnras/179.3.433
       \endverb
     \endentry
-    \entry{Ueda_2014}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8f1277ef861bcebc27ad98741abc0c15}{%
-           family={BUeda},
-           familyi={B\bibinitperiod},
-           given={Yoshihiro},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0b90a723ee33f2f793daa500b6de2649}{%
-           family={Akiyama},
-           familyi={A\bibinitperiod},
-           given={Masayuki},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4d0c4ded5f189e4d3763f5454c26b2b0}{%
-           family={Hasinger},
-           familyi={H\bibinitperiod},
-           given={Günther},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=41586e1a165f80592534f619c70ea5f3}{%
-           family={Miyaji},
-           familyi={M\bibinitperiod},
-           given={Takamitsu},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ffcb88c23de126fab4c5d313ae0cbc31}{%
-           family={Watson},
-           familyi={W\bibinitperiod},
-           given={Michael\bibnamedelima G.},
-           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {The American Astronomical Society}%
-      }
-      \strng{namehash}{94d230eb684afd7d519fdddc1fff9310}
-      \strng{fullhash}{74e3538804af809284f0fa77120427bb}
-      \strng{bibnamehash}{94d230eb684afd7d519fdddc1fff9310}
-      \strng{authorbibnamehash}{94d230eb684afd7d519fdddc1fff9310}
-      \strng{authornamehash}{94d230eb684afd7d519fdddc1fff9310}
-      \strng{authorfullhash}{74e3538804af809284f0fa77120427bb}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{month}{04}
-      \field{number}{2}
-      \field{title}{TOWARD THE STANDARD POPULATION SYNTHESIS MODEL OF THE X-RAY BACKGROUND: EVOLUTION OF X-RAY LUMINOSITY AND ABSORPTION FUNCTIONS OF ACTIVE GALACTIC NUCLEI INCLUDING COMPTON-THICK POPULATIONS}
-      \field{volume}{786}
-      \field{year}{2014}
-      \field{pages}{104}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0004-637X/786/2/104
-      \endverb
-      \verb{urlraw}
-      \verb https://dx.doi.org/10.1088/0004-637X/786/2/104
-      \endverb
-      \verb{url}
-      \verb https://dx.doi.org/10.1088/0004-637X/786/2/104
-      \endverb
-    \endentry
     \entry{thepierreaugercollaboration2017pierre}{misc}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=2f8e26ac7ffcb739e2b3e429bcfb0f7a}{%
@@ -960,6 +894,61 @@
       \verb astro-ph/9905116
       \endverb
     \endentry
+    \entry{Jacobsen:2015mga}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a0b47b85478b9e46ccafdcbe1b40798a}{%
+           family={Jacobsen},
+           familyi={J\bibinitperiod},
+           given={Idunn\bibnamedelima B.},
+           giveni={I\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6415addaec8f0218c44da347afe0f257}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Kinwah},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06ea2c1583635996947adc8fc32790f7}{%
+           family={On},
+           familyi={O\bibinitperiod},
+           given={Alvina\bibnamedelimb Y.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98d89521561533b03decac2d731619e0}{%
+           family={Saxton},
+           familyi={S\bibinitperiod},
+           given={Curtis\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41c7c78c329dde05050b23d02bd8af09}
+      \strng{fullhash}{c7c5b17aa7e88b59f294e135840bce18}
+      \strng{bibnamehash}{41c7c78c329dde05050b23d02bd8af09}
+      \strng{authorbibnamehash}{41c7c78c329dde05050b23d02bd8af09}
+      \strng{authornamehash}{41c7c78c329dde05050b23d02bd8af09}
+      \strng{authorfullhash}{c7c5b17aa7e88b59f294e135840bce18}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Mon. Not. Roy. Astron. Soc.}
+      \field{number}{4}
+      \field{title}{{High-energy neutrino fluxes from AGN populations inferred from X-ray surveys}}
+      \field{volume}{451}
+      \field{year}{2015}
+      \field{pages}{3649\bibrangedash 3663}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1093/mnras/stv1196
+      \endverb
+      \verb{eprint}
+      \verb 1506.05916
+      \endverb
+    \endentry
     \entry{doi:10.1146/annurev-astro-081710-102620}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=7931df413bb1cefe0c60168db5ba1a09}{%
@@ -1005,61 +994,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1146/annurev-astro-081710-102620
-      \endverb
-    \endentry
-    \entry{Kurahashi_2022}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=fb064faf59d296f5a034697af614ef07}{%
-           family={Kurahashi},
-           familyi={K\bibinitperiod},
-           given={Naoko},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5a5c232e4dd8ab3f1846eeb04979acd6}{%
-           family={Murase},
-           familyi={M\bibinitperiod},
-           given={Kohta},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=034c6b978f4c132d71afd3d37fb0a0f4}{%
-           family={Santander},
-           familyi={S\bibinitperiod},
-           given={Marcos},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Annual Reviews}%
-      }
-      \strng{namehash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \strng{fullhash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \strng{bibnamehash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \strng{authorbibnamehash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \strng{authornamehash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \strng{authorfullhash}{43685ff5a7ca6d612baa6d58b4b6e624}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1545-4134}
-      \field{journaltitle}{Annual Review of Nuclear and Particle Science}
-      \field{month}{09}
-      \field{number}{1}
-      \field{title}{High-Energy Extragalactic Neutrino Astrophysics}
-      \field{volume}{72}
-      \field{year}{2022}
-      \field{pages}{365\bibrangedash 387}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.1146/annurev-nucl-011122-061547
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1146/annurev-nucl-011122-061547
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1146/annurev-nucl-011122-061547
       \endverb
     \endentry
     \entry{Laha_2021}{article}{}
@@ -1652,8 +1586,74 @@
       \verb https://dx.doi.org/10.1088/1367-2630/11/6/065013
       \endverb
     \endentry
+    \entry{Ueda_2014}{article}{}
+      \name{author}{5}{ul=3}{%
+        {{un=0,uniquepart=base,hash=9c0f9773b6ad01a7c9a0bb95f986fa46}{%
+           family={Ueda},
+           familyi={U\bibinitperiod},
+           given={Yoshihiro},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b90a723ee33f2f793daa500b6de2649}{%
+           family={Akiyama},
+           familyi={A\bibinitperiod},
+           given={Masayuki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d0c4ded5f189e4d3763f5454c26b2b0}{%
+           family={Hasinger},
+           familyi={H\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41586e1a165f80592534f619c70ea5f3}{%
+           family={Miyaji},
+           familyi={M\bibinitperiod},
+           given={Takamitsu},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffcb88c23de126fab4c5d313ae0cbc31}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{67b0050c1da1c4a32b0aabc223fddafb}
+      \strng{fullhash}{10c771e0ae3cf9c3532e08f9cbd4897c}
+      \strng{bibnamehash}{67b0050c1da1c4a32b0aabc223fddafb}
+      \strng{authorbibnamehash}{67b0050c1da1c4a32b0aabc223fddafb}
+      \strng{authornamehash}{67b0050c1da1c4a32b0aabc223fddafb}
+      \strng{authorfullhash}{10c771e0ae3cf9c3532e08f9cbd4897c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{TOWARD THE STANDARD POPULATION SYNTHESIS MODEL OF THE X-RAY BACKGROUND: EVOLUTION OF X-RAY LUMINOSITY AND ABSORPTION FUNCTIONS OF ACTIVE GALACTIC NUCLEI INCLUDING COMPTON-THICK POPULATIONS}
+      \field{volume}{786}
+      \field{year}{2014}
+      \field{pages}{104}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0004-637X/786/2/104
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0004-637X/786/2/104
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0004-637X/786/2/104
+      \endverb
+    \endentry
     \entry{Ueda_2003}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=3}{%
         {{un=0,uniquepart=base,hash=9c0f9773b6ad01a7c9a0bb95f986fa46}{%
            family={Ueda},
            familyi={U\bibinitperiod},
@@ -1679,11 +1679,11 @@
            giveni={T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{a00b62b1fe0047433761092e20fe74de}
+      \strng{namehash}{4e1f016dfbd9136153b3b64fa8c28baf}
       \strng{fullhash}{1b82b6a145399c65082b984217cf93f9}
-      \strng{bibnamehash}{a00b62b1fe0047433761092e20fe74de}
-      \strng{authorbibnamehash}{a00b62b1fe0047433761092e20fe74de}
-      \strng{authornamehash}{a00b62b1fe0047433761092e20fe74de}
+      \strng{bibnamehash}{4e1f016dfbd9136153b3b64fa8c28baf}
+      \strng{authorbibnamehash}{4e1f016dfbd9136153b3b64fa8c28baf}
+      \strng{authornamehash}{4e1f016dfbd9136153b3b64fa8c28baf}
       \strng{authorfullhash}{1b82b6a145399c65082b984217cf93f9}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}

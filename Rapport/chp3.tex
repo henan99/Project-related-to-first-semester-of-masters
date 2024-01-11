@@ -7,9 +7,9 @@ observations here on earth.
 \subsection{Acceleration of high energy particles}
 
 To reach high energy, particles need to be accelerated. 
-Knowing the exact source of acceleration can be difficult since we do not know the sources, but one can put constraints on any source given some simple arguments.
-By arguing that the acceleration needs to be of a certain strength and that the particle being accelerated needs to stay confined within the accelerator for long enough one can put constraints on the source.
-This is called the Hillas criterion  and is a way of estimating the maximum energy a particle can reach in a given source.% (ref hillas)
+Knowing the exact source of acceleration can be difficult if one do not know the source, but one can put constraints on any source given some simple arguments.
+By arguing that the acceleration needs to be of a certain strength and that the particle being accelerated needs to stay confined within the accelerating region for long enough one can create an upper band.
+This is called the Hillas criterion introduced in \cite{Hillas_1984}, and is a way of estimating the maximum energy a particle can reach in a given source.% (ref hillas)
 
 For relativistic particles with charge $Z$ and energy $\epsilon$ in a magnetic field of strength $B$ one can define the Larmor radius
 
@@ -18,15 +18,14 @@ For relativistic particles with charge $Z$ and energy $\epsilon$ in a magnetic f
     R_L = \frac{\epsilon}{ZB}
 \end{equation}
 
-By arguing that the definition of confinement of a particle to a source is by equating the Larmor radius to the size of the source one can 
+By arguing that the confinement of a particle to an accelerating region is the same as setting the Larmor radius equal to the size of the source. One can 
 easily derive the maximum achievable energy for a particle as follows.% (ref M. Bustamante. https://cds.cern.ch/record/1249755/files/p533.pdf)
 
 \begin{equation}
     \epsilon_{max} = ZBR
 \end{equation}
 
-Via this method, one can illustrate the potential candidates needed to produce the required and importantly observed high-energy particles. 
-This requirement is named the Hillas criterion after G. Hillas who first proposed this method\cite{Hillas_1984}.
+Via this method, one can estimate the potential candidates that can produce the observed high-energy particles. 
 The criterion works as an upper boundary of acceleration sources since it does not account for energy loss in the acceleration process or any type of interaction that one could expect to be in turbulent environments.
 In figure \ref{fig:hillas_c} one can see the different candidates for the acceleration of two different ions, protons, and iron. One of the candidates is the AGN, which is the focus of this paper.
 
@@ -37,7 +36,8 @@ In figure \ref{fig:hillas_c} one can see the different candidates for the accele
     \label{fig:hillas_c}
 \end{figure}
 
-The method of acceleration can be important for different sources. Here I will briefly go through some. 
+The method of acceleration can be important for different sources, and therefore it seems useful to briefly go through some of them.
+
 \textbf{One-shot acceleration}:
 In the presence of an ordered electric field, one can continuously accelerate charged particles. This could be the feature of some astrophysical objects such as neutron stars and black holes.% (ref cern paper)
 
@@ -57,7 +57,7 @@ Neutrinos and UHECRs.
 \subsection{UHECRs}
 
 UHECRs are charged particles that are bombarding the Earth with energy exceeding 1 exaelectronvolt ($10^{18}$ eV) \cite{Alves_Batista_2019}. The origin of 
-these particles is still a mystery but due to their high energies, they are thought to be extragalactic in origin and due to the Hillas criterion need to be sufficiently good accelerators.
+these particles is still a mystery but due to their high energies, they are thought to be extragalactic in origin.
 The composition of UHECRs ranges from protons to heavier nuclei such as helium or iron, and when these particles interact with the atmosphere they produce a shower of secondary particles.
 The air showers could also give extra information such as direction, but due to the nature of UHECRs, the location of their source is
 difficult to pinpoint. This is because UHECRs are charged particles and therefore are deflected by the magnetic fields they encounter.
@@ -67,7 +67,7 @@ The requirements to produce a UHECR are a charged particle and a powerful accele
 model them sufficiently one needs to take into account their journey to the Earth. Both during the acceleration and during the journey to Earth, the UHECRs will lose energy. 
 The important parameters for this energy loss are its composition and its environment. In addition, as mentioned before, the interstellar magnetic field will also deflect the particles and therefore the direction of the particle will be changed. 
 These effects are important parameters since they limit the 
-distance a particle can travel before its initial energy becomes unreasonably large, and therefore limits the local volume in which it can be produced. 
+distance a particle can travel before it loses too much energy, and therefore limits the local volume in which high energy cosmic rays can be produced. 
 Here I will briefly discuss the different energy loss mechanisms.
 
 \textbf{Photo-pair production}
@@ -76,7 +76,7 @@ Here I will briefly discuss the different energy loss mechanisms.
     p + \gamma \rightarrow p + e^- + e^+
 \end{equation}
 
-For UHECRs, the most dominant sink of energy for when at relatively low energy is the Bethe-Heitler process. In this process, a proton of sufficient energy interacts with the 
+For UHECRs, the most dominant sink of energy when under a certain energy threshold is the Bethe-Heitler process. In this process, a proton of sufficient energy interacts with the 
 photon field in its vicinity and produces a pair of electrons and positrons. The photon field can vary from the cosmic microwave background to the generated field from different sources. 
 The energy loss of this process is quite small $\sim \frac{2m_e}{m_p}= 10^{-3}$ of the original energy of the proton, but the process is very common, and therefore it is a significant energy loss over time.
 
@@ -87,7 +87,7 @@ The energy loss of this process is quite small $\sim \frac{2m_e}{m_p}= 10^{-3}$ 
     \label{eq:delta_resonance}
 \end{equation}
 
-Given enough energy the proton can interact with the photon field and produce a delta resonance. This resonance can then decay into a pion and a proton or a neutron and a pion. 
+Given enough energy the proton can interact with the photon field and produce a delta resonance. This resonance can then decay into a pion and a proton or a pion and a neutron. 
 It is important since it also puts an upper limit on the UHECR energy for intergalactic particles. 
 This limit, called the Greisen-Zatsepin-Kuzmin (GZK) limit comes from the UHECRs interacting with the cosmic microwave background in this delta resonance process. The limit caps proton energy at $5\times 10^{19}$ eV.
 In this mechanism the original proton loses $m_p/m_\pi \approx 20\% $ of its energy resulting in a quite rapid loss of energy.
@@ -125,11 +125,37 @@ one can ask is what is the necessary emissivity of UHECRs to explain the observe
     \label{fig:flux_UHECRs}
 \end{figure}
 
-Via observations from the Pierre Auger Observatory and the Telescope Array, one can observe and model the diffuse flux of UHECRs. The result is an isotropic flux and is represented in Figure \ref{fig:flux_UHECRs}.  By separating the 
+Via observations from the Pierre Auger Observatory and the Telescope Array, one can observe and model the diffuse flux of UHECRs. The result is an isotropic flux and is represented in Figure \ref{fig:flux_UHECRs}. The functional 
+form of the flux is a broken power law taken from \cite{thepierreaugercollaboration2017pierre} and is given as
+
+\begin{equation}
+    J(E_v) = \begin{cases} 
+        J_0 \left(\frac{E_v}{E_{\text{ank}}}\right)^{-\gamma_1}  \text{if } E_v < E_{\text{ank}} \\
+        J_0 \left(\frac{E_v}{E_{\text{ank}}}\right)^{-\gamma_2} \left(1 + \left(\frac{E_{\text{ank}}}{E_s}\right)^{\gamma_d}\right) \left(1 + \left(\frac{E_v}{E_s}\right)^{\gamma_d}\right)^{-1}   \text{if } E_v \geq E_{\text{ank}}
+    \end{cases}
+\end{equation}
+
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        $J_0$ & $E_{\text{ank}}$ & $\gamma_1$ & $\gamma_2$ &$\gamma_d$& $E_s$\\
+        \hline
+        $3.3 \times 10^{-19} $ & $4.82\times 10^{18}$ & 3.14  & 4.2 & 3.14& $4.2 \times 10^{19}$  \\
+        \hline
+    \end{tabular}
+    \caption{The model parameters for the astrophysical flux of UHECRs as measured by the Pierre Auger Observatory and the Telescope Array.}
+    \label{tab:UHECR_flux}
+\end{table}
+
+with parameters in table \ref{tab:UHECR_flux}. 
+
+
+By separating the 
 flux into contributions from extragalactic sources and galactic sources one can estimate the required energy density in the Universe of extragalactic UHECRs. From here can define an energy loss time for a UHECR as the loss length divided by the speed of light $c$.
  The loss length is a measure of the distance a UHECR can travel before its energy drops below a certain threshold, and for our simple analysis, we will use the length of $1 Gpc$. This number is comparable in magnitude
 as found by \cite{Stanev_2009} but as the loss length is dependent on initial energy and composition our number will be an approximation. 
-Then the emissivity of UHECRs produced by the sources as the energy density divided by the loss time.
+Then the emissivity of UHECRs produced by the sources is the energy density divided by the loss time.
 
 The previous discussion is summarized in the following equation 
 
@@ -137,7 +163,7 @@ The previous discussion is summarized in the following equation
     \epsilon_{\rm UHECR} = \frac{u_{\rm UHECR}}{t_{\rm loss}} = \frac{u_{\rm UHECR}}{D_{\rm loss}/c} = \frac{4\pi c \int_{E_0}^{E_{\rm max}}J_{\rm extragalactic}(E)E dE}{c D_{\rm loss}} \approx 9\times 10^{44} \frac{\rm erg}{\rm Mpc^3 \rm yr}.
 \end{equation}
 
-Here $u_{UHECR}$ is the energy density of UHECRs, $t_{loss}$ is the energy loss time, $D_{loss}$ is the loss distance, $J(E)$ is the flux of UHECRs, $E_0$ is the minimum energy of the flux where it is dominated by extragalactic UHECRs, and $E_{max}$ is the maximum energy of extragalactic UHECRs.
+Here $u_{UHECR}$ is the energy density of UHECRs, $t_{loss}$ is the energy loss time, $D_{loss}$ is the loss distance, $J(E)$ is the flux of UHECRs, $E_0 = 1$ exaelectronvolt, is the minimum energy of the flux where it is dominated by extragalactic UHECRs, and $E_{max}$ is the maximum energy of extragalactic UHECRs.
 The value of $\epsilon_{UHECR}$ is calculated in the script available on GitHub \cite{Andrews_2023_github} by using data from  Auger \cite{thepierreaugercollaboration2017pierre}. This emissivity is a crude estimation of the required energy injection rate of UHECRs and is meant to give a rough estimate. 
 The main points of criticism are the estimate of our loss distance which does not include the composition of the UHECRs or its initial energy. Nevertheless, one receives an emissivity comparable to a more thorough analysis from \cite{PhysRevLett.125.121106} which received a value of $6*10^{44} \frac{\rm erg}{\rm Mpc^3 \rm yr}$.
 
@@ -154,13 +180,13 @@ are high-energy neutrinos that are likely produced in the same sources as the UH
 
 \subsubsection{Production and Energy loss}
 The production sites of high-energy neutrinos is not clear, but they are thought to be produced in the same sources as UHECRs 
-and in this section, I will go through the most probable way of producing high-energy neutrinos in sources such as AGNs.
+and in this section, I will go through the most probable way of producing high-energy neutrinos in sources such as AGN.
 
 \textbf{Hadronic processes}:
 
 Hadronic processes can release neutrinos with sufficiently high energy to explain the observations here on Earth. 
 Processes such as nuclear interactions are limited by the binding energy of the nucleus and accelerating a neutrino after its production is difficult.
-Therefore, a common way of producing the observed neutrinos is through the decay of pions. The most important decay is the decay of charged pions into muons and muon neutrinos as seen in \ref{eq:pion_decay}
+Therefore, a common way of producing the observed neutrinos is through the decay of pions. The most important decay is the decay of charged pions into muons and muon neutrinos as seen in equation \ref{eq:pion_decay}
 
 
 \begin{equation}
@@ -181,19 +207,20 @@ In a proton-rich environment where the protons can accelerate up to high energie
 \end{equation}
 
 The energy of these protons at a few GeV is enough to introduce the delta-baryon resonance, and therefore it becomes more complicated.
-The most efficient way of producing pions is through the already seen delta resonance when a proton interacts with a photon \ref{eq:delta_resonance}.
-This process being the cooling process of UHECRs above the GZK limit is interesting and indicates that a source that produces high energy neutrinos likely is inhabited by very energetic charged particles. 
+Therefore, the most efficient way of producing pions is through the already seen delta resonance when a proton interacts with a photon, this is seen in equation \ref{eq:delta_resonance}.
+This process being the cooling process of UHECRs is interesting and indicates that a source that produces high energy neutrinos likely is inhabited by very energetic charged particles. 
+
 After having produced the neutrinos it also becomes important to understand their behavior during their travel to Earth. Here I will highlight two points
 
 
-\textbf{Neutrino oscillations}
+\textbf{Neutrino oscillations}:
 In the previous paragraph, I discussed the production of these neutrinos, but not their initial flavor.
 The pion decay model is known to produce a flavor composition of $\nu_e : \nu_\mu : \nu_\tau = 1:2:0$. 
 A naive thought would be an identical composition observed on Earth, but sadly this is not the case. 
 The reason for this is that the neutrinos' mass state can oscillate between the different flavors. Therefore, the neutrinos produced in the source will oscillate during their travel to Earth and when they reach us one would expect a 
 uniform mix of the three flavors, $\ nu_e: \nu_\mu: \nu_\tau = 1:1:1$.
 
-\textbf{Energy loss}
+\textbf{Energy loss}:
 To model the travel of a neutrino of any flavor one only needs to take into account the interaction of the neutrino with the expanding universe. Since it is so weakly interacting the only 
 source of energy loss the flux of neutrinos will experience is the redshift created by the expansion of the Universe. This redshift is the same as the one discussed in the previous section and the neutrinos 
 behave the same way light does in this manner with a drop in energy proportional to $(1+z)$.
@@ -244,7 +271,7 @@ with $\Phi_0$ being the normalization constant, $E_0$ being the reference energy
 \end{table}
 
 The emissivity of neutrinos is calculated in the same way as for UHECRs. The only difference is the loss time. Neutrinos do not lose energy in the same way as UHECRs and therefore the loss distance will be the size of the Universe. 
-The modeled emissivity is then approximately $1.54 10^{44} \quad erg/Mpc^3/yr$. 
+The modeled emissivity is then approximately $1.54 \cdot 10^{44} \quad erg/Mpc^3/yr$. 
 
 \begin{figure}
     \centering

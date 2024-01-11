@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  29 DEC 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  11 JAN 2024 16:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
 (C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count186
 \c@section=\count187
@@ -485,6 +485,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/was\upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
@@ -700,24 +702,24 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
  (Prosjektoppgave.aux)
 \openout1 = `Prosjektoppgave.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\henri\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -731,9 +733,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Prosjektoppgave.bbl' found.
  (Prosjektoppgave.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
-Package hyperref Info: Link coloring OFF on input line 42.
+Package biblatex Info: Reference section=0 on input line 45.
+Package biblatex Info: Reference segment=0 on input line 45.
+Package hyperref Info: Link coloring OFF on input line 45.
  (Prosjektoppgave.out) (Prosjektoppgave.out)
 \@outlinefile=\write4
 \openout4 = `Prosjektoppgave.out'.
@@ -751,23 +753,23 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* h-part:(L,W,R)=(72.2698pt, 469.75539pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=469.75539pt
+* \textheight=650.43037pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-37.00018pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -805,133 +807,179 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 \c@lstlisting=\count456
-<Logo-Ntnu.svg.png, id=143, 1204.5pt x 1204.5pt>
+<Logo-Ntnu.svg.png, id=159, 1204.5pt x 1204.5pt>
 File: Logo-Ntnu.svg.png Graphic file (type png)
 <use Logo-Ntnu.svg.png>
-Package pdftex.def Info: Logo-Ntnu.svg.png  used on input line 66.
-(pdftex.def)             Requested size: 100.09526pt x 100.09294pt.
+Package pdftex.def Info: Logo-Ntnu.svg.png  used on input line 68.
+(pdftex.def)             Requested size: 93.94963pt x 93.93591pt.
  [0
 
-{C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo-Ntnu.svg.png>] [1] [2] [3] (Prosjektoppgave.toc [4])
+{C:/Users/henri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Logo-Ntnu.svg.png>] [1] [2] (Prosjektoppgave.toc [3])
 \tf@toc=\write5
 \openout5 = `Prosjektoppgave.toc'.
 
- [5] (Prosjektoppgave.lof)
+ [4] (Prosjektoppgave.lof)
 \tf@lof=\write6
 \openout6 = `Prosjektoppgave.lof'.
 
- (Prosjektoppgave.lot)
+ (Prosjektoppgave.lot [5])
 \tf@lot=\write7
 \openout7 = `Prosjektoppgave.lot'.
 
- [6] (Introduction.tex) [7] (Chapter2.tex [8] [9]) [10] (chp3.tex
-<hillas_criterion.jpeg, id=306, 534.99875pt x 441.65pt>
+ [6] (Introduction.tex) [7] (Chapter2.tex [8] [9] [10]) [11] (chp3.tex
+<hillas_criterion.jpeg, id=331, 534.99875pt x 441.65pt>
 File: hillas_criterion.jpeg Graphic file (type jpg)
 <use hillas_criterion.jpeg>
-Package pdftex.def Info: hillas_criterion.jpeg  used on input line 35.
-(pdftex.def)             Requested size: 250.24199pt x 206.57814pt.
- [11] [12 <./hillas_criterion.jpeg>]
-<UHECRs.png, id=325, 760.8425pt x 516.93124pt>
+Package pdftex.def Info: hillas_criterion.jpeg  used on input line 34.
+(pdftex.def)             Requested size: 234.87769pt x 193.8953pt.
+ [12] [13 <./hillas_criterion.jpeg>] [14]
+<UHECRs.png, id=354, 760.8425pt x 516.93124pt>
 File: UHECRs.png Graphic file (type png)
 <use UHECRs.png>
 Package pdftex.def Info: UHECRs.png  used on input line 123.
-(pdftex.def)             Requested size: 350.33727pt x 238.02788pt.
- [13 <./UHECRs.png>] [14]
-<Ice_cube_layot.png, id=352, 623.83063pt x 467.24562pt>
+(pdftex.def)             Requested size: 328.82733pt x 223.41982pt.
+ [15] [16 <./UHECRs.png>] [17]
+<Ice_cube_layot.png, id=387, 623.83063pt x 467.24562pt>
 File: Ice_cube_layot.png Graphic file (type png)
 <use Ice_cube_layot.png>
-Package pdftex.def Info: Ice_cube_layot.png  used on input line 208.
-(pdftex.def)             Requested size: 250.24199pt x 187.42964pt.
- [15 <./Ice_cube_layot.png>]
-<Ice_cube_flux_tot.png, id=364, 441.65pt x 584.68437pt>
+Package pdftex.def Info: Ice_cube_layot.png  used on input line 235.
+(pdftex.def)             Requested size: 234.87769pt x 175.91536pt.
+ [18] [19 <./Ice_cube_layot.png>]
+<Ice_cube_flux_tot.png, id=406, 441.65pt x 584.68437pt>
 File: Ice_cube_flux_tot.png Graphic file (type png)
 <use Ice_cube_flux_tot.png>
-Package pdftex.def Info: Ice_cube_flux_tot.png  used on input line 253.
-(pdftex.def)             Requested size: 175.17244pt x 231.90686pt.
-<Ice_cube_flux_astro.png, id=365, 367.3725pt x 357.335pt>
+Package pdftex.def Info: Ice_cube_flux_tot.png  used on input line 280.
+(pdftex.def)             Requested size: 164.41725pt x 217.66806pt.
+<Ice_cube_flux_astro.png, id=407, 367.3725pt x 357.335pt>
 File: Ice_cube_flux_astro.png Graphic file (type png)
 <use Ice_cube_flux_astro.png>
-Package pdftex.def Info: Ice_cube_flux_astro.png  used on input line 258.
-(pdftex.def)             Requested size: 250.24199pt x 243.40987pt.
-) [16 <./Ice_cube_flux_tot.png> <./Ice_cube_flux_astro.png>] (chp4.tex
-<unified model agn.jpg, id=378, 602.25pt x 466.74374pt>
+Package pdftex.def Info: Ice_cube_flux_astro.png  used on input line 285.
+(pdftex.def)             Requested size: 234.87769pt x 228.46461pt.
+) [20 <./Ice_cube_flux_tot.png> <./Ice_cube_flux_astro.png>] (chp4.tex [21]
+<unified model agn.jpg, id=425, 602.25pt x 466.74374pt>
 File: unified model agn.jpg Graphic file (type jpg)
 <use unified model agn.jpg>
-Package pdftex.def Info: unified model agn.jpg  used on input line 71.
-(pdftex.def)             Requested size: 350.33727pt x 271.52345pt.
- [17] [18 <./unified model agn.jpg>] [19]) [20] (chp5.tex
-Overfull \hbox (16.46681pt too wide) in paragraph at lines 71--71
-[]|\OT1/cmr/bx/n/10 Evolution
+Package pdftex.def Info: unified model agn.jpg  used on input line 72.
+(pdftex.def)             Requested size: 328.82733pt x 254.85103pt.
+ [22] [23 <./unified model agn.jpg>] [24] [25] [26]) [27] (chp5.tex [28]
+Overfull \hbox (25.41367pt too wide) in paragraph at lines 71--71
+[]|\OT1/cmr/bx/n/10.95 Evolution
  []
 
 
-Overfull \hbox (4.44739pt too wide) in paragraph at lines 71--71
-\OT1/cmr/bx/n/10 params| 
+Overfull \hbox (12.25249pt too wide) in paragraph at lines 71--71
+\OT1/cmr/bx/n/10.95 params| 
  []
 
-[21] [22]) [23] [24] (chp6.tex
-<new_plots/Luminosity density.png, id=465, 722.7pt x 722.7pt>
+
+Overfull \hbox (2.32394pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 375[]$| 
+ []
+
+
+Overfull \hbox (1.44524pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 138[]$| 
+ []
+
+
+Overfull \hbox (1.44524pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 981[]$| 
+ []
+
+
+Overfull \hbox (2.32394pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 379[]$| 
+ []
+
+
+Overfull \hbox (2.32394pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 175[]$| 
+ []
+
+
+Overfull \hbox (2.32394pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 830[]$| 
+ []
+
+
+Overfull \hbox (1.44524pt too wide) in paragraph at lines 71--71
+[]|$\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 909[]$| 
+ []
+
+
+Overfull \hbox (21.40074pt too wide) in paragraph at lines 79--92
+ [][] 
+ []
+
+[29] [30] [31]) [32] (chp6.tex
+<new_plots/Luminosity density.png, id=532, 722.7pt x 722.7pt>
 File: new_plots/Luminosity density.png Graphic file (type png)
 <use new_plots/Luminosity density.png>
 Package pdftex.def Info: new_plots/Luminosity density.png  used on input line 34.
-(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
-
-Overfull \hbox (45.14197pt too wide) in paragraph at lines 40--53
-[][][][][][] 
- []
-
-<new_plots/Redshift density evolution.png, id=468, 722.7pt x 722.7pt>
+(pdftex.def)             Requested size: 469.75539pt x 469.76045pt.
+ [33] [34 <./new_plots/Luminosity density.png>]
+<new_plots/Redshift density evolution.png, id=545, 722.7pt x 722.7pt>
 File: new_plots/Redshift density evolution.png Graphic file (type png)
 <use new_plots/Redshift density evolution.png>
-Package pdftex.def Info: new_plots/Redshift density evolution.png  used on input line 75.
-(pdftex.def)             Requested size: 500.484pt x 500.48308pt.
-[25] [26 <./new_plots/Luminosity density.png>] [27 <./new_plots/Redshift density evolution.png>] [28]
-<new_plots/Luminosity and Emissivity.png, id=500, 722.7pt x 722.7pt>
+Package pdftex.def Info: new_plots/Redshift density evolution.png  used on input line 81.
+(pdftex.def)             Requested size: 469.75539pt x 469.76045pt.
+ [35] [36 <./new_plots/Redshift density evolution.png>] [37]
+<new_plots/Luminosity and Emissivity.png, id=570, 722.7pt x 722.7pt>
 File: new_plots/Luminosity and Emissivity.png Graphic file (type png)
 <use new_plots/Luminosity and Emissivity.png>
-Package pdftex.def Info: new_plots/Luminosity and Emissivity.png  used on input line 154.
-(pdftex.def)             Requested size: 400.38872pt x 400.38646pt.
- [29 <./new_plots/Luminosity and Emissivity.png>]) [30] (chp7.tex
-<new_plots/L_n_uhecr_calc.png, id=519, 722.7pt x 722.7pt>
+Package pdftex.def Info: new_plots/Luminosity and Emissivity.png  used on input line 160.
+(pdftex.def)             Requested size: 375.80574pt x 375.80615pt.
+) [38] [39 <./new_plots/Luminosity and Emissivity.png>] (chp7.tex
+<new_plots/L_n_uhecr_calc.png, id=585, 722.7pt x 722.7pt>
 File: new_plots/L_n_uhecr_calc.png Graphic file (type png)
 <use new_plots/L_n_uhecr_calc.png>
 Package pdftex.def Info: new_plots/L_n_uhecr_calc.png  used on input line 12.
-(pdftex.def)             Requested size: 350.33727pt x 350.33263pt.
- [31 <./new_plots/L_n_uhecr_calc.png>]
-<new_plots/L_n_neut_calc.png, id=529, 722.7pt x 722.7pt>
+(pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
+ [40 <./new_plots/L_n_uhecr_calc.png>]
+<new_plots/L_n_neut_calc.png, id=594, 722.7pt x 722.7pt>
 File: new_plots/L_n_neut_calc.png Graphic file (type png)
 <use new_plots/L_n_neut_calc.png>
 Package pdftex.def Info: new_plots/L_n_neut_calc.png  used on input line 38.
-(pdftex.def)             Requested size: 350.33727pt x 350.33263pt.
- [32 <./new_plots/L_n_neut_calc.png>]
-<new_plots/diffuse_fluxes_neutrino_no_cutoff.png, id=541, 722.7pt x 722.7pt>
+(pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
+ [41]
+<new_plots/diffuse_fluxes_neutrino_no_cutoff.png, id=604, 722.7pt x 722.7pt>
 File: new_plots/diffuse_fluxes_neutrino_no_cutoff.png Graphic file (type png)
 <use new_plots/diffuse_fluxes_neutrino_no_cutoff.png>
 Package pdftex.def Info: new_plots/diffuse_fluxes_neutrino_no_cutoff.png  used on input line 60.
-(pdftex.def)             Requested size: 350.33727pt x 350.33263pt.
- [33 <./new_plots/diffuse_fluxes_neutrino_no_cutoff.png>]) [34] (chp8.tex) [35] [36] (Prosjektoppgave.aux)
+(pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
+ [42 <./new_plots/L_n_neut_calc.png>] [43 <./new_plots/diffuse_fluxes_neutrino_no_cutoff.png>]) [44] (chp8.tex [45]) [46] [47] [48]
+Overfull \hbox (3.57121pt too wide) in paragraph at lines 153--153
+\OT1/cmr/m/n/10.95 LU-TION OF X-RAY LU-MI-NOS-ITY AND AB-SORP-TION FUNC-TIONS OF AC-TIVE GALAC-
+ []
+
+
+Overfull \hbox (2.16614pt too wide) in paragraph at lines 153--153
+\OT1/cmr/m/n/10.95 TIC NU-CLEI IN-CLUD-ING COMPTON-THICK POP-U-LA-TIONS''. In: \OT1/cmr/m/it/10.95 The As-tro-phys-i-cal Jour-
+ []
+
+[49] (Prosjektoppgave.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `Prosjektoppgave.out' has not changed.
-(rerunfilecheck)             Checksum: 9B818C5B6C4A89ADA14E92972112E75F;5303.
+(rerunfilecheck)             Checksum: 13F433C56C5D669124B3EADEEA4F40DC;5933.
 Package logreq Info: Writing requests to 'Prosjektoppgave.run.xml'.
 \openout1 = `Prosjektoppgave.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23019 strings out of 474592
- 407651 string characters out of 5745798
- 1953533 words of memory out of 5000000
- 44743 multiletter control sequences out of 15000+600000
- 566879 words of font info for 67 fonts, out of 8000000 for 9000
+ 23086 strings out of 474592
+ 408949 string characters out of 5745798
+ 1952533 words of memory out of 5000000
+ 44790 multiletter control sequences out of 15000+600000
+ 567041 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,13n,81p,2664b,1483s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Prosjektoppgave.pdf (37 pages, 1960222 bytes).
+ 68i,13n,81p,2664b,1478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Prosjektoppgave.pdf (50 pages, 1984078 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 850 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

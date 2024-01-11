@@ -1,5 +1,5 @@
 \section{ Luminosity functions}
-In this section, we will discuss the use of luminosity functions to characterize the populations of different AGNs. 
+In this section, we will discuss the use of luminosity functions to characterize the populations of different AGN. 
 A luminosity function (LF) is a function that maps the distribution of celestial bodies, like galaxies or quasars,
 based on their luminosity and corresponding comoving volume elements. These functions serve as a tool to understand the evolutionary patterns of these objects and allow us 
 to predict the number density of these objects. 
@@ -23,14 +23,14 @@ Several articles express the luminosity function in base $10$ logarithm, and we 
 
 
 \begin{equation}
-    \frac{d\Psi(L,z)}{dLog(L)} =  \ln (10)  Lx \frac{d\Psi(L,z)}{d(L)}.
+    \frac{d\Psi(L,z)}{dLog(L)} =  \ln (10)  L \frac{d\Psi(L,z)}{d(L)}.
 \end{equation}
 
 
-To effectively determine the LF, it's typically divided into two distinct components: a local term and a time evolution term.
+To effectively determine the LF, it's typical to divided it into two distinct components: a local term and a time evolution term.
  This approach involves taking the local luminosity function, calculated at a redshift 
-$z=0$, and then scaling it with a function that accounts for the redshift evolution. 
-The exact form of the total LF varies based on the source object, but it generally falls into two categories derived from the method of incorporating the evolution term into the local LF.
+$z=0$, and then scaling it with a function that accounts for the change in redshift. 
+The exact form of the total LF varies based on the source object, but it generally falls into two categories derived from the method of incorporating the growth term into the local LF.
  These methods are selected based on which best represents the observed evolution.
 
  The two distinctions are the Pure Density Evolution (PDE) and the Pure Luminosity Evolution (PLE). 
@@ -60,11 +60,11 @@ Here one sees the common way of representing the luminosity functions. The local
         \hline
         SLDDE RG & $8.375^a$ & $2.138^b$ & 2.15 & 1.10 & 4.00 & -1.50 & 1.90 & $3.981^b$ & 0.317  \\
 
-        AMPLE-Blazar & $1.379^a$ & $1.810^b$ & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
+        AMPLE-Blazar & $1.379^a$ & $1.81^b$ & -0.87 & 2.73 & 3.45 & -0.25 & & &  \\
 
-        AMPLE-FSRQ & $0.175^a$ & $2.420^b$ & -50.00 & 2.49 & 3.67 & -0.30 & & &  \\
+        AMPLE-FSRQ & $0.175^a$ & $2.42^b$ & -50.0 & 2.49 & 3.67 & -0.30 & & &  \\
 
-        APLE-BLlac & $0.830^a$& $1.000^b$ & 2.61 & &-0.79& & & &  \\
+        APLE-BLlac & $0.830^a$& $1.00^b$ & 2.61 & &-0.79& & & &  \\
         APLE-Seyfert & $0.909^b$ & $0.61^b$ & 0.8 & 2.67& & & & &  \\
         ULDDE-CTN AGN$^c$ & $2.91^a$ & $0.93^b$ & 0.96 & 2.71& 4.78 &-1.5 &1.86 &$4.07^b$ &0.29  \\
         \hline
@@ -76,34 +76,38 @@ Here one sees the common way of representing the luminosity functions. The local
 
 \begin{table}
     \centering
-    \begin{tabular}{ll}
+    \begin{tabular}{llll}
         \hline
-        Model Name   & Luminosity Range (Log(L))  \\
+        Model Name   & Luminosity Range  & reference &No of objects \\
         \hline
-        SLDDE RG     & 42 - 47            \\
-        AMPLE Blazar & 43 - 49          \\
-        AMPLE FSRQ   & 45.5 - 49          \\
-        APLE BLlac   & 44.5 - 49        \\
-        APLE Seyfert & 41 - 47          \\
-        ULDDE All CTN AGN & 42 - 46 \\
+        SLDDE RG     & 42 - 47      & \cite{Silverman_2008} &  682    \\
+        AMPLE Blazar & 43 - 49       & \cite{Ajello_2009}&  38 \\
+        AMPLE FSRQ   & 45.5 - 49      &\cite{Ajello_2009}&  26  \\
+        APLE BLlac   & 44.5 - 49      &\cite{Ajello_2009}& 12 \\
+        APLE Seyfert & 41 - 47       &\cite{Ajello_2009}&  199 \\
+        ULDDE All CTN AGN & 42 - 46 &\cite{Ueda_2014}& 4452\\
         \hline
 
     \end{tabular}
-    \caption{Luminosity range for different models}
+    \caption{Luminosity range for different models, the luminosity range is given in log10.}
 
     \label{tab:lum_range}
 
 \end{table}
 
 
-%One way of calculating the neutrino flux of AGNs is based on their connecting with x-ray radiation. 
-%Therefore in some literature, it is of interest to define the x-ray luminosity function for AGNs.
+%One way of calculating the neutrino flux of AGN is based on their connecting with X-ray radiation. 
+%Therefore in some literature, it is of interest to define the X-ray luminosity function for AGN.
 
-For a given type of celestial object, different spectral bands will be more useful than others. In the case of AGNs, 
-the X-ray band is particularly significant. Therefore, several studies have focused on defining the luminosity functions of AGNs with the X-ray spectrum.
+For a given type of celestial object, different spectral bands will be more useful than others. In the case of AGN, 
+the X-ray band is particularly significant. The reason of interest for X-ray production is that the correlation between the produced X-ray luminosity can possibly be used to infer some luminosity of the more elusive 
+particles UHECRs and neutrinos. A simple argument for this is that the ingredients for this X-ray production in the corona (hot electrons) are thought to be accompanied by the ingredients for the production of UHECRs and neutrinos (charged ions). In addition, 
+the acceleration into the jet-like structure as shown by of AGN needs a source of particles and the corona is a natural candidate for this.
 
-In the following, I will define the x-ray luminosity functions for various AGN classifications, including Radio Galaxies, Seyfert Galaxies, and Blazars. Furthermore, an additional breakdown will consider FSRQs and BL Lacs within Blazars.  In addition to this, 
-a study by \cite{Ueda_2014} also looked at the total evolution of all Compton-thin AGNs by combining multiple surveys and research.  It will work as a reference point as well as describe the total evolution of these objects. The luminosity functions are collected from three papers \cite{Ajello_2009} and \cite{Silverman_2008}, and \cite{Ueda_2014} and their form is explained below.
+Therefore, several studies have focused on defining the luminosity functions of AGN with the X-ray spectrum.
+
+In the following, I will define the X-ray luminosity functions for various AGN classifications, including Radio Galaxies, Seyfert Galaxies, and Blazars. Furthermore, an additional breakdown will consider FSRQs and BL Lacs within Blazars.  In addition to this, 
+a study by \cite{Ueda_2014} also looked at the total evolution of all Compton-thin AGN by combining multiple surveys and research.  It will work as a reference point as well as describe the total evolution of these objects. The luminosity functions are collected from three papers \cite{Ajello_2009} and \cite{Silverman_2008}, and \cite{Ueda_2014} and their form is explained below.
 
 \textbf{The local luminosity function}:
 
@@ -179,7 +183,7 @@ For some sources, a more complex evolution is needed. In \cite{Silverman_2008} t
 
  The expansion of the parameter space allows for easier fitting to the observed data, but comes of course with an increase in complexity and possible over fitting. 
 
-Lastly \cite{Ueda_2014} considered an XLF for the entire population of AGNs and naturally this has a more complex evolution structure. It is also an LDDE model but with three steps instead of two which we have in \cite{Silverman_2008}.
+Lastly \cite{Ueda_2014} considered an XLF for the entire population of Compton thin AGN and naturally this has a more complex evolution structure. It is also an LDDE model but with three steps instead of two which we have in \cite{Silverman_2008}.
 The evolution is given as
 
  
@@ -222,5 +226,5 @@ and $z_{*2}(L)$ being defined as
 
 
 Armed with the functional form of the total luminosity function one can now fit the parameters to the observed data. This is done in \cite{Silverman_2008}, \cite{Ajello_2009} and \cite{Ueda_2014} and their 
-model name is a combination of the source paper (S, A, U), the type of model it describes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several x-ray surveys, see the cited papers for more information.
+model name is similar as discussed in \cite{Jacobsen:2015mga} which is a combination of the source paper (S, A, U), the type of model it describes (PLE, MPLE, LDDE) and the object in question. The parameters are then fitted to the data using a maximum likelihood method and the observational data of several X-ray surveys, see the cited papers for more information.
 One can see the parameters for the different models in table \ref{tab:xray_lf} and the luminosity range for which the different models are valid in table \ref{tab:lum_range}. 
