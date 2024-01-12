@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  11 JAN 2024 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  12 JAN 2024 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,48 +912,48 @@ Overfull \hbox (21.40074pt too wide) in paragraph at lines 79--92
  []
 
 [29] [30] [31]) [32] (chp6.tex
-<new_plots/Luminosity density.png, id=532, 722.7pt x 722.7pt>
+<new_plots/Luminosity density.png, id=531, 722.7pt x 722.7pt>
 File: new_plots/Luminosity density.png Graphic file (type png)
 <use new_plots/Luminosity density.png>
 Package pdftex.def Info: new_plots/Luminosity density.png  used on input line 34.
 (pdftex.def)             Requested size: 469.75539pt x 469.76045pt.
  [33] [34 <./new_plots/Luminosity density.png>]
-<new_plots/Redshift density evolution.png, id=545, 722.7pt x 722.7pt>
+<new_plots/Redshift density evolution.png, id=544, 722.7pt x 722.7pt>
 File: new_plots/Redshift density evolution.png Graphic file (type png)
 <use new_plots/Redshift density evolution.png>
 Package pdftex.def Info: new_plots/Redshift density evolution.png  used on input line 81.
 (pdftex.def)             Requested size: 469.75539pt x 469.76045pt.
  [35] [36 <./new_plots/Redshift density evolution.png>] [37]
-<new_plots/Luminosity and Emissivity.png, id=570, 722.7pt x 722.7pt>
+<new_plots/Luminosity and Emissivity.png, id=569, 722.7pt x 722.7pt>
 File: new_plots/Luminosity and Emissivity.png Graphic file (type png)
 <use new_plots/Luminosity and Emissivity.png>
 Package pdftex.def Info: new_plots/Luminosity and Emissivity.png  used on input line 160.
 (pdftex.def)             Requested size: 375.80574pt x 375.80615pt.
 ) [38] [39 <./new_plots/Luminosity and Emissivity.png>] (chp7.tex
-<new_plots/L_n_uhecr_calc.png, id=585, 722.7pt x 722.7pt>
+<new_plots/L_n_uhecr_calc.png, id=584, 722.7pt x 722.7pt>
 File: new_plots/L_n_uhecr_calc.png Graphic file (type png)
 <use new_plots/L_n_uhecr_calc.png>
 Package pdftex.def Info: new_plots/L_n_uhecr_calc.png  used on input line 12.
 (pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
  [40 <./new_plots/L_n_uhecr_calc.png>]
-<new_plots/L_n_neut_calc.png, id=594, 722.7pt x 722.7pt>
+<new_plots/L_n_neut_calc.png, id=593, 722.7pt x 722.7pt>
 File: new_plots/L_n_neut_calc.png Graphic file (type png)
 <use new_plots/L_n_neut_calc.png>
 Package pdftex.def Info: new_plots/L_n_neut_calc.png  used on input line 38.
 (pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
  [41]
-<new_plots/diffuse_fluxes_neutrino_no_cutoff.png, id=604, 722.7pt x 722.7pt>
+<new_plots/diffuse_fluxes_neutrino_no_cutoff.png, id=603, 722.7pt x 722.7pt>
 File: new_plots/diffuse_fluxes_neutrino_no_cutoff.png Graphic file (type png)
 <use new_plots/diffuse_fluxes_neutrino_no_cutoff.png>
 Package pdftex.def Info: new_plots/diffuse_fluxes_neutrino_no_cutoff.png  used on input line 60.
 (pdftex.def)             Requested size: 328.82733pt x 328.82901pt.
  [42 <./new_plots/L_n_neut_calc.png>] [43 <./new_plots/diffuse_fluxes_neutrino_no_cutoff.png>]) [44] (chp8.tex [45]) [46] [47] [48]
-Overfull \hbox (3.57121pt too wide) in paragraph at lines 153--153
+Overfull \hbox (3.57121pt too wide) in paragraph at lines 154--154
 \OT1/cmr/m/n/10.95 LU-TION OF X-RAY LU-MI-NOS-ITY AND AB-SORP-TION FUNC-TIONS OF AC-TIVE GALAC-
  []
 
 
-Overfull \hbox (2.16614pt too wide) in paragraph at lines 153--153
+Overfull \hbox (2.16614pt too wide) in paragraph at lines 154--154
 \OT1/cmr/m/n/10.95 TIC NU-CLEI IN-CLUD-ING COMPTON-THICK POP-U-LA-TIONS''. In: \OT1/cmr/m/it/10.95 The As-tro-phys-i-cal Jour-
  []
 
@@ -963,23 +963,23 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `Prosjektoppgave.out' has not changed.
-(rerunfilecheck)             Checksum: 13F433C56C5D669124B3EADEEA4F40DC;5933.
+(rerunfilecheck)             Checksum: 4960AE53F59996F2AB38317E59F0BF62;5997.
 Package logreq Info: Writing requests to 'Prosjektoppgave.run.xml'.
 \openout1 = `Prosjektoppgave.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23086 strings out of 474592
- 408949 string characters out of 5745798
+ 23085 strings out of 474592
+ 408938 string characters out of 5745798
  1952533 words of memory out of 5000000
- 44790 multiletter control sequences out of 15000+600000
+ 44789 multiletter control sequences out of 15000+600000
  567041 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,13n,81p,2664b,1478s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\henri\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/henri/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Prosjektoppgave.pdf (50 pages, 1984078 bytes).
+Output written on Prosjektoppgave.pdf (50 pages, 1984595 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
+ 849 PDF objects out of 1000 (max. 8388607)
  179 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

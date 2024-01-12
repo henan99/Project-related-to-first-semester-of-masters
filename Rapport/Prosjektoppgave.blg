@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Prosjektoppgave.blg'
-[141] biber-MSWIN64:340> INFO - === 
-[196] Biber.pm:419> INFO - Reading 'Prosjektoppgave.bcf'
-[380] Biber.pm:979> INFO - Found 31 citekeys in bib section 0
-[398] Biber.pm:4419> INFO - Processing section 0
-[414] Biber.pm:4610> INFO - Looking for bibtex file 'bibfile.bib' for section 0
-[518] bibtex.pm:1713> INFO - LaTeX decoding ...
-[587] bibtex.pm:1519> INFO - Found BibTeX data source 'bibfile.bib'
-[892] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[892] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[892] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[893] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[937] bbl.pm:660> INFO - Writing 'Prosjektoppgave.bbl' with encoding 'UTF-8'
-[971] bbl.pm:763> INFO - Output to Prosjektoppgave.bbl
-[972] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\henri\AppData\Local\Temp\biber_tmp_PuLl\16a8c50cadcc2db73e6fd5c8ac073cba_8380.utf8, line 134, warning: 1 characters of junk seen at toplevel
-[972] Biber.pm:133> INFO - WARNINGS: 1
+[189] biber-MSWIN64:340> INFO - === 
+[260] Biber.pm:419> INFO - Reading 'Prosjektoppgave.bcf'
+[363] Biber.pm:979> INFO - Found 31 citekeys in bib section 0
+[377] Biber.pm:4419> INFO - Processing section 0
+[400] Biber.pm:4610> INFO - Looking for bibtex file 'bibfile.bib' for section 0
+[462] bibtex.pm:1713> INFO - LaTeX decoding ...
+[517] bibtex.pm:1519> INFO - Found BibTeX data source 'bibfile.bib'
+[779] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[779] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[779] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[779] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[845] bbl.pm:660> INFO - Writing 'Prosjektoppgave.bbl' with encoding 'UTF-8'
+[873] bbl.pm:763> INFO - Output to Prosjektoppgave.bbl
+[873] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\henri\AppData\Local\Temp\biber_tmp_WI4T\16a8c50cadcc2db73e6fd5c8ac073cba_20516.utf8, line 134, warning: 1 characters of junk seen at toplevel
+[873] Biber.pm:133> INFO - WARNINGS: 1
